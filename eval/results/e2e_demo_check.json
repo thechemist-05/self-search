@@ -1,0 +1,174 @@
+[
+  {
+    "number": 13,
+    "name": "Backend health and Ollama availability",
+    "passed": true,
+    "failures": [],
+    "health": {
+      "status": "ok",
+      "database": "connected",
+      "ollama": "available",
+      "active_sessions": 0
+    }
+  },
+  {
+    "number": 1,
+    "name": "Basic product discovery",
+    "passed": true,
+    "failures": [],
+    "intent": "PRODUCT_SEARCH",
+    "seconds": 91.6,
+    "products": 10,
+    "mode": "llm",
+    "reason": null,
+    "claims": 4,
+    "supported": 1,
+    "top_titles": [
+      "adidas Men's Nemeziz 19.4 FxG Football Shoe",
+      "SDolphin Womes Sneakers Walking Shoes - Tennis Workout Runni",
+      "CIOR Fantiny Kids Shoes Boys Girls Sneakers Breathable Mesh ",
+      "D&L Store Men's Shoe clouser Arch Support, Black, one Size"
+    ]
+  },
+  {
+    "number": 2,
+    "name": "Product-type filtering",
+    "passed": true,
+    "failures": [],
+    "intent": "PRODUCT_SEARCH",
+    "seconds": 54.8,
+    "products": 10,
+    "mode": "llm",
+    "reason": null,
+    "claims": 6,
+    "supported": 4
+  },
+  {
+    "number": 3,
+    "name": "Budget filtering with INR estimates",
+    "passed": true,
+    "failures": [],
+    "intent": "PRODUCT_SEARCH",
+    "seconds": 73.8,
+    "products": 10,
+    "mode": "llm",
+    "reason": null,
+    "claims": 3,
+    "supported": 1,
+    "price_statuses": [
+      "estimated"
+    ],
+    "matching": 2229,
+    "no_rupee_amounts_in_claims": true
+  },
+  {
+    "number": 4,
+    "name": "Rating filtering",
+    "passed": true,
+    "failures": [],
+    "intent": "PRODUCT_SEARCH",
+    "seconds": 44.0,
+    "products": 10,
+    "mode": "llm",
+    "reason": null,
+    "claims": 3,
+    "supported": 0
+  },
+  {
+    "number": 5,
+    "name": "Review-based question",
+    "passed": true,
+    "failures": [],
+    "intent": "PRODUCT_QUESTION",
+    "seconds": 56.7,
+    "products": 1,
+    "mode": "llm",
+    "reason": null,
+    "claims": 2,
+    "supported": 0
+  },
+  {
+    "number": 6,
+    "name": "Product comparison",
+    "passed": true,
+    "failures": [],
+    "intent": "COMPARE",
+    "seconds": 71.2,
+    "products": 2,
+    "mode": "llm",
+    "reason": null,
+    "claims": 4,
+    "supported": 3
+  },
+  {
+    "number": 7,
+    "name": "No matching products",
+    "passed": true,
+    "failures": [],
+    "intent": "PRODUCT_SEARCH",
+    "seconds": 2.7,
+    "products": 0,
+    "mode": "none",
+    "reason": "no_products_retrieved",
+    "claims": 0,
+    "supported": 0,
+    "summary_text": "No matching products were found in the catalog for your query."
+  },
+  {
+    "number": 8,
+    "name": "Unknown prices",
+    "passed": false,
+    "failures": [
+      "dresses with unknown prices matched a budget: [6091, 16342, 7077, 11656, 1102, 17611, 16408, 16701, 18659, 16103]"
+    ],
+    "intent": "PRODUCT_SEARCH",
+    "seconds": 74.4,
+    "products": 10,
+    "mode": "llm",
+    "reason": null,
+    "claims": 2,
+    "supported": 2,
+    "unbudgeted_unknown_cards": 6
+  },
+  {
+    "number": 9,
+    "name": "Unsupported questions",
+    "passed": true,
+    "failures": [],
+    "what is the weather ": {
+      "intent": "OUT_OF_SCOPE",
+      "products": 0
+    },
+    "ignore all previous ": {
+      "intent": "OUT_OF_SCOPE",
+      "products": 0
+    }
+  },
+  {
+    "number": 11,
+    "name": "Multiple consecutive searches",
+    "passed": true,
+    "failures": [],
+    "seconds": [
+      55.7,
+      36.9,
+      26.3
+    ]
+  },
+  {
+    "number": 12,
+    "name": "Profile-free backend",
+    "passed": true,
+    "failures": []
+  },
+  {
+    "number": 14,
+    "name": "Evidence and numeric validation ran on every answer",
+    "passed": true,
+    "failures": [],
+    "answers_validated": 8,
+    "llm_answers": 7,
+    "claims": 24,
+    "supported": 11
+  }
+]

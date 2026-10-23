@@ -1,0 +1,92 @@
+# Product selection rules, version 2 (approved 2026-10-21): Fashion only, 20,000 products.
+#
+# Changes from selection-v1 (config/selection_amazon2023.toml, kept unchanged):
+# - Fashion quota 12,000 -> 20,000; Electronics is not used (no Electronics download).
+# - Category-wide exclusions for clear false positives found in profiling: accessories
+#   whose titles mention shoes, bags or dresses (socks, jewellery, watches, keychains,
+#   charms, shoelaces, insoles, packing cubes, organizers, wallets/card holders...).
+#   Each phrase was checked against sampled titles; ambiguous words that mostly occur
+#   in genuine apparel (belt, cap, costume, leggings, ring, scarf, hat, gloves, apron,
+#   singular "sock" as in "aqua sock" water shoes) are deliberately NOT excluded.
+# - T-shirt and shirt dresses are typed as dresses rather than shirts.
+# Review rules are unchanged: >= 3 qualifying reviews of >= 20 characters; at most 8
+# kept per product (verified first, then helpful votes, then newest).
+
+version = "selection-v2"
+min_qualifying_reviews = 3
+min_review_chars = 20
+max_reviews_per_product = 8
+
+[fashion]
+quota = 20000
+exclude_title_keywords = [
+  # socks typed as shoes ("Fits Shoe Size 6-12", "Boot Socks")
+  "socks", "shoe size", "sock size",
+  # jewellery and watches typed as dresses, jackets ("ear jacket"), sandals, handbags
+  "earring", "earrings", "ear jacket", "ear jackets", "necklace", "necklaces", "bracelet", "bracelets",
+  "pendant", "anklet", "anklets", "watch", "watches", "wristwatch",
+  # bag and shoe accessories
+  "keychain", "keychains", "key chain", "key ring", "keyring",
+  "shoe charms", "clog charms", "bag charm", "purse charm", "handbag charm", "charms for",
+  "shoelaces", "shoe laces", "laces", "shoe covers", "insoles", "packing cubes", "organizer",
+  "hanger", "hangers", "sticker", "stickers", "face mask", "sunglasses",
+  # wallets typed as handbags (not the word "wallet" itself: many real handbags say "Handbag Wallet")
+  "billfold", "bifold", "trifold", "card holder", "credit card", "coin purse", "money clip",
+  # dress accessories typed as dresses
+  "dress gloves", "dress hat",
+]
+
+[[fashion.type]]
+key = "sneakers"
+title_keywords = ["sneaker", "sneakers"]
+
+[[fashion.type]]
+key = "running_shoes"
+title_keywords = ["running shoe", "running shoes", "trainers"]
+
+[[fashion.type]]
+key = "sandals"
+title_keywords = ["sandal", "sandals", "flip flop", "flip flops", "flip-flop", "flip-flops", "slides"]
+
+[[fashion.type]]
+key = "boots"
+title_keywords = ["boot", "boots"]
+exclude_title_keywords = ["boot cut", "bootcut", "boot socks", "boot cuffs"]
+
+[[fashion.type]]
+key = "other_shoes"
+title_keywords = ["shoe", "shoes", "loafer", "loafers", "oxford", "oxfords", "heels", "pumps", "flats", "slipper", "slippers", "clogs"]
+exclude_title_keywords = ["shoe horn", "shoe laces", "shoelaces", "shoe insoles", "insoles", "shoe rack", "shoe bag", "shoe charms", "shoe clips"]
+
+[[fashion.type]]
+key = "backpacks"
+title_keywords = ["backpack", "backpacks", "rucksack"]
+exclude_title_keywords = ["backpack charm", "backpack keychain", "backpack pin", "backpack straps", "backpack cover"]
+
+[[fashion.type]]
+key = "handbags"
+title_keywords = ["handbag", "handbags", "tote", "purse", "shoulder bag", "crossbody", "sling bag"]
+exclude_title_keywords = ["purse organizer", "purse insert", "purse strap", "handbag strap", "bag strap"]
+
+[[fashion.type]]
+key = "tshirts"
+title_keywords = ["t-shirt", "t-shirts", "tshirt", "tee", "tees"]
+exclude_title_keywords = ["t-shirt dress", "t-shirt dresses", "t shirt dress", "t shirt dresses", "tshirt dress", "tshirt dresses", "tee dress", "tee dresses"]
+
+[[fashion.type]]
+key = "shirts"
+title_keywords = ["shirt", "shirts", "blouse"]
+exclude_title_keywords = ["shirt dress", "shirt dresses", "t shirt dress", "t shirt dresses"]
+
+[[fashion.type]]
+key = "jeans_trousers"
+title_keywords = ["jeans", "trousers", "chinos", "joggers", "pants"]
+
+[[fashion.type]]
+key = "dresses_kurtas"
+title_keywords = ["dress", "dresses", "kurta", "kurti", "saree", "sari", "salwar"]
+exclude_title_keywords = ["dress socks", "dress shoes", "dress shirt"]
+
+[[fashion.type]]
+key = "jackets"
+title_keywords = ["jacket", "jackets", "hoodie", "hoodies", "sweatshirt", "coat"]

@@ -1,0 +1,98 @@
+# Product selection rules for the Amazon Reviews 2023 subset (approved plan, dataset phase 3).
+#
+# A product is a candidate when its title matches a type below (first type in file
+# order wins; whole-word/phrase matching; a type's exclude phrases veto it).
+# A candidate qualifies when it has at least `min_qualifying_reviews` reviews that
+# pass the adapter (valid rating, non-empty text) and have at least
+# `min_review_chars` characters of text. At most `max_reviews_per_product` reviews
+# are kept per product (verified first, then helpful votes, then newest).
+# Changing anything here requires a new `version`.
+
+version = "selection-v1"
+min_qualifying_reviews = 3
+min_review_chars = 20
+max_reviews_per_product = 8
+
+[fashion]
+quota = 12000
+
+[[fashion.type]]
+key = "sneakers"
+title_keywords = ["sneaker", "sneakers"]
+
+[[fashion.type]]
+key = "running_shoes"
+title_keywords = ["running shoe", "running shoes", "trainers"]
+
+[[fashion.type]]
+key = "sandals"
+title_keywords = ["sandal", "sandals", "flip flop", "flip flops", "flip-flop", "flip-flops", "slides"]
+
+[[fashion.type]]
+key = "boots"
+title_keywords = ["boot", "boots"]
+exclude_title_keywords = ["boot cut", "bootcut", "boot socks", "boot cuffs"]
+
+[[fashion.type]]
+key = "other_shoes"
+title_keywords = ["shoe", "shoes", "loafer", "loafers", "oxford", "oxfords", "heels", "pumps", "flats", "slipper", "slippers", "clogs"]
+exclude_title_keywords = ["shoe horn", "shoe laces", "shoelaces", "shoe insoles", "insoles", "shoe rack", "shoe bag", "shoe charms", "shoe clips"]
+
+[[fashion.type]]
+key = "backpacks"
+title_keywords = ["backpack", "backpacks", "rucksack"]
+exclude_title_keywords = ["backpack charm", "backpack keychain", "backpack pin", "backpack straps", "backpack cover"]
+
+[[fashion.type]]
+key = "handbags"
+title_keywords = ["handbag", "handbags", "tote", "purse", "shoulder bag", "crossbody", "sling bag"]
+exclude_title_keywords = ["purse organizer", "purse insert", "purse strap", "handbag strap", "bag strap"]
+
+[[fashion.type]]
+key = "tshirts"
+title_keywords = ["t-shirt", "t-shirts", "tshirt", "tee", "tees"]
+
+[[fashion.type]]
+key = "shirts"
+title_keywords = ["shirt", "shirts", "blouse"]
+
+[[fashion.type]]
+key = "jeans_trousers"
+title_keywords = ["jeans", "trousers", "chinos", "joggers", "pants"]
+
+[[fashion.type]]
+key = "dresses_kurtas"
+title_keywords = ["dress", "dresses", "kurta", "kurti", "saree", "sari", "salwar"]
+exclude_title_keywords = ["dress socks", "dress shoes", "dress shirt"]
+
+[[fashion.type]]
+key = "jackets"
+title_keywords = ["jacket", "jackets", "hoodie", "hoodies", "sweatshirt", "coat"]
+
+[electronics]
+quota = 8000
+
+[[electronics.type]]
+key = "earbuds_headphones"
+title_keywords = ["earbud", "earbuds", "headphone", "headphones", "earphone", "earphones", "headset"]
+exclude_title_keywords = ["ear tips", "eartips", "replacement", "case for", "cover for", "ear pads", "earpads", "headphone stand", "headphone hanger", "headphone adapter", "cushions"]
+
+[[electronics.type]]
+key = "speakers"
+title_keywords = ["speaker", "speakers", "soundbar", "sound bar"]
+exclude_title_keywords = ["speaker wire", "speaker cable", "speaker stand", "speaker stands", "speaker mount", "wall mount", "replacement", "case for", "cover for", "grill"]
+
+[[electronics.type]]
+key = "chargers_power"
+title_keywords = ["charger", "chargers", "power bank", "powerbank", "portable charger", "wall charger", "car charger"]
+exclude_title_keywords = ["replacement", "case for", "cover for"]
+
+[[electronics.type]]
+key = "smartwatches"
+title_keywords = ["smartwatch", "smart watch", "fitness tracker", "activity tracker", "fitness band"]
+exclude_title_keywords = ["watch band", "watch bands", "band for", "bands for", "strap for", "straps for", "screen protector", "protector", "case for", "charger for", "charging cable", "replacement"]
+
+[[electronics.type]]
+key = "keyboards_mice"
+title_keywords = ["keyboard", "keyboards", "mouse", "mice"]
+exclude_title_keywords = ["mouse pad", "mousepad", "mouse mat", "keyboard cover", "keyboard case", "keyboard tray", "keyboard stand", "keycaps", "wrist rest", "replacement", "case for", "cover for", "skin for"]

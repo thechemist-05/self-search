@@ -1,0 +1,14 @@
+# Representative queries for the Amazon Reviews 2023 Fashion catalogue (latency and behaviour; no relevance labels).
+# "followups" run in the same session after the first turn (compare, review question).
+{"query_id": "F01", "query": "Find running shoes"}
+{"query_id": "F02", "query": "Find running shoes under ₹3000"}
+{"query_id": "F03", "query": "women's summer dress"}
+{"query_id": "F04", "query": "men's leather wallet"}
+{"query_id": "F05", "query": "comfortable sandals for walking"}
+{"query_id": "F06", "query": "waterproof winter boots"}
+{"query_id": "F07", "query": "women's handbag 4+ stars"}
+{"query_id": "F08", "query": "backpack for school under ₹2000"}
+{"query_id": "F09", "query": "leggings with pockets"}
+{"query_id": "F10", "query": "white sneakers", "followups": ["compare the first two"]}
+{"query_id": "F11", "query": "hiking boots", "followups": ["is the first one comfortable for long walks?"]}
+{"query_id": "F12", "query": "polarized sunglasses"}

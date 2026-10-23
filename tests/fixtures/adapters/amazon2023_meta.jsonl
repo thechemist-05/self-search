@@ -1,0 +1,11 @@
+{"parent_asin": "TST-SNK-001", "title": "Fixturo Street Sneakers - Men", "main_category": "AMAZON FASHION", "categories": ["Clothing, Shoes & Jewelry", "Men", "Shoes", "Fashion Sneakers"], "price": 49.99, "average_rating": 4.3, "rating_number": 120, "details": {"Brand": "Fixturo", "Material": "Canvas"}, "store": "Fixturo Store", "features": ["Rubber sole", "Lace-up"], "description": ["A <b>test</b> shoe."], "images": [{"large": "https://example.invalid/i.jpg"}], "videos": [], "bought_together": null}
+{"parent_asin": "TST-SNK-002", "title": "Canvas Low-Top Sneakers", "main_category": "AMAZON FASHION", "categories": [], "price": null, "average_rating": 4.0, "rating_number": 15, "details": {}, "store": "Nimbo", "features": [], "description": []}
+{"parent_asin": "TST-BAG-001", "title": "College Backpack 30L with Laptop Sleeve", "main_category": "AMAZON FASHION", "categories": ["Clothing, Shoes & Jewelry", "Luggage & Travel Gear", "Backpacks"], "price": "from 19.99", "average_rating": 4.5, "rating_number": 40, "details": {"Brand": "Packwell"}, "store": "Packwell"}
+{"parent_asin": "TST-EAR-001", "title": "Wireless Earbuds with Charging Case", "main_category": "All Electronics", "categories": ["Electronics", "Headphones, Earbuds & Accessories"], "price": null, "average_rating": 3.9, "rating_number": 300, "details": {}, "store": "SoundTest"}
+{"parent_asin": "TST-VAS-001", "title": "Ceramic Flower Vase", "main_category": "AMAZON FASHION", "categories": [], "price": null, "average_rating": null, "rating_number": null}
+{"parent_asin": "TST-ZER-001", "title": "Boots With Zero Price", "price": 0, "average_rating": 4.1, "rating_number": 2}
+{"parent_asin": "TST-SNK-002", "title": "Duplicate id, different title", "price": 10.0}
+{"title": "No identifier at all", "price": 5.0}
+{"parent_asin": "TST-NOT-001", "title": "   ", "price": 5.0}
+{"parent_asin": "TST-BAD-001", "title": "Impossible Rating Speaker", "average_rating": 7.5}
+{this line is not json

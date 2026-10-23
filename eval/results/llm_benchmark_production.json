@@ -1,0 +1,1161 @@
+{
+  "database": "data\\processed\\shelfsense.db",
+  "index_dir": "data\\vector_store",
+  "queries_file": "C:\\Users\\KIIT0001\\.gemini\\antigravity-ide\\scratch\\shelfsense\\eval\\queries.jsonl",
+  "query_parser_mode": "rules_first",
+  "ollama_timeout_s": 180,
+  "runs": [
+    {
+      "model": "llama3.2:1b",
+      "warmup_seconds": 2.2,
+      "summary": {
+        "queries": 20,
+        "answered": 20,
+        "llm_success_rate": 1.0,
+        "fallback_rate": 0.0,
+        "fallback_reasons": {},
+        "output_validity": {
+          "first_attempt_valid_rate": 1.0,
+          "answers_needing_retry": 0,
+          "invalid_after_retries": 0
+        },
+        "evidence_compliance_llm_answers": {
+          "answers": 20,
+          "all_claims_supported_rate": 0.3,
+          "mean_support_rate": 0.45,
+          "claims": 40,
+          "unsupported_claims": 22,
+          "fabricated_citations": 0,
+          "cross_product_mismatches": 0,
+          "numeric_mismatches": 0
+        },
+        "latency_seconds": {
+          "median": 20.6,
+          "mean": 20.4,
+          "max": 23.8
+        },
+        "model_calls": 20,
+        "model_call_errors": {},
+        "relevant_retrieved_rate": 1.0
+      },
+      "queries": [
+        {
+          "query_id": "Q01",
+          "query": "lightweight hiking backpack for outdoor trail",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 13.45,
+          "model_calls": [
+            {
+              "seconds": 13.44,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 1,
+            "unsupported_claims": 1,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.5,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "Q02",
+          "query": "wireless bluetooth earbuds with good sound",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 22.67,
+          "model_calls": [
+            {
+              "seconds": 22.66,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 1,
+            "unsupported_claims": 1,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.5,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "Q03",
+          "query": "running shoes for men marathon training",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 21.18,
+          "model_calls": [
+            {
+              "seconds": 21.17,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 1,
+            "unsupported_claims": 1,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.5,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "Q04",
+          "query": "wifi home security camera with night vision",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 20.1,
+          "model_calls": [
+            {
+              "seconds": 20.08,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 0,
+            "unsupported_claims": 2,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.0,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "Q05",
+          "query": "double camping hammock for outdoor backpacking",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 20.6,
+          "model_calls": [
+            {
+              "seconds": 20.58,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 0,
+            "unsupported_claims": 2,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.0,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "Q06",
+          "query": "fast charging usb-c cable durable braided",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 23.82,
+          "model_calls": [
+            {
+              "seconds": 23.81,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 2,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "Q07",
+          "query": "thick non-slip yoga mat for floor workouts",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 20.75,
+          "model_calls": [
+            {
+              "seconds": 20.74,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 2,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "Q08",
+          "query": "waterproof portable bluetooth speaker for pool",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 18.99,
+          "model_calls": [
+            {
+              "seconds": 18.98,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 2,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "Q09",
+          "query": "resistance bands workout pack for strength training",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 20.42,
+          "model_calls": [
+            {
+              "seconds": 20.4,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 0,
+            "unsupported_claims": 2,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.0,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "Q10",
+          "query": "wireless gaming mouse with rgb lighting",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 20.57,
+          "model_calls": [
+            {
+              "seconds": 20.56,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 0,
+            "unsupported_claims": 2,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.0,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "Q11",
+          "query": "insulated stainless steel water bottle cold drinks",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 20.33,
+          "model_calls": [
+            {
+              "seconds": 20.32,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 0,
+            "unsupported_claims": 2,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.0,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "Q12",
+          "query": "fitness tracker watch heart rate monitor",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 20.03,
+          "model_calls": [
+            {
+              "seconds": 20.02,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 0,
+            "unsupported_claims": 2,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.0,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "Q13",
+          "query": "cycling gloves with padded palms",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 21.09,
+          "model_calls": [
+            {
+              "seconds": 21.08,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 2,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "Q14",
+          "query": "adjustable aluminum laptop stand for desk ergonomics",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 20.7,
+          "model_calls": [
+            {
+              "seconds": 20.69,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 1,
+            "unsupported_claims": 1,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.5,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "Q15",
+          "query": "weighted speed jump rope for cardio",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 21.08,
+          "model_calls": [
+            {
+              "seconds": 21.07,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 2,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "Q16",
+          "query": "compact rgb mechanical keyboard for typing",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 19.3,
+          "model_calls": [
+            {
+              "seconds": 19.29,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 0,
+            "unsupported_claims": 2,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.0,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "Q17",
+          "query": "muscle recovery foam roller for sore back and legs",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 20.43,
+          "model_calls": [
+            {
+              "seconds": 20.42,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 2,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "Q18",
+          "query": "1080p hd webcam with microphone for zoom video calls",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 20.69,
+          "model_calls": [
+            {
+              "seconds": 20.67,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 0,
+            "unsupported_claims": 2,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.0,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "Q19",
+          "query": "merino wool trail running socks anti-blister",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 20.17,
+          "model_calls": [
+            {
+              "seconds": 20.15,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 1,
+            "unsupported_claims": 1,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.5,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "Q20",
+          "query": "portable battery pack charger 20000mah power bank",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 22.09,
+          "model_calls": [
+            {
+              "seconds": 22.07,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 1,
+            "unsupported_claims": 1,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.5,
+            "is_valid": false
+          }
+        }
+      ]
+    },
+    {
+      "model": "llama3.2:3b",
+      "warmup_seconds": 9.3,
+      "summary": {
+        "queries": 20,
+        "answered": 20,
+        "llm_success_rate": 1.0,
+        "fallback_rate": 0.0,
+        "fallback_reasons": {},
+        "output_validity": {
+          "first_attempt_valid_rate": 1.0,
+          "answers_needing_retry": 0,
+          "invalid_after_retries": 0
+        },
+        "evidence_compliance_llm_answers": {
+          "answers": 20,
+          "all_claims_supported_rate": 0.75,
+          "mean_support_rate": 0.808,
+          "claims": 44,
+          "unsupported_claims": 8,
+          "fabricated_citations": 0,
+          "cross_product_mismatches": 0,
+          "numeric_mismatches": 0
+        },
+        "latency_seconds": {
+          "median": 36.9,
+          "mean": 37.8,
+          "max": 54.3
+        },
+        "model_calls": 20,
+        "model_call_errors": {},
+        "relevant_retrieved_rate": 1.0
+      },
+      "queries": [
+        {
+          "query_id": "Q01",
+          "query": "lightweight hiking backpack for outdoor trail",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 54.3,
+          "model_calls": [
+            {
+              "seconds": 54.28,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 2,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "Q02",
+          "query": "wireless bluetooth earbuds with good sound",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 37.95,
+          "model_calls": [
+            {
+              "seconds": 37.93,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 2,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "Q03",
+          "query": "running shoes for men marathon training",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 36.72,
+          "model_calls": [
+            {
+              "seconds": 36.7,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 2,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "Q04",
+          "query": "wifi home security camera with night vision",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 41.19,
+          "model_calls": [
+            {
+              "seconds": 41.17,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 2,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "Q05",
+          "query": "double camping hammock for outdoor backpacking",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 38.85,
+          "model_calls": [
+            {
+              "seconds": 38.84,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 2,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 1,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "Q06",
+          "query": "fast charging usb-c cable durable braided",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 40.2,
+          "model_calls": [
+            {
+              "seconds": 40.18,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 2,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "Q07",
+          "query": "thick non-slip yoga mat for floor workouts",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 37.09,
+          "model_calls": [
+            {
+              "seconds": 37.07,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 2,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "Q08",
+          "query": "waterproof portable bluetooth speaker for pool",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 38.36,
+          "model_calls": [
+            {
+              "seconds": 38.35,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 2,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "Q09",
+          "query": "resistance bands workout pack for strength training",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 37.89,
+          "model_calls": [
+            {
+              "seconds": 37.88,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 3,
+            "supported_claims": 2,
+            "unsupported_claims": 1,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.6667,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "Q10",
+          "query": "wireless gaming mouse with rgb lighting",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 35.33,
+          "model_calls": [
+            {
+              "seconds": 35.32,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 2,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "Q11",
+          "query": "insulated stainless steel water bottle cold drinks",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 36.57,
+          "model_calls": [
+            {
+              "seconds": 36.56,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 2,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 1,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "Q12",
+          "query": "fitness tracker watch heart rate monitor",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 37.66,
+          "model_calls": [
+            {
+              "seconds": 37.63,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 3,
+            "supported_claims": 3,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "Q13",
+          "query": "cycling gloves with padded palms",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 44.73,
+          "model_calls": [
+            {
+              "seconds": 44.69,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 5,
+            "supported_claims": 5,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "Q14",
+          "query": "adjustable aluminum laptop stand for desk ergonomics",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 34.18,
+          "model_calls": [
+            {
+              "seconds": 34.17,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 2,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "Q15",
+          "query": "weighted speed jump rope for cardio",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 34.69,
+          "model_calls": [
+            {
+              "seconds": 34.68,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 0,
+            "unsupported_claims": 2,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.0,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "Q16",
+          "query": "compact rgb mechanical keyboard for typing",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 34.23,
+          "model_calls": [
+            {
+              "seconds": 34.22,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 0,
+            "unsupported_claims": 2,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.0,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "Q17",
+          "query": "muscle recovery foam roller for sore back and legs",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 31.29,
+          "model_calls": [
+            {
+              "seconds": 31.28,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 1,
+            "supported_claims": 1,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "Q18",
+          "query": "1080p hd webcam with microphone for zoom video calls",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 35.61,
+          "model_calls": [
+            {
+              "seconds": 35.59,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 1,
+            "unsupported_claims": 1,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.5,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "Q19",
+          "query": "merino wool trail running socks anti-blister",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 33.88,
+          "model_calls": [
+            {
+              "seconds": 33.86,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 0,
+            "unsupported_claims": 2,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.0,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "Q20",
+          "query": "portable battery pack charger 20000mah power bank",
+          "intent": "PRODUCT_SEARCH",
+          "seconds": 35.37,
+          "model_calls": [
+            {
+              "seconds": 35.35,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": true,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 2,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "keyword": {
+    "Recall@1": 1.0,
+    "Recall@3": 1.0,
+    "Recall@5": 1.0,
+    "Precision@1": 1.0,
+    "Precision@3": 0.4583,
+    "Precision@5": 0.4283,
+    "MRR": 1.0
+  },
+  "semantic": {
+    "Recall@1": 0.8,
+    "Recall@3": 1.0,
+    "Recall@5": 1.0,
+    "Precision@1": 0.8,
+    "Precision@3": 0.3333,
+    "Precision@5": 0.2,
+    "MRR": 0.8917
+  },
+  "hybrid": {
+    "Recall@1": 1.0,
+    "Recall@3": 1.0,
+    "Recall@5": 1.0,
+    "Precision@1": 1.0,
+    "Precision@3": 0.4583,
+    "Precision@5": 0.4283,
+    "MRR": 1.0
+  },
+  "reranked_hybrid": {
+    "Recall@1": 1.0,
+    "Recall@3": 1.0,
+    "Recall@5": 1.0,
+    "Precision@1": 1.0,
+    "Precision@3": 0.4583,
+    "Precision@5": 0.4283,
+    "MRR": 1.0
+  }
+}

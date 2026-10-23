@@ -1,0 +1,39 @@
+version: "3.8"
+
+# Security: published ports bind to 127.0.0.1 so the services are reachable
+# only from this machine, not the local network. Self Search has no per-user
+# authentication; see docs/deployment.md before exposing it more widely
+# (at minimum set API_KEY and bind to a specific trusted interface).
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: shelfsense_api
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      - API_KEY=${API_KEY:-}
+    depends_on: []
+
+  ui:
+    image: python:3.14-slim
+    container_name: shelfsense_ui
+    # --server.address 0.0.0.0 is the container's own interface (needed for port
+    # publishing); host exposure is still loopback-only via the ports rule below.
+    command: >
+      bash -c "pip install --quiet -r requirements.txt && \
+               streamlit run frontend/app.py --server.port 8501 --server.address 0.0.0.0 --server.enableCORS false"
+    volumes:
+      - .:/app
+    working_dir: /app
+    ports:
+      - "127.0.0.1:8501:8501"
+    environment:
+      - PYTHONUNBUFFERED=1
+      # The UI server calls the API over the compose network; the key stays server-side.
+      - SHELFSENSE_API_URL=http://api:8000
+      - SHELFSENSE_API_KEY=${API_KEY:-}
+    depends_on:
+      - api

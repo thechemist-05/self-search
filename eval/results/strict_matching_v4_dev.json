@@ -1,0 +1,2418 @@
+{
+ "summary": [
+  {
+   "catalogue": "v4",
+   "mode": "relaxed",
+   "queries": 20,
+   "mean_precision": 0.625,
+   "micro_precision": 0.625,
+   "relevant_result_rate": 0.95,
+   "zero_result_queries": 0,
+   "results_returned": 200,
+   "relevant_returned": 125,
+   "median_seconds": 4.09
+  },
+  {
+   "catalogue": "v4",
+   "mode": "strict",
+   "queries": 20,
+   "mean_precision": 1.0,
+   "micro_precision": 1.0,
+   "relevant_result_rate": 1.0,
+   "zero_result_queries": 0,
+   "results_returned": 184,
+   "relevant_returned": 184,
+   "median_seconds": 5.61
+  }
+ ],
+ "runs": [
+  {
+   "catalogue": "v4",
+   "mode": "relaxed",
+   "queries": 20,
+   "mean_precision": 0.625,
+   "micro_precision": 0.625,
+   "relevant_result_rate": 0.95,
+   "zero_result_queries": 0,
+   "results_returned": 200,
+   "relevant_returned": 125,
+   "median_seconds": 4.09,
+   "per_query": [
+    {
+     "id": "S01",
+     "query": "black heels",
+     "returned": 10,
+     "relevant": 5,
+     "precision": 0.5,
+     "seconds": 9.51,
+     "matching_products": 2781,
+     "results": [
+      {
+       "id": 56420,
+       "title": "MARCOREPUBLIC Jerusalem Heels Black Heels for Women Closed Toe & Buckle Strap, Mary Jane H",
+       "relevant": true
+      },
+      {
+       "id": 56609,
+       "title": "ROTCV Womens Black Flats Mid Heel Loafers Comfortable Black Patent Leather Overlapping Squ",
+       "relevant": true
+      },
+      {
+       "id": 53743,
+       "title": "LIURUIJIA Women's Round Toe Pumps Kitten Low Heel Heels Comfortable Ladies Shoes Dress Sho",
+       "relevant": false
+      },
+      {
+       "id": 71802,
+       "title": "Trary Black Pink Nude Red Heels for Women,Women's Heeled Sandals Lace up High Heels,Chunky",
+       "relevant": true
+      },
+      {
+       "id": 19067,
+       "title": "Vedolay Women Espadrilles Platform Wedge Sandals Open Toe Strap Strappy Sandals Summer Bea",
+       "relevant": false
+      },
+      {
+       "id": 50549,
+       "title": "RIBONGZ Black Strappy Heels for Women Closed Toe Platform High Heels Pumps Sexy Summer Com",
+       "relevant": true
+      },
+      {
+       "id": 51238,
+       "title": "Mostrin Fashion Vintage Womens Small Bowtie Platform Pumps Ladies Sexy High Heeled Shoes",
+       "relevant": false
+      },
+      {
+       "id": 62833,
+       "title": "getmorebeauty Women's Vintage Retro Black and White Ankle Strappy Buckle Dress High Heels",
+       "relevant": true
+      },
+      {
+       "id": 48667,
+       "title": "JustFab Rosamund Block Heeled Booties for Women - Black Ankle Boots, Faux Suede High Heel ",
+       "relevant": false
+      },
+      {
+       "id": 65523,
+       "title": "Rekayla Women's Chunky High Heels Sandals Strappy Open Toe Ankle Strap Dress Shoes For Wom",
+       "relevant": false
+      }
+     ]
+    },
+    {
+     "id": "S02",
+     "query": "white heels",
+     "returned": 10,
+     "relevant": 3,
+     "precision": 0.3,
+     "seconds": 5.77,
+     "matching_products": 2781,
+     "results": [
+      {
+       "id": 62833,
+       "title": "getmorebeauty Women's Vintage Retro Black and White Ankle Strappy Buckle Dress High Heels",
+       "relevant": true
+      },
+      {
+       "id": 19067,
+       "title": "Vedolay Women Espadrilles Platform Wedge Sandals Open Toe Strap Strappy Sandals Summer Bea",
+       "relevant": false
+      },
+      {
+       "id": 24055,
+       "title": "SHOW STORY White Black Two Tone Leopard Print T-Strap D-Orsay Stiletto Heels Bridal Evenin",
+       "relevant": true
+      },
+      {
+       "id": 36442,
+       "title": "Sully's Dress Almond Toe Crochet Platform High Wedge Heel Summer Sandals,Off White,6.5",
+       "relevant": true
+      },
+      {
+       "id": 61207,
+       "title": "WHITE MOUNTAIN Women's Gracie Sandal",
+       "relevant": false
+      },
+      {
+       "id": 67871,
+       "title": "ELEGANTPARK HP2021 Heels for Women Ankle Strap Sandals for Women Peep Toe High Heeled Sand",
+       "relevant": false
+      },
+      {
+       "id": 56284,
+       "title": "IDIFU Women's IN4 Platform Heels Strappy Chunky Heels For Women Dressy Peep Toe High Heels",
+       "relevant": false
+      },
+      {
+       "id": 62084,
+       "title": "DREAM PAIRS Women’s Heels Chunky Block Heels Square Closed Toe Low Heels Dress Shoes Comfo",
+       "relevant": false
+      },
+      {
+       "id": 63095,
+       "title": "WHITE MOUNTAIN Women's Crawford Footbed Sandal",
+       "relevant": false
+      },
+      {
+       "id": 40692,
+       "title": "Sandals for Women Flat,2020 Slip On Flip Flops Bow Tie Slides Beach Thong Slipper Summer G",
+       "relevant": false
+      }
+     ]
+    },
+    {
+     "id": "S03",
+     "query": "black handbag",
+     "returned": 10,
+     "relevant": 7,
+     "precision": 0.7,
+     "seconds": 8.41,
+     "matching_products": 6771,
+     "results": [
+      {
+       "id": 71733,
+       "title": "Messenger Bag Purse Set for Women,Leather Big Handbag Tote Bag Crossbody Bag 4PC",
+       "relevant": false
+      },
+      {
+       "id": 66556,
+       "title": "AlwaySky Women Transparent Shoulder Crossbody Bag, 2 in 1 Designer Fashion Handbag Purse",
+       "relevant": false
+      },
+      {
+       "id": 40686,
+       "title": "Satchel Handbag | Top Handle | Zipper Closure (Black)",
+       "relevant": true
+      },
+      {
+       "id": 36743,
+       "title": "Black Scaredy Cat Costume Handbag - Great Witch Costume Accessory!",
+       "relevant": true
+      },
+      {
+       "id": 4225,
+       "title": "MKF Handbags ~ Designer Handbag ~ Tote Handbag ~ Women Shoulder Handbag ~ Women handbag ~ ",
+       "relevant": true
+      },
+      {
+       "id": 30643,
+       "title": "Heshe Women’s Handbags Messenger Designer Shoulder Handbag Tote Top Handle Bags for Ladies",
+       "relevant": true
+      },
+      {
+       "id": 64935,
+       "title": "JOVANAS Fashion Stripe Design Women Street Snap Candid Tote Single Shoulder Canvas Bag Han",
+       "relevant": false
+      },
+      {
+       "id": 10382,
+       "title": "Black Handbags,ZMSnow PU Leather Purses Shoulder Bag Ladies Handbags",
+       "relevant": true
+      },
+      {
+       "id": 49041,
+       "title": "ZYSUN Tote Handbags,Nylon Crossbody Bag, Purses and Satchel Handbags for Women (Black/606)",
+       "relevant": true
+      },
+      {
+       "id": 21580,
+       "title": "PIJUSHI Floral Handbags and Purses Designer Leather Tote Handbag for Women (6016 Black Flo",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "S04",
+     "query": "red dress",
+     "returned": 10,
+     "relevant": 9,
+     "precision": 0.9,
+     "seconds": 4.93,
+     "matching_products": 8199,
+     "results": [
+      {
+       "id": 16283,
+       "title": "Canserin 2017 Summer Kids Girls Cartoon Little Kitten Printed T-Shirt+Dress Clothes Set",
+       "relevant": false
+      },
+      {
+       "id": 5299,
+       "title": "BEAGIMEG Womens Spaghetti Strap O Neck Bodycon Midi Club Party Dress Wine Red, Wine Red, L",
+       "relevant": true
+      },
+      {
+       "id": 41234,
+       "title": "Wine Red Summer Mini Dress Striped Dresses Holidays Short Sleeve Cute Badydoll Aline Skate",
+       "relevant": true
+      },
+      {
+       "id": 4359,
+       "title": "Koobea Women Dresses Evening for Long Summer and Split Floral Dresses from Red Small",
+       "relevant": true
+      },
+      {
+       "id": 23263,
+       "title": "Koobea Dress for Women Casual Christmas Party Long Sleeve Stripes Dresses from Red Small",
+       "relevant": true
+      },
+      {
+       "id": 42122,
+       "title": "Sundresses for Women Casual Loose Dresses Sleeveless Beach Print Dress Red Large",
+       "relevant": true
+      },
+      {
+       "id": 567,
+       "title": "Koobea Women Dresses Evening for Long Summer and Split Floral Dresses from Red Large",
+       "relevant": true
+      },
+      {
+       "id": 28374,
+       "title": "Koobea Women Dresses Evening for Long Summer and Split Floral Dresses from Red Medium",
+       "relevant": true
+      },
+      {
+       "id": 36792,
+       "title": "MSBASIC Red Floral Dress, Short Floral Junior Summer Dresses M",
+       "relevant": true
+      },
+      {
+       "id": 36266,
+       "title": "Usstore Women Dress Bandage Bodycon Party Cocktail Maxi Long Dresses (Asia XL, Wine red)",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "S05",
+     "query": "running shoes",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 4.27,
+     "matching_products": 631,
+     "results": [
+      {
+       "id": 65845,
+       "title": "KUBUA Women's Walking Shoes Sock Sneakers Mesh Slip on Running Shoes for Lady Girls's Ligh",
+       "relevant": true
+      },
+      {
+       "id": 54633,
+       "title": "DUORO Men Athletic Shoes Running Shoes Non Slip Blade Road Running Tennis Shoes Walking Sp",
+       "relevant": true
+      },
+      {
+       "id": 56046,
+       "title": "Leyang Mens Trail Running Shoes Womens Minimalist Comfortable Lightweight Barefoot Athleti",
+       "relevant": true
+      },
+      {
+       "id": 53634,
+       "title": "New Balance Women's Fresh Foam Arishi V2 Running Shoe",
+       "relevant": true
+      },
+      {
+       "id": 54088,
+       "title": "JARLIF Men's Lightweight Athletic Running Shoes Breathable Sport Air Fitness Gym Jogging S",
+       "relevant": true
+      },
+      {
+       "id": 76077,
+       "title": "STQ Womens Running Shoes Lightweight Athletic Air Cushion Mesh Running Training Walking Sn",
+       "relevant": true
+      },
+      {
+       "id": 50427,
+       "title": "New Balance Women's Dynasoft Nitrel V4 Trail Running Shoe",
+       "relevant": true
+      },
+      {
+       "id": 55460,
+       "title": "New Balance Women's DRFT V1 Running Shoe",
+       "relevant": true
+      },
+      {
+       "id": 53205,
+       "title": "New Balance Women's Fresh Foam Tempo V1 Running Shoe",
+       "relevant": true
+      },
+      {
+       "id": 50067,
+       "title": "JARLIF Kids Athletic Tennis Running Shoes Breathable Sport Air Gym Jogging Sneakers for Bo",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "S06",
+     "query": "running shoes under ₹3000",
+     "returned": 10,
+     "relevant": 9,
+     "precision": 0.9,
+     "seconds": 2.95,
+     "matching_products": 190,
+     "results": [
+      {
+       "id": 56325,
+       "title": "FUJEAK Men Running Shoes Men Casual Breathable Walking Shoes Sport Athletic Sneakers Gym T",
+       "relevant": true
+      },
+      {
+       "id": 65845,
+       "title": "KUBUA Women's Walking Shoes Sock Sneakers Mesh Slip on Running Shoes for Lady Girls's Ligh",
+       "relevant": true
+      },
+      {
+       "id": 59967,
+       "title": "SAGUARO Women's Men's Barefoot Shoes Minimalist Trail Running Shoes Walking | Wide Toe Box",
+       "relevant": true
+      },
+      {
+       "id": 58305,
+       "title": "Women's Running Shoes Ladies Slip on Tennis Walking Sneakers Lightweight Breathable Comfor",
+       "relevant": true
+      },
+      {
+       "id": 50427,
+       "title": "New Balance Women's Dynasoft Nitrel V4 Trail Running Shoe",
+       "relevant": true
+      },
+      {
+       "id": 51434,
+       "title": "Pujcs Running Shoes Womens Breathable Tennis Shoes Non Slip Gym Workout Shoes Lightweight ",
+       "relevant": true
+      },
+      {
+       "id": 66003,
+       "title": "KUBUA Mens Running Shoes Womens Walking Gym Training Shoes Fitness Jogging Athletic Casual",
+       "relevant": true
+      },
+      {
+       "id": 56641,
+       "title": "ASICS Women's Frequent Trail Running Shoes",
+       "relevant": true
+      },
+      {
+       "id": 57735,
+       "title": "ASICS Women's Gel-Sonoma 4 Trail Running Shoes",
+       "relevant": true
+      },
+      {
+       "id": 56189,
+       "title": "Nike Women's Downshifter 9 Sneaker",
+       "relevant": false
+      }
+     ]
+    },
+    {
+     "id": "S07",
+     "query": "white sneakers",
+     "returned": 10,
+     "relevant": 3,
+     "precision": 0.3,
+     "seconds": 4.69,
+     "matching_products": 2288,
+     "results": [
+      {
+       "id": 55803,
+       "title": "Avia Verge Womens Sneakers - Tennis, Court, Cross Training, or Pickleball Shoes for Women,",
+       "relevant": true
+      },
+      {
+       "id": 60705,
+       "title": "TRETORN Women's Nylite Plus Sneakers",
+       "relevant": false
+      },
+      {
+       "id": 62107,
+       "title": "Women's Slip on Shoes Fashion Canvas Sneakers Low Top Casual Shoes Non Slip Loafers",
+       "relevant": false
+      },
+      {
+       "id": 62509,
+       "title": "VSUDO 5/16\" Fine Weave Flat Shoe Lace Shoestring for Running Athletic Sneaker",
+       "relevant": false
+      },
+      {
+       "id": 63199,
+       "title": "Tommy Hilfiger Women's Lamiss Sneaker",
+       "relevant": false
+      },
+      {
+       "id": 58451,
+       "title": "Women's Canvas Shoes Fashion Sneakers White Tennis Shoes Casual Slip on Shoes Floral Embro",
+       "relevant": true
+      },
+      {
+       "id": 9587,
+       "title": "YHOON Women's Walking Shoes Slip on Sneakers - Lightweight Tennis Shoes Sock Sneakers Blac",
+       "relevant": false
+      },
+      {
+       "id": 66040,
+       "title": "HYPOCRUTE Women’s White Platform Sneakers Canvas Slip On Shoes Low Top Casual Sneakers Ela",
+       "relevant": true
+      },
+      {
+       "id": 52629,
+       "title": "Nautica Women Fashion Sneaker Casual Shoes -Steam (Lace-Up/Slip On)",
+       "relevant": false
+      },
+      {
+       "id": 59333,
+       "title": "Nautica Women's Slip-On Sneakers - Comfortable Running Shoes, Stylish & Easy to Wear - Per",
+       "relevant": false
+      }
+     ]
+    },
+    {
+     "id": "S08",
+     "query": "black ankle boots",
+     "returned": 10,
+     "relevant": 9,
+     "precision": 0.9,
+     "seconds": 7.7,
+     "matching_products": 3494,
+     "results": [
+      {
+       "id": 24353,
+       "title": "Samilor Ankle Boots for Women Platform Ankle Boots Side Zipper Lace Up Combat Boots for Wo",
+       "relevant": true
+      },
+      {
+       "id": 48667,
+       "title": "JustFab Rosamund Block Heeled Booties for Women - Black Ankle Boots, Faux Suede High Heel ",
+       "relevant": true
+      },
+      {
+       "id": 67501,
+       "title": "FRACORA Women's PU Leather Combat Boots Warm Fur Lined Black Ankle Booties Side Zipper Whi",
+       "relevant": true
+      },
+      {
+       "id": 13577,
+       "title": "JWJ Women's Boots Winter Snow Boot Black Ankle Boots Combat Lace Up Booties,Wine Red 9",
+       "relevant": true
+      },
+      {
+       "id": 4130,
+       "title": "Kivors Ankle Rain Boot- Chelsea Low Heel Casual Bootie – Women's Black Comfortable Cowgirl",
+       "relevant": true
+      },
+      {
+       "id": 13085,
+       "title": "MUSSHOE Rain Boots for Women, Waterproof Chelsea Rubber Boots, Women’s Fashion Ankle Booti",
+       "relevant": true
+      },
+      {
+       "id": 51142,
+       "title": "DREAM PAIRS Black Lace-up Combat Boots Ankle Booties for Women",
+       "relevant": true
+      },
+      {
+       "id": 57506,
+       "title": "Sloggers Women's Waterproof Rain and Garden Ankle Boots with Comfort Insole, Midsummer Bla",
+       "relevant": true
+      },
+      {
+       "id": 38949,
+       "title": "POVOGER Hiking Boots Women Ankle Boots for Women Girls Hiking Shoes Girls Hiking Boots Cas",
+       "relevant": true
+      },
+      {
+       "id": 21998,
+       "title": "CPXUTFP Ankle Boots for Women Solid Color Zipper Winter Flat Shoes 2022 Slip On Western Bo",
+       "relevant": false
+      }
+     ]
+    },
+    {
+     "id": "S09",
+     "query": "men's leather belt",
+     "returned": 10,
+     "relevant": 8,
+     "precision": 0.8,
+     "seconds": 2.42,
+     "matching_products": 3232,
+     "results": [
+      {
+       "id": 60548,
+       "title": "ITAY Metal Free Belt - Hypoallergenic Leather TSA Belt Strap, Sturdy Men's Adjustable Belt",
+       "relevant": true
+      },
+      {
+       "id": 59362,
+       "title": "Timberland Men's Casual Leather Belt",
+       "relevant": true
+      },
+      {
+       "id": 62321,
+       "title": "Black Oak Colonial Belt Company Men's Made in The USA Casual Leather Jean Belt",
+       "relevant": true
+      },
+      {
+       "id": 58458,
+       "title": "Timberland PRO Men's 42mm Double Prong Leather Belt",
+       "relevant": true
+      },
+      {
+       "id": 64767,
+       "title": "Timberland PRO Men's 38mm Boot Leather Belt",
+       "relevant": true
+      },
+      {
+       "id": 52106,
+       "title": "Timberland PRO Men's 40mm Workwear Leather Belt",
+       "relevant": true
+      },
+      {
+       "id": 61431,
+       "title": "Timberland PRO Men's No-Scratch No Buckle Mechanic Belt",
+       "relevant": false
+      },
+      {
+       "id": 59949,
+       "title": "Mark Fred Mens Belt - Leather Dress Belt for Men - Handmade Leather Belts",
+       "relevant": false
+      },
+      {
+       "id": 53070,
+       "title": "Timberland Men's Classic Leather Jean Belt 1.4 Inches Wide (Big & Tall Available)",
+       "relevant": true
+      },
+      {
+       "id": 53478,
+       "title": "Timberland Men's Leather Belt 40mm",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "S10",
+     "query": "blue jeans",
+     "returned": 10,
+     "relevant": 6,
+     "precision": 0.6,
+     "seconds": 1.85,
+     "matching_products": 1559,
+     "results": [
+      {
+       "id": 3508,
+       "title": "Fashion Jeans for Women, Leggings with Denim Jeans Wash, Stretch Pants, Jeggings (Small/Me",
+       "relevant": true
+      },
+      {
+       "id": 13962,
+       "title": "Suko jeans Womens Stretch Boot Cut Jeans Embellished 17321 Blue Black 12X32",
+       "relevant": true
+      },
+      {
+       "id": 39239,
+       "title": "Fashion Jeans for Women, Leggings with Denim Jeans Wash, Stretch Pants, Jeggings (Large/XL",
+       "relevant": true
+      },
+      {
+       "id": 54459,
+       "title": "Men Skinny Stretch Jeans 28-38",
+       "relevant": false
+      },
+      {
+       "id": 27188,
+       "title": "Cute Baby Boy Girl Blue Jean Shirt +Leopard Print Short Skirt+ Headband Outfits Set (1-2 T",
+       "relevant": false
+      },
+      {
+       "id": 7278,
+       "title": "Women Tapered Jeans Crossover Pant Asymmetric Boyfriend Baggy Jean Little Waist Cross Over",
+       "relevant": true
+      },
+      {
+       "id": 30788,
+       "title": "Cute Baby Boy Girl Blue Jean Shirt +Leopard Print Short Skirt+ Headband Outfits Set (6-12 ",
+       "relevant": false
+      },
+      {
+       "id": 35471,
+       "title": "SOHO GLAM Super High Waisted Stretchy Skinny Jeans for Women, Black (X-Large Plus)",
+       "relevant": false
+      },
+      {
+       "id": 19989,
+       "title": "wax jean Women's Distressed Slim Fit Cuffed Skinny Jeans Dark Blue 7",
+       "relevant": true
+      },
+      {
+       "id": 37633,
+       "title": "wax jean Women's Distressed Slim Fit Cuffed Skinny Jeans Dark Blue 13",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "S11",
+     "query": "denim shorts",
+     "returned": 10,
+     "relevant": 9,
+     "precision": 0.9,
+     "seconds": 1.94,
+     "matching_products": 7220,
+     "results": [
+      {
+       "id": 4603,
+       "title": "CutieLove Women's Denim Jean Shorts Distressed Hem Ripped Mid Rise Stretchy Denim Shorts",
+       "relevant": true
+      },
+      {
+       "id": 5743,
+       "title": "WOCACHI Denim Shorts for Women High Waisted Floral Butterfly Print Lace Jeans Basic Stretc",
+       "relevant": true
+      },
+      {
+       "id": 24224,
+       "title": "G8 One Mens Stonewash Denim Overall Shorts Denim Walkshort Overall Shorts Shortalls",
+       "relevant": true
+      },
+      {
+       "id": 60104,
+       "title": "LATUD Men's Casual Denim Shorts (No Belt)",
+       "relevant": true
+      },
+      {
+       "id": 26833,
+       "title": "Denim Shorts for Women Distressed Ripped Jean Shorts Stretchy Frayed Raw Hem Hot Short Jea",
+       "relevant": true
+      },
+      {
+       "id": 58946,
+       "title": "COOFANDY Men's Casual Short Sleeve Button Down Dress Shirt Denim Work Shirts",
+       "relevant": false
+      },
+      {
+       "id": 36835,
+       "title": "Susupeng Women High Waist Wide Leg Denim Mini Shorts Pendulum Ruffle Hem Loose Nightclub J",
+       "relevant": true
+      },
+      {
+       "id": 46810,
+       "title": "Mens Stonewash Denim Overall Shorts denim walkshort Overall Shorts Shortalls Blue W40",
+       "relevant": true
+      },
+      {
+       "id": 20254,
+       "title": "MODARANI Boyfriend Frayed Cute Denim Shorts Cut Off Light Blue Juniors Disstressed Jean Sh",
+       "relevant": true
+      },
+      {
+       "id": 1117,
+       "title": "MODARANI Casual Mid Rise Folded Hem Denim Shorts Juniors Light Blue Shorts Washed Ripped F",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "S12",
+     "query": "pink swimsuit",
+     "returned": 10,
+     "relevant": 9,
+     "precision": 0.9,
+     "seconds": 4.84,
+     "matching_products": 3528,
+     "results": [
+      {
+       "id": 19255,
+       "title": "Zando Swimsuits for Women Two Piece Bathing Suits Printed Tankini Top with Boyshort Swimsu",
+       "relevant": true
+      },
+      {
+       "id": 16391,
+       "title": "Vilania Women Swimwear Banded Printed Strappy Tankini Top with Triangle Briefs Two Piece S",
+       "relevant": true
+      },
+      {
+       "id": 23047,
+       "title": "Zando Womens Tankini Swimsuits Two Piece Bathing Suits Tummy Control Swimsuits for Women P",
+       "relevant": true
+      },
+      {
+       "id": 14780,
+       "title": "Vilania Women Swimwear Banded Printed Strappy Tankini Top with Triangle Briefs Two Piece S",
+       "relevant": true
+      },
+      {
+       "id": 14411,
+       "title": "YOMORIO Anime Miss Kobayashi-san Dragon Maid Kanna Cosplay Costume Lolita Cute Ruffle Swim",
+       "relevant": true
+      },
+      {
+       "id": 20109,
+       "title": "Zando Swimsuits for Women Two Piece Bathing Suits Tummy Control Swimsuit Printed Tankini T",
+       "relevant": true
+      },
+      {
+       "id": 29106,
+       "title": "Toddler Girl Swimsuit, Baby Girls One Piece Swimsuit Ruffle Floral Swimwear Bathing Suits ",
+       "relevant": true
+      },
+      {
+       "id": 13405,
+       "title": "PINKMILLY Women's Bathing Suit Beach Cover Up Crochet Lace Backless Bikini Swimsuit Dress ",
+       "relevant": false
+      },
+      {
+       "id": 12078,
+       "title": "Pink Queen Women's Push Up Padded Skirt Bottom Swimsuit XXL",
+       "relevant": true
+      },
+      {
+       "id": 17025,
+       "title": "Pink Queen Women's Push Up Padded Skirt Bottom Swimsuit XXXL",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "S13",
+     "query": "black backpack",
+     "returned": 10,
+     "relevant": 7,
+     "precision": 0.7,
+     "seconds": 2.92,
+     "matching_products": 1793,
+     "results": [
+      {
+       "id": 5732,
+       "title": "Mandala Tibetan Shop Bohemian Black Hemp Sling Backpack, Cool Backpack Cute Backpack",
+       "relevant": true
+      },
+      {
+       "id": 75022,
+       "title": "NIKE Brasilia Mesh Backpack",
+       "relevant": false
+      },
+      {
+       "id": 13716,
+       "title": "Cuziss Pack of 10pcs Webbing Ending Clip Quick Slip Keeper Connect Buckle for Backpack Adj",
+       "relevant": false
+      },
+      {
+       "id": 13734,
+       "title": "Cuziss Pack of 20pcs Webbing Ending Clip Quick Slip Keeper Connect Buckle for Backpack Adj",
+       "relevant": false
+      },
+      {
+       "id": 1664,
+       "title": "Black Widow Comic Book Superhero Black Mini Backpack",
+       "relevant": true
+      },
+      {
+       "id": 73361,
+       "title": "Nike Brasilia \"just Do It\" Backpack (mini), Black/Black/(Glossy White), Misc",
+       "relevant": true
+      },
+      {
+       "id": 72747,
+       "title": "Copi Women's Modern Emotional Design Backpacks One Size Black",
+       "relevant": true
+      },
+      {
+       "id": 73919,
+       "title": "High Sierra AT3 Rolling Backpack, Black, 22-Inch",
+       "relevant": true
+      },
+      {
+       "id": 64807,
+       "title": "Gazigo Backpack for Women, Nylon Travel Backpack Purse Black Shoulder Bag Small Casual Day",
+       "relevant": true
+      },
+      {
+       "id": 57167,
+       "title": "Nike Brasilia Medium Training Backpack for Women and Men with Secure Storage & Water Resis",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "S14",
+     "query": "wool sweater",
+     "returned": 10,
+     "relevant": 6,
+     "precision": 0.6,
+     "seconds": 3.62,
+     "matching_products": 4461,
+     "results": [
+      {
+       "id": 39719,
+       "title": "FINCATI Black Sweater Women Turtleneck Cashmere Plus Size Long Sleeve Ribbed Sweaters Jers",
+       "relevant": true
+      },
+      {
+       "id": 46701,
+       "title": "100% Irish Merino Wool Little Boys Hooded Zip Sweater with Pockets by West End Knitwear",
+       "relevant": true
+      },
+      {
+       "id": 5261,
+       "title": "West End Knitwear Men's Aran Shawl Collar Cable Knit Cardigan Sweater - Charcoal - XXL",
+       "relevant": false
+      },
+      {
+       "id": 26169,
+       "title": "West End Knitwear Men's Aran Shawl Collar Cable Knit Cardigan Sweater - Charcoal - XL",
+       "relevant": false
+      },
+      {
+       "id": 27537,
+       "title": "NALANION Mens Casual Wool Blend Pullover Sweaters 1/4 Zip Collar Knitted Sweater (Green, X",
+       "relevant": true
+      },
+      {
+       "id": 35783,
+       "title": "Woolrich Sweater, Brownstone Heather, XL",
+       "relevant": false
+      },
+      {
+       "id": 26165,
+       "title": "NOVICA Beige Alpaca Wool Blend Sidetail Cardigan Sweater, Mirage'",
+       "relevant": true
+      },
+      {
+       "id": 16277,
+       "title": "Panreddy Women's Wool Cashmere Classic Cardigan Sweater XL Black",
+       "relevant": true
+      },
+      {
+       "id": 28600,
+       "title": "Nico Louise Women Sweater bat Sleeve Oversize Pullovers Loose Wool Knitwear (Medium, Gray)",
+       "relevant": true
+      },
+      {
+       "id": 25215,
+       "title": "TW Kempton York Woolly Pully Vee Neck Sweater with Patches,Black,X-Large / 48-50 inch",
+       "relevant": false
+      }
+     ]
+    },
+    {
+     "id": "S15",
+     "query": "black handbag under ₹2500",
+     "returned": 10,
+     "relevant": 6,
+     "precision": 0.6,
+     "seconds": 3.09,
+     "matching_products": 3318,
+     "results": [
+      {
+       "id": 71733,
+       "title": "Messenger Bag Purse Set for Women,Leather Big Handbag Tote Bag Crossbody Bag 4PC",
+       "relevant": false
+      },
+      {
+       "id": 66556,
+       "title": "AlwaySky Women Transparent Shoulder Crossbody Bag, 2 in 1 Designer Fashion Handbag Purse",
+       "relevant": false
+      },
+      {
+       "id": 77786,
+       "title": "Annymall Women Designer PU Leather Tote Handbags Purses Shoulder Clutch Hobo Bag (ANDI ROS",
+       "relevant": true
+      },
+      {
+       "id": 76309,
+       "title": "Oryer Fashion Women Handbag Tote Pu Clutch Lady Sexy Cool Lux Punk Leopard Sequin Bag",
+       "relevant": false
+      },
+      {
+       "id": 4225,
+       "title": "MKF Handbags ~ Designer Handbag ~ Tote Handbag ~ Women Shoulder Handbag ~ Women handbag ~ ",
+       "relevant": true
+      },
+      {
+       "id": 30643,
+       "title": "Heshe Women’s Handbags Messenger Designer Shoulder Handbag Tote Top Handle Bags for Ladies",
+       "relevant": true
+      },
+      {
+       "id": 64935,
+       "title": "JOVANAS Fashion Stripe Design Women Street Snap Candid Tote Single Shoulder Canvas Bag Han",
+       "relevant": false
+      },
+      {
+       "id": 21580,
+       "title": "PIJUSHI Floral Handbags and Purses Designer Leather Tote Handbag for Women (6016 Black Flo",
+       "relevant": true
+      },
+      {
+       "id": 68631,
+       "title": "DIHKLCIO Nylon Crossbody Bags for Women Purses and Handbags Women's Casual Messenger Bags ",
+       "relevant": true
+      },
+      {
+       "id": 18591,
+       "title": "Zebella Black Travel Duffel Bags Tote Sports Gym Weekender Shoulder Garment Bag Handbag To",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "S16",
+     "query": "nike running shoes",
+     "returned": 10,
+     "relevant": 8,
+     "precision": 0.8,
+     "seconds": 4.57,
+     "matching_products": 631,
+     "results": [
+      {
+       "id": 52923,
+       "title": "Nike Men's Free Rn Running Shoes",
+       "relevant": true
+      },
+      {
+       "id": 50533,
+       "title": "Nike Men's Sneaker,Running Shoes",
+       "relevant": true
+      },
+      {
+       "id": 56189,
+       "title": "Nike Women's Downshifter 9 Sneaker",
+       "relevant": false
+      },
+      {
+       "id": 55825,
+       "title": "Nike Men's Flex Experience Run 8 Sneaker",
+       "relevant": false
+      },
+      {
+       "id": 6821,
+       "title": "Nike Men's Epic React Flyknit Running Shoes",
+       "relevant": true
+      },
+      {
+       "id": 58765,
+       "title": "NIKE Kids' Revolution 3 (TDV) Running Shoes",
+       "relevant": true
+      },
+      {
+       "id": 53535,
+       "title": "Nike Women's Revolution 5 Running Shoe",
+       "relevant": true
+      },
+      {
+       "id": 54691,
+       "title": "Nike Women's Revolution 5 Wide Running Shoe",
+       "relevant": true
+      },
+      {
+       "id": 52004,
+       "title": "Nike Men's Revolution 5 Running Shoe",
+       "relevant": true
+      },
+      {
+       "id": 55025,
+       "title": "Nike Women's Running Shoes",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "S17",
+     "query": "red summer dress under ₹2000",
+     "returned": 10,
+     "relevant": 0,
+     "precision": 0.0,
+     "seconds": 2.03,
+     "matching_products": 846,
+     "results": [
+      {
+       "id": 16283,
+       "title": "Canserin 2017 Summer Kids Girls Cartoon Little Kitten Printed T-Shirt+Dress Clothes Set",
+       "relevant": false
+      },
+      {
+       "id": 6900,
+       "title": "Women's Solid Cotton Linen Retro Vintage A-line Long Flowy Skirts Boho Floral High Waist S",
+       "relevant": false
+      },
+      {
+       "id": 49799,
+       "title": "Women's Tulle Skirt Formal High Low Asymmetrical Midi Tea-Length Elastic Waist Tutu Skirts",
+       "relevant": false
+      },
+      {
+       "id": 10381,
+       "title": "Howstar Pet Clothes, Dog Love Printed Shirts Puppy Pet Clothing Costumes Cat Tank Top Summ",
+       "relevant": false
+      },
+      {
+       "id": 52603,
+       "title": "Sunny Fashion Girls Dress A-line Cute Handbag White Princess Size 5-10",
+       "relevant": false
+      },
+      {
+       "id": 27205,
+       "title": "FQZWONG Women Pleated Festival Ultra Micro-Mini Rave Skirt Pure Color Loose Short Skirt Ca",
+       "relevant": false
+      },
+      {
+       "id": 66105,
+       "title": "Espadrilles Wedges for Women,Casual Espadrille Slide On Platform Sandals Comfort Open Toe ",
+       "relevant": false
+      },
+      {
+       "id": 7234,
+       "title": "Sandals for Women Flat,2020 Fashion Rhinestone Wings Pattern Sandals Open Toe Buckle Casua",
+       "relevant": false
+      },
+      {
+       "id": 53996,
+       "title": "BTFBM Women 2023 Fashion Faux Wrap V-Neck Dresses Short Sleeve High Waist Belt Swing Ruffl",
+       "relevant": false
+      },
+      {
+       "id": 7015,
+       "title": "Vedolay Womens Tank Tops, Women Round Neck Gradient Printed Sleeveless Summer Loose Fit Ve",
+       "relevant": false
+      }
+     ]
+    },
+    {
+     "id": "S18",
+     "query": "women's black sandals",
+     "returned": 10,
+     "relevant": 3,
+     "precision": 0.3,
+     "seconds": 3.46,
+     "matching_products": 3457,
+     "results": [
+      {
+       "id": 19067,
+       "title": "Vedolay Women Espadrilles Platform Wedge Sandals Open Toe Strap Strappy Sandals Summer Bea",
+       "relevant": false
+      },
+      {
+       "id": 2149,
+       "title": "Sandals for Women Platform Gibobby Women's 2019 Comfy Platform Sandal Shoes Summer Beach T",
+       "relevant": false
+      },
+      {
+       "id": 28866,
+       "title": "AOKASII Sandals for Women Wide Width,Women's 2021 Comfy Platform Casual Sandal Shoes Summe",
+       "relevant": false
+      },
+      {
+       "id": 55584,
+       "title": "Trary Women's Peep Toe Wedge Sandal with Adjustable Strap",
+       "relevant": false
+      },
+      {
+       "id": 24713,
+       "title": "Hemlock Women Fashion Sequin Wedge Sandals Pear Belt Buckle Sandals Thick Platform Sandals",
+       "relevant": false
+      },
+      {
+       "id": 40692,
+       "title": "Sandals for Women Flat,2020 Slip On Flip Flops Bow Tie Slides Beach Thong Slipper Summer G",
+       "relevant": false
+      },
+      {
+       "id": 12779,
+       "title": "Women Summer Sandals,Todaies Women Fashion Summer Slope with Flip Flops Sandals Loafers Sh",
+       "relevant": true
+      },
+      {
+       "id": 27290,
+       "title": "Women Summer Sandals,Todaies Women Fashion Summer Slope with Flip Flops Sandals Loafers Sh",
+       "relevant": true
+      },
+      {
+       "id": 8550,
+       "title": "❀Todaies Women Summer Flip Flop Women Rhinestone Owl Sweet Sandals Clip Toe Sandals Beach ",
+       "relevant": true
+      },
+      {
+       "id": 57256,
+       "title": "SHIBEVER Wedge Sandals for Women Bohemia Elastic Ankle Strap Sandals Open Toe Flower Rhine",
+       "relevant": false
+      }
+     ]
+    },
+    {
+     "id": "S19",
+     "query": "green heels",
+     "returned": 10,
+     "relevant": 1,
+     "precision": 0.1,
+     "seconds": 4.11,
+     "matching_products": 2781,
+     "results": [
+      {
+       "id": 60083,
+       "title": "Trary Women’s Ankle Strap Kitten Heels for Women,Green Heels Red Heels Purple Heels Black ",
+       "relevant": true
+      },
+      {
+       "id": 54714,
+       "title": "Allegra K Women's Pointed Toe Zip Stiletto Kitten Heel Ankle Booties",
+       "relevant": false
+      },
+      {
+       "id": 70219,
+       "title": "TUUFUN Women's Platform high Heels Strap Fish Mouth Dress Clear Shoes White Wedding Banque",
+       "relevant": false
+      },
+      {
+       "id": 65982,
+       "title": "Caradise Womens High Heel T Strap Mary Jane Patent Pumps with Bow Rockabilly Dress Shoes",
+       "relevant": false
+      },
+      {
+       "id": 68773,
+       "title": "vivianly Women's Strappy Lace Up Thong Heels Sandals Square Open Toe Stiletto High Heel We",
+       "relevant": false
+      },
+      {
+       "id": 56609,
+       "title": "ROTCV Womens Black Flats Mid Heel Loafers Comfortable Black Patent Leather Overlapping Squ",
+       "relevant": false
+      },
+      {
+       "id": 55254,
+       "title": "Larosa Rose Women's Lexie Crystal Dress Heels Low Heels Wedding Shoes KIMI26",
+       "relevant": false
+      },
+      {
+       "id": 61278,
+       "title": "Allegra K Women's Open Toe Block Heel Ankle Strap Sandals",
+       "relevant": false
+      },
+      {
+       "id": 56741,
+       "title": "Allegra K Women's Round Toe Stiletto Heel Ankle Strap Pumps",
+       "relevant": false
+      },
+      {
+       "id": 56814,
+       "title": "Women's Open Toe Ankle Strap Low Block Chunky Heels Sandals",
+       "relevant": false
+      }
+     ]
+    },
+    {
+     "id": "S20",
+     "query": "black leather jacket",
+     "returned": 10,
+     "relevant": 7,
+     "precision": 0.7,
+     "seconds": 4.07,
+     "matching_products": 4345,
+     "results": [
+      {
+       "id": 9421,
+       "title": "Milwaukee Leather SFM1870 Men's Black Button Closure Car Coat Blazer Leather Jacket",
+       "relevant": true
+      },
+      {
+       "id": 57178,
+       "title": "fjackets Leather Jacket Men – ¾ Length Real Lambskin Black Leather Coats For Men",
+       "relevant": true
+      },
+      {
+       "id": 45584,
+       "title": "Neptune Stylish Black Leather Jacket for Men with Lambskin Leather & Moto Vintage Distress",
+       "relevant": true
+      },
+      {
+       "id": 67033,
+       "title": "Mens Genuine Black Hooded Bomber Leather Jacket | Real Lambskin Waxed Brown Leather Jacket",
+       "relevant": true
+      },
+      {
+       "id": 56751,
+       "title": "Brown Leather Jacket Mens - Cafe Racer Real Lambskin Leather Distressed Motorcycle Jacket",
+       "relevant": false
+      },
+      {
+       "id": 64466,
+       "title": "Brown Leather Jacket Men - Black Real Lambskin Mens Leather Jacket",
+       "relevant": true
+      },
+      {
+       "id": 60528,
+       "title": "Jacket Collection Original Leather Trench Coat Black Long Coat Duster Overcoat Sheepskin f",
+       "relevant": true
+      },
+      {
+       "id": 41348,
+       "title": "Outfitter Jackets Men's Harly Davidson And The Marlboro Man Jacket X-Large Black",
+       "relevant": false
+      },
+      {
+       "id": 56312,
+       "title": "Blingsoul Leather Coats for Men - Vintage Style Long Leather Jacket Men",
+       "relevant": false
+      },
+      {
+       "id": 11351,
+       "title": "WONDERPIEL Men's Genuine Leather Jacket Stand Collar, Black, Motorcycle Slim Fit, XX-Large",
+       "relevant": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "catalogue": "v4",
+   "mode": "strict",
+   "queries": 20,
+   "mean_precision": 1.0,
+   "micro_precision": 1.0,
+   "relevant_result_rate": 1.0,
+   "zero_result_queries": 0,
+   "results_returned": 184,
+   "relevant_returned": 184,
+   "median_seconds": 5.61,
+   "per_query": [
+    {
+     "id": "S01",
+     "query": "black heels",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 6.87,
+     "matching_products": 101,
+     "results": [
+      {
+       "id": 50549,
+       "title": "RIBONGZ Black Strappy Heels for Women Closed Toe Platform High Heels Pumps Sexy Summer Com",
+       "relevant": true
+      },
+      {
+       "id": 64248,
+       "title": "ElElax Black Nude Gold Heels for Women 4 Inches, Stiletto Heels Ankle Strap Heeled Sandals",
+       "relevant": true
+      },
+      {
+       "id": 38987,
+       "title": "SHOW STORY Black White Two Tone Zipper Stiletto Heels Bridal Party Pointed Toe Pearl Heel ",
+       "relevant": true
+      },
+      {
+       "id": 56420,
+       "title": "MARCOREPUBLIC Jerusalem Heels Black Heels for Women Closed Toe & Buckle Strap, Mary Jane H",
+       "relevant": true
+      },
+      {
+       "id": 56609,
+       "title": "ROTCV Womens Black Flats Mid Heel Loafers Comfortable Black Patent Leather Overlapping Squ",
+       "relevant": true
+      },
+      {
+       "id": 67381,
+       "title": "MissHeel Clear and Black Pump Heels Sandals with Rhinestones",
+       "relevant": true
+      },
+      {
+       "id": 71802,
+       "title": "Trary Black Pink Nude Red Heels for Women,Women's Heeled Sandals Lace up High Heels,Chunky",
+       "relevant": true
+      },
+      {
+       "id": 60865,
+       "title": "ElElax Nude Black Silver Heels for Women Chunky, 4 Inches Block High Heels Strappy Womens ",
+       "relevant": true
+      },
+      {
+       "id": 62833,
+       "title": "getmorebeauty Women's Vintage Retro Black and White Ankle Strappy Buckle Dress High Heels",
+       "relevant": true
+      },
+      {
+       "id": 64418,
+       "title": "DREAM PAIRS Black Heels for Women Block Chunky Rhinestone Low Heels Open Toe Dress Pump Sa",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "S02",
+     "query": "white heels",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 3.81,
+     "matching_products": 33,
+     "results": [
+      {
+       "id": 62833,
+       "title": "getmorebeauty Women's Vintage Retro Black and White Ankle Strappy Buckle Dress High Heels",
+       "relevant": true
+      },
+      {
+       "id": 24055,
+       "title": "SHOW STORY White Black Two Tone Leopard Print T-Strap D-Orsay Stiletto Heels Bridal Evenin",
+       "relevant": true
+      },
+      {
+       "id": 38987,
+       "title": "SHOW STORY Black White Two Tone Zipper Stiletto Heels Bridal Party Pointed Toe Pearl Heel ",
+       "relevant": true
+      },
+      {
+       "id": 55060,
+       "title": "IDIFU Women's IN3 D'Orsay Pumps Low Kitten Heels for Women Dress Shoes Pointed Closed Toe ",
+       "relevant": true
+      },
+      {
+       "id": 50982,
+       "title": "YIYA Women's Square Toe White Clear Heels Sandals with Strappy Pearls Ankle Strap Sexy Rhi",
+       "relevant": true
+      },
+      {
+       "id": 27929,
+       "title": "Walofou Mary Jane Shoes for Girls Size 11 Wedding Princess White Dress Shoes 5 Yr Bridesma",
+       "relevant": true
+      },
+      {
+       "id": 62053,
+       "title": "SHOW STORY White Woman Sexy Women Butterfly Print Studs Chain Peeptoe Platform Bone Heel P",
+       "relevant": true
+      },
+      {
+       "id": 63802,
+       "title": "Women High Heels Sandals White Lace Pearls Wedding Shoes Pointed Toe Bridal Shoes",
+       "relevant": true
+      },
+      {
+       "id": 67776,
+       "title": "Hinyyrin Women's Tassels Rhinestone Heeled Sandals Wedding Dress White Sandals Stiletto He",
+       "relevant": true
+      },
+      {
+       "id": 62326,
+       "title": "Women's Pearl White Wedding Shoes for Bride High Heels Pointed Toe Bridal Shoes Satin Prom",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "S03",
+     "query": "black handbag",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 7.26,
+     "matching_products": 811,
+     "results": [
+      {
+       "id": 77786,
+       "title": "Annymall Women Designer PU Leather Tote Handbags Purses Shoulder Clutch Hobo Bag (ANDI ROS",
+       "relevant": true
+      },
+      {
+       "id": 40686,
+       "title": "Satchel Handbag | Top Handle | Zipper Closure (Black)",
+       "relevant": true
+      },
+      {
+       "id": 49041,
+       "title": "ZYSUN Tote Handbags,Nylon Crossbody Bag, Purses and Satchel Handbags for Women (Black/606)",
+       "relevant": true
+      },
+      {
+       "id": 68631,
+       "title": "DIHKLCIO Nylon Crossbody Bags for Women Purses and Handbags Women's Casual Messenger Bags ",
+       "relevant": true
+      },
+      {
+       "id": 36743,
+       "title": "Black Scaredy Cat Costume Handbag - Great Witch Costume Accessory!",
+       "relevant": true
+      },
+      {
+       "id": 4225,
+       "title": "MKF Handbags ~ Designer Handbag ~ Tote Handbag ~ Women Shoulder Handbag ~ Women handbag ~ ",
+       "relevant": true
+      },
+      {
+       "id": 30643,
+       "title": "Heshe Women’s Handbags Messenger Designer Shoulder Handbag Tote Top Handle Bags for Ladies",
+       "relevant": true
+      },
+      {
+       "id": 10382,
+       "title": "Black Handbags,ZMSnow PU Leather Purses Shoulder Bag Ladies Handbags",
+       "relevant": true
+      },
+      {
+       "id": 21580,
+       "title": "PIJUSHI Floral Handbags and Purses Designer Leather Tote Handbag for Women (6016 Black Flo",
+       "relevant": true
+      },
+      {
+       "id": 34627,
+       "title": "Handbags for women, FYY 100% Handmade Premium PU Leather Cord Tied women satchel handbags ",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "S04",
+     "query": "red dress",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 6.88,
+     "matching_products": 477,
+     "results": [
+      {
+       "id": 42122,
+       "title": "Sundresses for Women Casual Loose Dresses Sleeveless Beach Print Dress Red Large",
+       "relevant": true
+      },
+      {
+       "id": 5299,
+       "title": "BEAGIMEG Womens Spaghetti Strap O Neck Bodycon Midi Club Party Dress Wine Red, Wine Red, L",
+       "relevant": true
+      },
+      {
+       "id": 45656,
+       "title": "BEAGIMEG Womens Spaghetti Strap O Neck Bodycon Midi Club Party Dress Wine Red, Wine Red, S",
+       "relevant": true
+      },
+      {
+       "id": 41234,
+       "title": "Wine Red Summer Mini Dress Striped Dresses Holidays Short Sleeve Cute Badydoll Aline Skate",
+       "relevant": true
+      },
+      {
+       "id": 4359,
+       "title": "Koobea Women Dresses Evening for Long Summer and Split Floral Dresses from Red Small",
+       "relevant": true
+      },
+      {
+       "id": 23263,
+       "title": "Koobea Dress for Women Casual Christmas Party Long Sleeve Stripes Dresses from Red Small",
+       "relevant": true
+      },
+      {
+       "id": 567,
+       "title": "Koobea Women Dresses Evening for Long Summer and Split Floral Dresses from Red Large",
+       "relevant": true
+      },
+      {
+       "id": 28374,
+       "title": "Koobea Women Dresses Evening for Long Summer and Split Floral Dresses from Red Medium",
+       "relevant": true
+      },
+      {
+       "id": 36792,
+       "title": "MSBASIC Red Floral Dress, Short Floral Junior Summer Dresses M",
+       "relevant": true
+      },
+      {
+       "id": 36266,
+       "title": "Usstore Women Dress Bandage Bodycon Party Cocktail Maxi Long Dresses (Asia XL, Wine red)",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "S05",
+     "query": "running shoes",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 3.56,
+     "matching_products": 698,
+     "results": [
+      {
+       "id": 54633,
+       "title": "DUORO Men Athletic Shoes Running Shoes Non Slip Blade Road Running Tennis Shoes Walking Sp",
+       "relevant": true
+      },
+      {
+       "id": 56046,
+       "title": "Leyang Mens Trail Running Shoes Womens Minimalist Comfortable Lightweight Barefoot Athleti",
+       "relevant": true
+      },
+      {
+       "id": 53634,
+       "title": "New Balance Women's Fresh Foam Arishi V2 Running Shoe",
+       "relevant": true
+      },
+      {
+       "id": 54088,
+       "title": "JARLIF Men's Lightweight Athletic Running Shoes Breathable Sport Air Fitness Gym Jogging S",
+       "relevant": true
+      },
+      {
+       "id": 76077,
+       "title": "STQ Womens Running Shoes Lightweight Athletic Air Cushion Mesh Running Training Walking Sn",
+       "relevant": true
+      },
+      {
+       "id": 50427,
+       "title": "New Balance Women's Dynasoft Nitrel V4 Trail Running Shoe",
+       "relevant": true
+      },
+      {
+       "id": 55460,
+       "title": "New Balance Women's DRFT V1 Running Shoe",
+       "relevant": true
+      },
+      {
+       "id": 53205,
+       "title": "New Balance Women's Fresh Foam Tempo V1 Running Shoe",
+       "relevant": true
+      },
+      {
+       "id": 50067,
+       "title": "JARLIF Kids Athletic Tennis Running Shoes Breathable Sport Air Gym Jogging Sneakers for Bo",
+       "relevant": true
+      },
+      {
+       "id": 53351,
+       "title": "Impdoo Women's Air Athletic Running Sneaker Cute Fitness Sport Gym Jogging Tennis Shoes (U",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "S06",
+     "query": "running shoes under ₹3000",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 1.64,
+     "matching_products": 231,
+     "results": [
+      {
+       "id": 56325,
+       "title": "FUJEAK Men Running Shoes Men Casual Breathable Walking Shoes Sport Athletic Sneakers Gym T",
+       "relevant": true
+      },
+      {
+       "id": 59967,
+       "title": "SAGUARO Women's Men's Barefoot Shoes Minimalist Trail Running Shoes Walking | Wide Toe Box",
+       "relevant": true
+      },
+      {
+       "id": 58305,
+       "title": "Women's Running Shoes Ladies Slip on Tennis Walking Sneakers Lightweight Breathable Comfor",
+       "relevant": true
+      },
+      {
+       "id": 51434,
+       "title": "Pujcs Running Shoes Womens Breathable Tennis Shoes Non Slip Gym Workout Shoes Lightweight ",
+       "relevant": true
+      },
+      {
+       "id": 50427,
+       "title": "New Balance Women's Dynasoft Nitrel V4 Trail Running Shoe",
+       "relevant": true
+      },
+      {
+       "id": 66003,
+       "title": "KUBUA Mens Running Shoes Womens Walking Gym Training Shoes Fitness Jogging Athletic Casual",
+       "relevant": true
+      },
+      {
+       "id": 56641,
+       "title": "ASICS Women's Frequent Trail Running Shoes",
+       "relevant": true
+      },
+      {
+       "id": 53535,
+       "title": "Nike Women's Revolution 5 Running Shoe",
+       "relevant": true
+      },
+      {
+       "id": 52004,
+       "title": "Nike Men's Revolution 5 Running Shoe",
+       "relevant": true
+      },
+      {
+       "id": 50561,
+       "title": "STQ Women's Running Shoes Breathable Air Cushion Sneakers",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "S07",
+     "query": "white sneakers",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 6.28,
+     "matching_products": 136,
+     "results": [
+      {
+       "id": 58451,
+       "title": "Women's Canvas Shoes Fashion Sneakers White Tennis Shoes Casual Slip on Shoes Floral Embro",
+       "relevant": true
+      },
+      {
+       "id": 55803,
+       "title": "Avia Verge Womens Sneakers - Tennis, Court, Cross Training, or Pickleball Shoes for Women,",
+       "relevant": true
+      },
+      {
+       "id": 20492,
+       "title": "JIASUQI Breathable Fashion Sneakers Athletic Running Walking Shoes for Baby Girls Boys Whi",
+       "relevant": true
+      },
+      {
+       "id": 66040,
+       "title": "HYPOCRUTE Women’s White Platform Sneakers Canvas Slip On Shoes Low Top Casual Sneakers Ela",
+       "relevant": true
+      },
+      {
+       "id": 20283,
+       "title": "Disney Minnie Mouse White and Black Polka Dot Print with Red/Gold Sparkly Lace UP Fashion ",
+       "relevant": true
+      },
+      {
+       "id": 47736,
+       "title": "JIASUQI Summer Training Walking Shoes Athletic Tennis Sneakers for Man White 12 M US",
+       "relevant": true
+      },
+      {
+       "id": 29715,
+       "title": "G GEERS Kids Girl's Fashion Sneakers Casual Sports Shoes (10 M US Toddler, Fuch/White)",
+       "relevant": true
+      },
+      {
+       "id": 65962,
+       "title": "HYPOCRUTE Womens Canvas Mules Platform Sneakers Backless Slip on Shoes Summer Shoes Black/",
+       "relevant": true
+      },
+      {
+       "id": 59962,
+       "title": "Women's White Platform Sneakers Black Platform Tennis Shoes Casual Lace up Fashion Sneaker",
+       "relevant": true
+      },
+      {
+       "id": 8975,
+       "title": "Disney Star Wars Rebels Sneaker , White/black (11)",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "S08",
+     "query": "black ankle boots",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 6.33,
+     "matching_products": 542,
+     "results": [
+      {
+       "id": 67501,
+       "title": "FRACORA Women's PU Leather Combat Boots Warm Fur Lined Black Ankle Booties Side Zipper Whi",
+       "relevant": true
+      },
+      {
+       "id": 13577,
+       "title": "JWJ Women's Boots Winter Snow Boot Black Ankle Boots Combat Lace Up Booties,Wine Red 9",
+       "relevant": true
+      },
+      {
+       "id": 51142,
+       "title": "DREAM PAIRS Black Lace-up Combat Boots Ankle Booties for Women",
+       "relevant": true
+      },
+      {
+       "id": 24353,
+       "title": "Samilor Ankle Boots for Women Platform Ankle Boots Side Zipper Lace Up Combat Boots for Wo",
+       "relevant": true
+      },
+      {
+       "id": 48667,
+       "title": "JustFab Rosamund Block Heeled Booties for Women - Black Ankle Boots, Faux Suede High Heel ",
+       "relevant": true
+      },
+      {
+       "id": 4130,
+       "title": "Kivors Ankle Rain Boot- Chelsea Low Heel Casual Bootie – Women's Black Comfortable Cowgirl",
+       "relevant": true
+      },
+      {
+       "id": 19929,
+       "title": "Uoidru Women's Combat Boots PU Leather Black Boots Ankle Boots for Women Casual Daily Lace",
+       "relevant": true
+      },
+      {
+       "id": 31152,
+       "title": "Uoidru Women's Combat Boots PU Leather Black Boots Ankle Boots for Women Casual Daily Lace",
+       "relevant": true
+      },
+      {
+       "id": 13085,
+       "title": "MUSSHOE Rain Boots for Women, Waterproof Chelsea Rubber Boots, Women’s Fashion Ankle Booti",
+       "relevant": true
+      },
+      {
+       "id": 23920,
+       "title": "Uoidru Women's Combat Boots PU Leather Black Boots Ankle Boots for Women Casual Daily Lace",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "S09",
+     "query": "men's leather belt",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 4.57,
+     "matching_products": 635,
+     "results": [
+      {
+       "id": 52106,
+       "title": "Timberland PRO Men's 40mm Workwear Leather Belt",
+       "relevant": true
+      },
+      {
+       "id": 38744,
+       "title": "Men's Fashion Leather Belt Sliding Buckle 35mm Ratchet Belt Black (black3)",
+       "relevant": true
+      },
+      {
+       "id": 60548,
+       "title": "ITAY Metal Free Belt - Hypoallergenic Leather TSA Belt Strap, Sturdy Men's Adjustable Belt",
+       "relevant": true
+      },
+      {
+       "id": 59362,
+       "title": "Timberland Men's Casual Leather Belt",
+       "relevant": true
+      },
+      {
+       "id": 58458,
+       "title": "Timberland PRO Men's 42mm Double Prong Leather Belt",
+       "relevant": true
+      },
+      {
+       "id": 64767,
+       "title": "Timberland PRO Men's 38mm Boot Leather Belt",
+       "relevant": true
+      },
+      {
+       "id": 53478,
+       "title": "Timberland Men's Leather Belt 40mm",
+       "relevant": true
+      },
+      {
+       "id": 63324,
+       "title": "Solid Leather Goods Men's Belt - Full Grain Heavy Duty Leather Belts for Men",
+       "relevant": true
+      },
+      {
+       "id": 67961,
+       "title": "Timberland Men's Classic Leather Reversible Belt",
+       "relevant": true
+      },
+      {
+       "id": 55858,
+       "title": "Men's Black Leather Money Belt Sizes 32 Through 64",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "S10",
+     "query": "blue jeans",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 3.45,
+     "matching_products": 211,
+     "results": [
+      {
+       "id": 3508,
+       "title": "Fashion Jeans for Women, Leggings with Denim Jeans Wash, Stretch Pants, Jeggings (Small/Me",
+       "relevant": true
+      },
+      {
+       "id": 13962,
+       "title": "Suko jeans Womens Stretch Boot Cut Jeans Embellished 17321 Blue Black 12X32",
+       "relevant": true
+      },
+      {
+       "id": 39239,
+       "title": "Fashion Jeans for Women, Leggings with Denim Jeans Wash, Stretch Pants, Jeggings (Large/XL",
+       "relevant": true
+      },
+      {
+       "id": 7278,
+       "title": "Women Tapered Jeans Crossover Pant Asymmetric Boyfriend Baggy Jean Little Waist Cross Over",
+       "relevant": true
+      },
+      {
+       "id": 19989,
+       "title": "wax jean Women's Distressed Slim Fit Cuffed Skinny Jeans Dark Blue 7",
+       "relevant": true
+      },
+      {
+       "id": 37633,
+       "title": "wax jean Women's Distressed Slim Fit Cuffed Skinny Jeans Dark Blue 13",
+       "relevant": true
+      },
+      {
+       "id": 12058,
+       "title": "Eunina Jeans Women Plus Size Relaxed Stretch Skinny Jean Distress Medium Blue 3X",
+       "relevant": true
+      },
+      {
+       "id": 35473,
+       "title": "Bell Bottom Jeans for Women Butterfly Embroidery High Waisted Flare Jean Ripped Hole Class",
+       "relevant": true
+      },
+      {
+       "id": 45937,
+       "title": "Suko jeans Womens Skinny Stretch Denim Pull on Jean 16801 Blue Black 14X30",
+       "relevant": true
+      },
+      {
+       "id": 35633,
+       "title": "Fashion Jeans for Women, Leggings with Denim Jeans Wash, Stretch Pants, Jeggings (2XL, Blu",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "S11",
+     "query": "denim shorts",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 4.85,
+     "matching_products": 144,
+     "results": [
+      {
+       "id": 60104,
+       "title": "LATUD Men's Casual Denim Shorts (No Belt)",
+       "relevant": true
+      },
+      {
+       "id": 4603,
+       "title": "CutieLove Women's Denim Jean Shorts Distressed Hem Ripped Mid Rise Stretchy Denim Shorts",
+       "relevant": true
+      },
+      {
+       "id": 40532,
+       "title": "onlypuff Blue Jean Shorts for Women Distressed Denim Shorts Junior Shorts High Waist Zippe",
+       "relevant": true
+      },
+      {
+       "id": 1117,
+       "title": "MODARANI Casual Mid Rise Folded Hem Denim Shorts Juniors Light Blue Shorts Washed Ripped F",
+       "relevant": true
+      },
+      {
+       "id": 5743,
+       "title": "WOCACHI Denim Shorts for Women High Waisted Floral Butterfly Print Lace Jeans Basic Stretc",
+       "relevant": true
+      },
+      {
+       "id": 24224,
+       "title": "G8 One Mens Stonewash Denim Overall Shorts Denim Walkshort Overall Shorts Shortalls",
+       "relevant": true
+      },
+      {
+       "id": 26833,
+       "title": "Denim Shorts for Women Distressed Ripped Jean Shorts Stretchy Frayed Raw Hem Hot Short Jea",
+       "relevant": true
+      },
+      {
+       "id": 36835,
+       "title": "Susupeng Women High Waist Wide Leg Denim Mini Shorts Pendulum Ruffle Hem Loose Nightclub J",
+       "relevant": true
+      },
+      {
+       "id": 46810,
+       "title": "Mens Stonewash Denim Overall Shorts denim walkshort Overall Shorts Shortalls Blue W40",
+       "relevant": true
+      },
+      {
+       "id": 20254,
+       "title": "MODARANI Boyfriend Frayed Cute Denim Shorts Cut Off Light Blue Juniors Disstressed Jean Sh",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "S12",
+     "query": "pink swimsuit",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 5.05,
+     "matching_products": 173,
+     "results": [
+      {
+       "id": 16391,
+       "title": "Vilania Women Swimwear Banded Printed Strappy Tankini Top with Triangle Briefs Two Piece S",
+       "relevant": true
+      },
+      {
+       "id": 14780,
+       "title": "Vilania Women Swimwear Banded Printed Strappy Tankini Top with Triangle Briefs Two Piece S",
+       "relevant": true
+      },
+      {
+       "id": 19255,
+       "title": "Zando Swimsuits for Women Two Piece Bathing Suits Printed Tankini Top with Boyshort Swimsu",
+       "relevant": true
+      },
+      {
+       "id": 23047,
+       "title": "Zando Womens Tankini Swimsuits Two Piece Bathing Suits Tummy Control Swimsuits for Women P",
+       "relevant": true
+      },
+      {
+       "id": 20109,
+       "title": "Zando Swimsuits for Women Two Piece Bathing Suits Tummy Control Swimsuit Printed Tankini T",
+       "relevant": true
+      },
+      {
+       "id": 14411,
+       "title": "YOMORIO Anime Miss Kobayashi-san Dragon Maid Kanna Cosplay Costume Lolita Cute Ruffle Swim",
+       "relevant": true
+      },
+      {
+       "id": 29106,
+       "title": "Toddler Girl Swimsuit, Baby Girls One Piece Swimsuit Ruffle Floral Swimwear Bathing Suits ",
+       "relevant": true
+      },
+      {
+       "id": 27926,
+       "title": "Pink Queen Women's High Waist Criss Cross Vintage Bikini Set Swimsuit (L, Yellow)",
+       "relevant": true
+      },
+      {
+       "id": 7876,
+       "title": "Shopkins Girls Swimsuit Swimwear (6X, Shop Pink)",
+       "relevant": true
+      },
+      {
+       "id": 3891,
+       "title": "Women's One Piece Swimsuits for Women Athletic Training Swimsuits Swimwear Bathing Suits f",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "S13",
+     "query": "black backpack",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 5.23,
+     "matching_products": 280,
+     "results": [
+      {
+       "id": 5732,
+       "title": "Mandala Tibetan Shop Bohemian Black Hemp Sling Backpack, Cool Backpack Cute Backpack",
+       "relevant": true
+      },
+      {
+       "id": 1664,
+       "title": "Black Widow Comic Book Superhero Black Mini Backpack",
+       "relevant": true
+      },
+      {
+       "id": 72747,
+       "title": "Copi Women's Modern Emotional Design Backpacks One Size Black",
+       "relevant": true
+      },
+      {
+       "id": 52273,
+       "title": "JanSport Big Student Backpack",
+       "relevant": true
+      },
+      {
+       "id": 12132,
+       "title": "Kemyer 15.6\" Laptop Trolley Backpack- Overnighter Spinner Wheeled Backpack Black",
+       "relevant": true
+      },
+      {
+       "id": 74221,
+       "title": "Samsonite Unisex - Adult Tectonic Large Backpack, Black/Orange, One Size",
+       "relevant": true
+      },
+      {
+       "id": 73361,
+       "title": "Nike Brasilia \"just Do It\" Backpack (mini), Black/Black/(Glossy White), Misc",
+       "relevant": true
+      },
+      {
+       "id": 73919,
+       "title": "High Sierra AT3 Rolling Backpack, Black, 22-Inch",
+       "relevant": true
+      },
+      {
+       "id": 64807,
+       "title": "Gazigo Backpack for Women, Nylon Travel Backpack Purse Black Shoulder Bag Small Casual Day",
+       "relevant": true
+      },
+      {
+       "id": 57167,
+       "title": "Nike Brasilia Medium Training Backpack for Women and Men with Secure Storage & Water Resis",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "S14",
+     "query": "wool sweater",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 5.98,
+     "matching_products": 50,
+     "results": [
+      {
+       "id": 16277,
+       "title": "Panreddy Women's Wool Cashmere Classic Cardigan Sweater XL Black",
+       "relevant": true
+      },
+      {
+       "id": 33945,
+       "title": "Matty M Women's Wool Blend Crochet Open Front Cardigan Sweater (X-Large, Charcoal)",
+       "relevant": true
+      },
+      {
+       "id": 48188,
+       "title": "FINCATI Women's Sweater Pullover Turtleneck Cashmere Wool Soft Cozy Ribbed Elbow Oversized",
+       "relevant": true
+      },
+      {
+       "id": 49406,
+       "title": "Kallspin Men’s Relax Fit YKK Quarter Zip Mock Neck Wool Cotton Sweater Pullover with YKK Z",
+       "relevant": true
+      },
+      {
+       "id": 26199,
+       "title": "BMS Women's Wool Cashmere Blend V-Neck Pullovers Long Sleeve Knitted Sweaters Silver Grey ",
+       "relevant": true
+      },
+      {
+       "id": 16292,
+       "title": "Women Apricot Wool Blends Sweater Coat Fur Collar Cardigan Knitwear Warm Winter",
+       "relevant": true
+      },
+      {
+       "id": 19027,
+       "title": "Black Tribal Fringe Wool Sweater Cardigan Fits US Size 4 - 8 (Item# 5116B)",
+       "relevant": true
+      },
+      {
+       "id": 45846,
+       "title": "Panreddy Women's Wool Cashmere Classic Cardigan Sweater XL Purple",
+       "relevant": true
+      },
+      {
+       "id": 18354,
+       "title": "Nico Louise Women Sweater bat Sleeve Oversize Pullovers Loose Wool Knitwear (Medium, Khaki",
+       "relevant": true
+      },
+      {
+       "id": 34036,
+       "title": "Nico Louise Women Sweater bat Sleeve Oversize Pullovers Loose Wool Knitwear (Large, Gray)",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "S15",
+     "query": "black handbag under ₹2500",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 4.76,
+     "matching_products": 333,
+     "results": [
+      {
+       "id": 77786,
+       "title": "Annymall Women Designer PU Leather Tote Handbags Purses Shoulder Clutch Hobo Bag (ANDI ROS",
+       "relevant": true
+      },
+      {
+       "id": 4225,
+       "title": "MKF Handbags ~ Designer Handbag ~ Tote Handbag ~ Women Shoulder Handbag ~ Women handbag ~ ",
+       "relevant": true
+      },
+      {
+       "id": 68631,
+       "title": "DIHKLCIO Nylon Crossbody Bags for Women Purses and Handbags Women's Casual Messenger Bags ",
+       "relevant": true
+      },
+      {
+       "id": 30643,
+       "title": "Heshe Women’s Handbags Messenger Designer Shoulder Handbag Tote Top Handle Bags for Ladies",
+       "relevant": true
+      },
+      {
+       "id": 75463,
+       "title": "Womens Purses and Handbags Ladies Designer Satchel Tote Bag Shoulder Bags, Black",
+       "relevant": true
+      },
+      {
+       "id": 6158,
+       "title": "wewo Fashion Small Handbag Leather Multiuse Crossbody Grey Messenger Bag Shoulder Bag For ",
+       "relevant": true
+      },
+      {
+       "id": 77030,
+       "title": "ELIMPAUL Women Fashion Handbags Tote Bag Shoulder Bag Top Handle Satchel Purse Set 4pcs, B",
+       "relevant": true
+      },
+      {
+       "id": 43469,
+       "title": "wewo Fashion Small Handbag Leather Multiuse Crossbody Grey Messenger Bag Shoulder Bag For ",
+       "relevant": true
+      },
+      {
+       "id": 21580,
+       "title": "PIJUSHI Floral Handbags and Purses Designer Leather Tote Handbag for Women (6016 Black Flo",
+       "relevant": true
+      },
+      {
+       "id": 18591,
+       "title": "Zebella Black Travel Duffel Bags Tote Sports Gym Weekender Shoulder Garment Bag Handbag To",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "S16",
+     "query": "nike running shoes",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 4.47,
+     "matching_products": 29,
+     "results": [
+      {
+       "id": 52923,
+       "title": "Nike Men's Free Rn Running Shoes",
+       "relevant": true
+      },
+      {
+       "id": 50533,
+       "title": "Nike Men's Sneaker,Running Shoes",
+       "relevant": true
+      },
+      {
+       "id": 54691,
+       "title": "Nike Women's Revolution 5 Wide Running Shoe",
+       "relevant": true
+      },
+      {
+       "id": 56901,
+       "title": "Nike Girls' Revolution 4 (PSV) Running Shoe",
+       "relevant": true
+      },
+      {
+       "id": 6821,
+       "title": "Nike Men's Epic React Flyknit Running Shoes",
+       "relevant": true
+      },
+      {
+       "id": 7687,
+       "title": "Nike Air Max 2015 (GS) Boys Running Shoes 705457-002 Black White 6 M US",
+       "relevant": true
+      },
+      {
+       "id": 54423,
+       "title": "Nike Women’s WMNS Roshe One Moire Training Running Shoes",
+       "relevant": true
+      },
+      {
+       "id": 25464,
+       "title": "Nike Kid's Free RN 2017 (GS) Running Shoe, Black/White/Dark Grey/Anthracite, 6.5",
+       "relevant": true
+      },
+      {
+       "id": 44914,
+       "title": "Nike Kids Free 5.0 Black/White/Dark Grey/Cl Grey Running Shoe 5 Kids US",
+       "relevant": true
+      },
+      {
+       "id": 1500,
+       "title": "Nike Girl's Free' 5.0 Running Shoe White/Chalk Blue/Volt/White, 6Y US Big Kid",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "S17",
+     "query": "red summer dress under ₹2000",
+     "returned": 1,
+     "relevant": 1,
+     "precision": 1.0,
+     "seconds": 9.75,
+     "matching_products": 1,
+     "results": [
+      {
+       "id": 76580,
+       "title": "Mens Kurta Set Festive Season Men's Tunic Art Cotton Kurta Pajama Wedding Party Suit Dress",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "S18",
+     "query": "women's black sandals",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 8.35,
+     "matching_products": 365,
+     "results": [
+      {
+       "id": 33331,
+       "title": "Katliu Women's Platform Sandals Summer Espadrille Sandals Open Toe Slide Sandals Black",
+       "relevant": true
+      },
+      {
+       "id": 4500,
+       "title": "katliu Women's Square Open Toe Flat Sandals Quilted Strap Slide Sandals Slip on Summer San",
+       "relevant": true
+      },
+      {
+       "id": 12779,
+       "title": "Women Summer Sandals,Todaies Women Fashion Summer Slope with Flip Flops Sandals Loafers Sh",
+       "relevant": true
+      },
+      {
+       "id": 27290,
+       "title": "Women Summer Sandals,Todaies Women Fashion Summer Slope with Flip Flops Sandals Loafers Sh",
+       "relevant": true
+      },
+      {
+       "id": 8550,
+       "title": "❀Todaies Women Summer Flip Flop Women Rhinestone Owl Sweet Sandals Clip Toe Sandals Beach ",
+       "relevant": true
+      },
+      {
+       "id": 59783,
+       "title": "Ankis Nude Black Silver Gold Heels for Women Open Toe Ankle Strap Chunky Heel Pump Sandals",
+       "relevant": true
+      },
+      {
+       "id": 31662,
+       "title": "Women's Zemily Wedge Flip Flop Sandal (V Style,numeric_10),Black",
+       "relevant": true
+      },
+      {
+       "id": 21824,
+       "title": "FOREVER STUDIO-2 Women's Wedge Heel Slide Flip Flop Thong Jelly Sandals,BLACK,6.5",
+       "relevant": true
+      },
+      {
+       "id": 38298,
+       "title": "Women's Zemily Wedge Flip Flop Sandal (V Style,numeric_9),Black",
+       "relevant": true
+      },
+      {
+       "id": 25946,
+       "title": "SANDALUP Women's Elastic Flat Sandals Black Size 11",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "S19",
+     "query": "green heels",
+     "returned": 3,
+     "relevant": 3,
+     "precision": 1.0,
+     "seconds": 10.92,
+     "matching_products": 3,
+     "results": [
+      {
+       "id": 60083,
+       "title": "Trary Women’s Ankle Strap Kitten Heels for Women,Green Heels Red Heels Purple Heels Black ",
+       "relevant": true
+      },
+      {
+       "id": 80948,
+       "title": "Classic Erotica Body Boudoir Coochy Rash-Free Body Shave Creme - Green Tea - 16oz Pump Bot",
+       "relevant": true
+      },
+      {
+       "id": 73915,
+       "title": "Indian Ethnic Embroidered Jutti Mojari Ballet Flats Traditional Sea Green Pump Shoes for W",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "S20",
+     "query": "black leather jacket",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 6.42,
+     "matching_products": 40,
+     "results": [
+      {
+       "id": 57178,
+       "title": "fjackets Leather Jacket Men – ¾ Length Real Lambskin Black Leather Coats For Men",
+       "relevant": true
+      },
+      {
+       "id": 9421,
+       "title": "Milwaukee Leather SFM1870 Men's Black Button Closure Car Coat Blazer Leather Jacket",
+       "relevant": true
+      },
+      {
+       "id": 67033,
+       "title": "Mens Genuine Black Hooded Bomber Leather Jacket | Real Lambskin Waxed Brown Leather Jacket",
+       "relevant": true
+      },
+      {
+       "id": 64466,
+       "title": "Brown Leather Jacket Men - Black Real Lambskin Mens Leather Jacket",
+       "relevant": true
+      },
+      {
+       "id": 68365,
+       "title": "Fairylinks Leather Jacket Men Black Slim Fit Motorcyle Lightweight",
+       "relevant": true
+      },
+      {
+       "id": 45584,
+       "title": "Neptune Stylish Black Leather Jacket for Men with Lambskin Leather & Moto Vintage Distress",
+       "relevant": true
+      },
+      {
+       "id": 61700,
+       "title": "Laverapelle Men's Genuine Lambskin Leather Jacket (Black, Biker Jacket) - 1501535",
+       "relevant": true
+      },
+      {
+       "id": 11351,
+       "title": "WONDERPIEL Men's Genuine Leather Jacket Stand Collar, Black, Motorcycle Slim Fit, XX-Large",
+       "relevant": true
+      },
+      {
+       "id": 58045,
+       "title": "Laverapelle Men's Genuine Lambskin Leather Jacket (Black, Classic Jacket) - 1501135",
+       "relevant": true
+      },
+      {
+       "id": 60528,
+       "title": "Jacket Collection Original Leather Trench Coat Black Long Coat Duster Overcoat Sheepskin f",
+       "relevant": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

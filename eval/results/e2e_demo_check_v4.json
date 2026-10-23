@@ -1,0 +1,294 @@
+[
+  {
+    "number": 13,
+    "name": "Backend health and Ollama availability",
+    "passed": true,
+    "failures": [],
+    "health": {
+      "status": "ok",
+      "database": "connected",
+      "ollama": "available",
+      "active_sessions": 28
+    }
+  },
+  {
+    "number": 1,
+    "name": "Basic product discovery (product-first, no model call)",
+    "passed": true,
+    "failures": [],
+    "intent": "PRODUCT_SEARCH",
+    "seconds": 5.2,
+    "products": 10,
+    "mode": "none",
+    "reason": "summary_not_requested",
+    "claims": 0,
+    "supported": 0,
+    "top_titles": [
+      "Leyang Mens Trail Running Shoes Womens Minimalist Comfortabl",
+      "New Balance Women's Fresh Foam Arishi V2 Running Shoe",
+      "JARLIF Men's Lightweight Athletic Running Shoes Breathable S",
+      "STQ Womens Running Shoes Lightweight Athletic Air Cushion Me"
+    ]
+  },
+  {
+    "number": 15,
+    "name": "Optional AI summary of the results",
+    "passed": true,
+    "failures": [],
+    "intent": "PRODUCT_SEARCH",
+    "seconds": 77.4,
+    "products": 10,
+    "mode": "llm",
+    "reason": null,
+    "claims": 6,
+    "supported": 3,
+    "repeat_seconds": 0.01
+  },
+  {
+    "number": 2,
+    "name": "Product-type filtering",
+    "passed": true,
+    "failures": [],
+    "intent": "PRODUCT_SEARCH",
+    "seconds": 5.8,
+    "products": 10,
+    "mode": "none",
+    "reason": "summary_not_requested",
+    "claims": 0,
+    "supported": 0
+  },
+  {
+    "number": 3,
+    "name": "Budget filtering with INR estimates",
+    "passed": true,
+    "failures": [],
+    "intent": "PRODUCT_SEARCH",
+    "seconds": 3.0,
+    "products": 10,
+    "mode": "none",
+    "reason": "summary_not_requested",
+    "claims": 0,
+    "supported": 0,
+    "price_statuses": [
+      "converted",
+      "estimated"
+    ],
+    "matching": 231,
+    "no_rupee_amounts_in_claims": true
+  },
+  {
+    "number": 4,
+    "name": "Rating filtering",
+    "passed": true,
+    "failures": [],
+    "intent": "PRODUCT_SEARCH",
+    "seconds": 2.8,
+    "products": 10,
+    "mode": "none",
+    "reason": "summary_not_requested",
+    "claims": 0,
+    "supported": 0
+  },
+  {
+    "number": 5,
+    "name": "Review-based question",
+    "passed": true,
+    "failures": [],
+    "intent": "PRODUCT_QUESTION",
+    "seconds": 42.1,
+    "products": 1,
+    "mode": "llm",
+    "reason": null,
+    "claims": 2,
+    "supported": 0
+  },
+  {
+    "number": 6,
+    "name": "Product comparison",
+    "passed": true,
+    "failures": [],
+    "intent": "COMPARE",
+    "seconds": 48.2,
+    "products": 2,
+    "mode": "llm",
+    "reason": null,
+    "claims": 2,
+    "supported": 0
+  },
+  {
+    "number": 7,
+    "name": "No matching products",
+    "passed": true,
+    "failures": [],
+    "intent": "PRODUCT_SEARCH",
+    "seconds": 7.1,
+    "products": 0,
+    "mode": "none",
+    "reason": "no_products_retrieved",
+    "claims": 0,
+    "supported": 0,
+    "summary_text": "No matching products were found in the catalog for your query."
+  },
+  {
+    "number": 8,
+    "name": "Unknown prices",
+    "passed": false,
+    "failures": [
+      "card 3924 (converted) matched an INR budget without a known INR price",
+      "card 8847 (converted) matched an INR budget without a known INR price",
+      "card 55397 (converted) matched an INR budget without a known INR price",
+      "card 13120 (converted) matched an INR budget without a known INR price",
+      "card 685 (converted) matched an INR budget without a known INR price",
+      "card 54326 (converted) matched an INR budget without a known INR price",
+      "card 16283 (converted) matched an INR budget without a known INR price",
+      "card 3305 (converted) matched an INR budget without a known INR price",
+      "card 3355 (converted) matched an INR budget without a known INR price",
+      "card 57354 (converted) matched an INR budget without a known INR price"
+    ],
+    "intent": "PRODUCT_SEARCH",
+    "seconds": 3.3,
+    "products": 10,
+    "mode": "none",
+    "reason": "summary_not_requested",
+    "claims": 0,
+    "supported": 0,
+    "budget_cards": [
+      "converted"
+    ],
+    "unknown_price_dress_titles_excluded": 5648,
+    "unbudgeted_unknown_cards": 4
+  },
+  {
+    "number": 9,
+    "name": "Unsupported questions",
+    "passed": true,
+    "failures": [],
+    "what is the weather ": {
+      "intent": "OUT_OF_SCOPE",
+      "products": 0
+    },
+    "ignore all previous ": {
+      "intent": "OUT_OF_SCOPE",
+      "products": 0
+    }
+  },
+  {
+    "number": 11,
+    "name": "Multiple consecutive searches",
+    "passed": true,
+    "failures": [],
+    "seconds": [
+      2.9,
+      5.6,
+      8.5
+    ]
+  },
+  {
+    "number": 12,
+    "name": "Profile-free backend",
+    "passed": true,
+    "failures": []
+  },
+  {
+    "number": 16,
+    "name": "Sarees (strict type)",
+    "passed": false,
+    "failures": [
+      "not a match: Shonaya Women's Designer Party Wear Woven Work Banarasi Silk Saree Wit",
+      "not a match: Shonaya Women's Woven Handloom Banarasi Art SIlk Red Designer Saree Wi",
+      "not a match: Shonaya Women's Woven Cotton Silk Red Designer Saree With Unstitched B",
+      "not a match: Womens Cotton Silk Saree with Blouse Piece Indian Saree (Unstitched Bl",
+      "not a match: Rajnandini Red Silk Weaving Work Indian Traditional Saree For Women wi",
+      "not a match: KNETLI Red Silk Saree for Women Indian Traditional Zari work Saree for"
+    ],
+    "intent": "PRODUCT_SEARCH",
+    "seconds": 9.1,
+    "products": 10,
+    "mode": "none",
+    "reason": "summary_not_requested",
+    "claims": 0,
+    "supported": 0,
+    "top_titles": [
+      "Shonaya Women's Designer Party Wear Woven Work Banarasi Silk",
+      "Shonaya Women's Woven Handloom Banarasi Art SIlk Red Designe",
+      "Shonaya Women`S Traditional Bhagalpuri Silk Printed Saree Sa",
+      "Shonaya Women's Woven Cotton Silk Red Designer Saree With Un"
+    ],
+    "matching": 32
+  },
+  {
+    "number": 17,
+    "name": "Lehengas (strict type, synonym spelling)",
+    "passed": true,
+    "failures": [],
+    "intent": "PRODUCT_SEARCH",
+    "seconds": 4.5,
+    "products": 10,
+    "mode": "none",
+    "reason": "summary_not_requested",
+    "claims": 0,
+    "supported": 0,
+    "top_titles": [
+      "FOCIL Fully Stiched Lehnga Choli, Chaniya Choli,Ghagra Choli",
+      "Semi-Stitched Lehenga Choli For Women, Net Embroidered Semi-",
+      "SKY VIEW FASHION Indian Festival party wear wedding bridal l",
+      "skyview fashion Wedding Traditional Ethinc Shop Bridal Embro"
+    ],
+    "matching": 210
+  },
+  {
+    "number": 18,
+    "name": "Earrings (no necklaces or sets)",
+    "passed": true,
+    "failures": [],
+    "intent": "PRODUCT_SEARCH",
+    "seconds": 5.7,
+    "products": 10,
+    "mode": "none",
+    "reason": "summary_not_requested",
+    "claims": 0,
+    "supported": 0,
+    "top_titles": [
+      "Traditional Indian Fashion Jewelry Gold Plated Jhumka Earrin",
+      "GiftPiper German Silver Asymmetric Jhumkas",
+      "IndoTribe Meenakari Earrings For Women And Girls Bollywood E",
+      "Pahal Traditional Tribal Oxidized Silver Jhumka Earrings Eth"
+    ],
+    "matching": 5843
+  },
+  {
+    "number": 19,
+    "name": "INR budget on new categories",
+    "passed": true,
+    "failures": [],
+    "intent": "PRODUCT_SEARCH",
+    "seconds": 6.0,
+    "products": 10,
+    "mode": "none",
+    "reason": "summary_not_requested",
+    "claims": 0,
+    "supported": 0,
+    "price_statuses": [
+      "converted"
+    ],
+    "matching": 92
+  },
+  {
+    "number": 20,
+    "name": "A product with no price shows 'Price unavailable' data",
+    "passed": false,
+    "failures": [
+      "no saree without any price in this catalogue to check"
+    ]
+  },
+  {
+    "number": 14,
+    "name": "Evidence and numeric validation ran on every answer",
+    "passed": true,
+    "failures": [],
+    "answers_validated": 13,
+    "llm_answers": 3,
+    "claims": 10,
+    "supported": 3
+  }
+]

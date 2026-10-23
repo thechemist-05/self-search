@@ -1,0 +1,35 @@
+# requirements.txt
+# Self Search - Phase 0 dependencies
+# Core
+pydantic>2.0,<3.0
+pydantic-settings>2.0,<3.0
+python-dotenv>1.0,<2.0
+
+# Logging
+structlog>23.0,<25.0
+
+# Testing
+pytest>7.0,<9.0
+pytest-cov>4.0,<6.0
+
+# Data ingestion (Phase 1)
+datasets>2.0,<4.0
+tqdm>4.0,<5.0
+
+# Code quality
+ruff>0.1
+black>23.0,<25.0
+
+# Phase 2 dependencies
+faiss-cpu
+numpy
+requests
+ollama
+sentence-transformers
+
+# Phase 3 (API & UI)
+fastapi
+uvicorn[standard]
+# Pinned: the UI's CSS targets Streamlit 1.66's DOM (data-testid / st-key-* classes).
+# Re-run scripts/ui_check.py before changing this version.
+streamlit==1.66.0

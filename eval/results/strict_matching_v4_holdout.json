@@ -1,0 +1,1522 @@
+{
+ "summary": [
+  {
+   "catalogue": "v4",
+   "mode": "relaxed",
+   "queries": 12,
+   "mean_precision": 0.8,
+   "micro_precision": 0.8,
+   "relevant_result_rate": 1.0,
+   "zero_result_queries": 0,
+   "results_returned": 120,
+   "relevant_returned": 96,
+   "median_seconds": 5.36
+  },
+  {
+   "catalogue": "v4",
+   "mode": "strict",
+   "queries": 12,
+   "mean_precision": 0.983,
+   "micro_precision": 0.983,
+   "relevant_result_rate": 1.0,
+   "zero_result_queries": 0,
+   "results_returned": 120,
+   "relevant_returned": 118,
+   "median_seconds": 10.04
+  }
+ ],
+ "runs": [
+  {
+   "catalogue": "v4",
+   "mode": "relaxed",
+   "queries": 12,
+   "mean_precision": 0.8,
+   "micro_precision": 0.8,
+   "relevant_result_rate": 1.0,
+   "zero_result_queries": 0,
+   "results_returned": 120,
+   "relevant_returned": 96,
+   "median_seconds": 5.36,
+   "per_query": [
+    {
+     "id": "H01",
+     "query": "brown loafers",
+     "returned": 10,
+     "relevant": 7,
+     "precision": 0.7,
+     "seconds": 10.08,
+     "matching_products": 1858,
+     "results": [
+      {
+       "id": 76075,
+       "title": "DREAM PAIRS Women's Auzy-01 Fuzzy House Slippers Cozy Faux Fur Micro Suede Moccasins Slip ",
+       "relevant": true
+      },
+      {
+       "id": 18540,
+       "title": "MIXIN Men’s Moccasin Slippers Memory Foam Loafers Shoes Dark Brown 14 M US",
+       "relevant": true
+      },
+      {
+       "id": 49285,
+       "title": "MIXIN Men’s Moccasin Slippers Memory Foam Loafers Shoes Light Brown 15 M US",
+       "relevant": true
+      },
+      {
+       "id": 1523,
+       "title": "MIXIN Men's Casual Anti Slip Rubber Sole Slip on Cozy Loafers Moccasins Slippers (13 M US ",
+       "relevant": true
+      },
+      {
+       "id": 14692,
+       "title": "MIXIN Men's Casual Anti Slip Rubber Sole Slip on Cozy Loafers Moccasins Slippers (13 M US ",
+       "relevant": true
+      },
+      {
+       "id": 61663,
+       "title": "Cvistpieo Loafers for Women Casual Moccasins Women's Comfortable & Lightweight Penny Loafe",
+       "relevant": false
+      },
+      {
+       "id": 4801,
+       "title": "CareBey Mens Comfortable Warm and Soft Moccasin Slippers with Anti Slip Rubbler Sole Drivi",
+       "relevant": true
+      },
+      {
+       "id": 18631,
+       "title": "MIXIN Men's Casual Anti Slip Rubber Sole Slip on Cozy Loafers Moccasins Slippers (12 M US ",
+       "relevant": true
+      },
+      {
+       "id": 62942,
+       "title": "Womens Classic Penny Loafers Crocodile Print Casual Mid Stacked Heel Comfort Slip On Offic",
+       "relevant": false
+      },
+      {
+       "id": 52149,
+       "title": "JENN ARDOR Loafers for Women Flats Shoes Womens Penny Loafers Slip On Pointed Toe Comforta",
+       "relevant": false
+      }
+     ]
+    },
+    {
+     "id": "H02",
+     "query": "black skirt",
+     "returned": 10,
+     "relevant": 9,
+     "precision": 0.9,
+     "seconds": 3.24,
+     "matching_products": 2490,
+     "results": [
+      {
+       "id": 4363,
+       "title": "Maxi Skirt for Women - Long Floral Skirt Great for Travel, Beach, Cocktail or Party (XL, B",
+       "relevant": true
+      },
+      {
+       "id": 6900,
+       "title": "Women's Solid Cotton Linen Retro Vintage A-line Long Flowy Skirts Boho Floral High Waist S",
+       "relevant": false
+      },
+      {
+       "id": 1043,
+       "title": "Black Fold Over Waist Skirt Black Knee Length Skirt Black Midi Skirt (Size X-Large, Black)",
+       "relevant": true
+      },
+      {
+       "id": 78140,
+       "title": "Indya Women's Indian Ethnic Black Lehenga Skirt",
+       "relevant": true
+      },
+      {
+       "id": 35011,
+       "title": "Aenlley Womens Basic Shirts Stretchy Short Pleated Circle Flared Skater Skirt Color Black ",
+       "relevant": true
+      },
+      {
+       "id": 45571,
+       "title": "Aenlley Womens Basic Shirts Stretchy Short Pleated Circle Flared Skater Skirt Color Black ",
+       "relevant": true
+      },
+      {
+       "id": 46340,
+       "title": "Zhanmai Women Ruffle Swim Bottom Skirt Elastic Quick-Dry Bikini Skirts Flounced Tankini Sk",
+       "relevant": true
+      },
+      {
+       "id": 5703,
+       "title": "Aenlley Womens Basic Shirts Stretchy Short Pleated Circle Flared Skater Skirt Color Black ",
+       "relevant": true
+      },
+      {
+       "id": 39780,
+       "title": "Aenlley Womens Basic Shirts Stretchy Short Pleated Circle Flared Skater Skirt Color Black ",
+       "relevant": true
+      },
+      {
+       "id": 47218,
+       "title": "Aenlley Womens Basic Shirts Stretchy Short Pleated Circle Flared Skater Skirt Color Black ",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "H03",
+     "query": "white t-shirt",
+     "returned": 10,
+     "relevant": 4,
+     "precision": 0.4,
+     "seconds": 5.01,
+     "matching_products": 6393,
+     "results": [
+      {
+       "id": 10301,
+       "title": "vermers Clearance Women Off Shoulder Rainbow Print Sweatshirt - Women Casual Loose Long Sl",
+       "relevant": false
+      },
+      {
+       "id": 661,
+       "title": "vermers Women Plus Size Clothing Clearance - Women Casual Half Sleeve Feather Print V-Neck",
+       "relevant": false
+      },
+      {
+       "id": 70522,
+       "title": "ATEK Men’s Stay Tucked Cooling Undershirts | Moisture Wicking Sweatproof Breathable V Neck",
+       "relevant": false
+      },
+      {
+       "id": 46500,
+       "title": "Whitesmith Custom Mobile Suit Gundam Anime Men's Funny T-Shirt 100% Cotton Tee Large Black",
+       "relevant": false
+      },
+      {
+       "id": 49082,
+       "title": "ZITY Polyester T Shirt for Men Sport Short Sleeves T-Shirts, Blue+white, US Large",
+       "relevant": true
+      },
+      {
+       "id": 6544,
+       "title": "Marshall Logo T-Shirt Black",
+       "relevant": false
+      },
+      {
+       "id": 48409,
+       "title": "LISTONE Women's T-Shirt 3 4 Sleeve Floral Print Fold Bell sleeves Shirt tops Pink and Whit",
+       "relevant": true
+      },
+      {
+       "id": 32036,
+       "title": "Zulmaliu Men Tee Shirt, Cute Panda Print T-Shirt Polo Shirts Sportwear Outfit Cool Tank To",
+       "relevant": true
+      },
+      {
+       "id": 19619,
+       "title": "Velucci Womens Tunic Tank Top T-Shirt - Loose Basic Sleeveless Tee Shirt Blouse, (White-M)",
+       "relevant": true
+      },
+      {
+       "id": 47394,
+       "title": "Lavento Men's Compression Shirts Cool Dry Short Sleeve Workout Slimming T Shirt (3 Pack-Cr",
+       "relevant": false
+      }
+     ]
+    },
+    {
+     "id": "H04",
+     "query": "grey hoodie",
+     "returned": 10,
+     "relevant": 9,
+     "precision": 0.9,
+     "seconds": 3.88,
+     "matching_products": 2347,
+     "results": [
+      {
+       "id": 4276,
+       "title": "Aeropostale Womens New York Hoodie Sweatshirt, Grey, Large",
+       "relevant": true
+      },
+      {
+       "id": 21449,
+       "title": "Casual BTS Hoodie Grey Letter Print Long Sleeve Pullover Hooded Sweatshirt, Grey, Tag-L(US",
+       "relevant": true
+      },
+      {
+       "id": 14497,
+       "title": "MV Sport Sweatshirt Blanket Poncho Hoodie - Poncho Sweatshirt Hoodie Blanket - Pullover Po",
+       "relevant": true
+      },
+      {
+       "id": 10301,
+       "title": "vermers Clearance Women Off Shoulder Rainbow Print Sweatshirt - Women Casual Loose Long Sl",
+       "relevant": false
+      },
+      {
+       "id": 19099,
+       "title": "Fanuerg Women Harajuku Casual Cropped Hoodie Letter Printed Short Hoodies Streetwear Long ",
+       "relevant": true
+      },
+      {
+       "id": 12525,
+       "title": "Womens Mama Bear Printing Long Sleeves Pullover Shirt Top Casual Hoodie Sweatshirt (XL, Gr",
+       "relevant": true
+      },
+      {
+       "id": 42826,
+       "title": "3pcs Adjustable Layering Fake Top Lower Sweeps- Detachable Hoodie Hemlines Half-Length Spl",
+       "relevant": true
+      },
+      {
+       "id": 49976,
+       "title": "Musterbrand Halo Men Knit Hoodie UNSC Workout Grey M",
+       "relevant": true
+      },
+      {
+       "id": 45609,
+       "title": "3pcs Adjustable Layering Fake Top Lower Sweeps- Detachable Hoodie Hemlines Half-Length Spl",
+       "relevant": true
+      },
+      {
+       "id": 40547,
+       "title": "Isaac Morris Super Mario Big Boys Sherpa Fleece Zip Hoodie, Dark Grey, 8",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "H05",
+     "query": "black leggings",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 3.05,
+     "matching_products": 2410,
+     "results": [
+      {
+       "id": 21454,
+       "title": "Bamans Leggings for Women, Stretch Mid-Rise Leggings, Not See Through Workout Leggings (Bl",
+       "relevant": true
+      },
+      {
+       "id": 22149,
+       "title": "Leggings Depot Capri Basic Solid Leggings Black",
+       "relevant": true
+      },
+      {
+       "id": 8167,
+       "title": "24 Pack in Black - Wholesale Women's Fleece Lined Bulk Leggings Women's Stretchy Thermal J",
+       "relevant": true
+      },
+      {
+       "id": 16564,
+       "title": "Leggings Depot Basic Solid Cotton Full Length Leggings (XL, Black)",
+       "relevant": true
+      },
+      {
+       "id": 32641,
+       "title": "Leggings Depot Basic Solid Cotton Full Length Leggings (2X, Black)",
+       "relevant": true
+      },
+      {
+       "id": 37586,
+       "title": "OUYISHANG Yoga Pants with Pockets for Women,Workout Leggings,High Waisted Tummy Control Le",
+       "relevant": true
+      },
+      {
+       "id": 11259,
+       "title": "Leggings Depot Premium Quality Ultra REGULAR and PLUS SIZE Soft Best Selling Capri Cropped",
+       "relevant": true
+      },
+      {
+       "id": 33558,
+       "title": "Print Leggings Black (BlackXXL128(3x-4x))",
+       "relevant": true
+      },
+      {
+       "id": 18802,
+       "title": "MOPAS Solid Knee Length Short Spandex Yoga Leggings 2 Pack (19 inch, Aqua/Black)",
+       "relevant": true
+      },
+      {
+       "id": 46910,
+       "title": "Solid Leggings Solid Black (SLE128-Black-S1)",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "H06",
+     "query": "red handbag",
+     "returned": 10,
+     "relevant": 8,
+     "precision": 0.8,
+     "seconds": 11.3,
+     "matching_products": 6771,
+     "results": [
+      {
+       "id": 40932,
+       "title": "Obosoyo Women Shoulder Tote Satchel Bag Lady Messenger Purse Top Handle Hobo Handbags Wine",
+       "relevant": true
+      },
+      {
+       "id": 11749,
+       "title": "Molodo Womens Satchel Hobo Top Handle Tote Pu Leather Handbag Shoulder Purse (Red)",
+       "relevant": true
+      },
+      {
+       "id": 24160,
+       "title": "PIJUSHI Floral Handbag Ladies Leather Tote Handbags for Women Top Handle Bag (65098 Red Lu",
+       "relevant": true
+      },
+      {
+       "id": 64935,
+       "title": "JOVANAS Fashion Stripe Design Women Street Snap Candid Tote Single Shoulder Canvas Bag Han",
+       "relevant": false
+      },
+      {
+       "id": 30519,
+       "title": "Pavel Handbags for 3 Bags Women Handbag + Shoulder Bags+wallet 3 Piece Set Bag Leather Top",
+       "relevant": false
+      },
+      {
+       "id": 71219,
+       "title": "Fashion Women Korea Simple Style PU leather Clutch Handbag Bag Totes Purse Red",
+       "relevant": true
+      },
+      {
+       "id": 66734,
+       "title": "Women Genuine Leather Shoulder Bag Ladies Fashion Clutch Purses Quilted Crossbody Bags Wit",
+       "relevant": true
+      },
+      {
+       "id": 2296,
+       "title": "BOSTANTEN Handbags for Women Clearance leather purses and handbags Tote Bag Wine Red",
+       "relevant": true
+      },
+      {
+       "id": 36636,
+       "title": "Women's Girls Lips Evening Bag Purses Clutch Vintage Banquet Handbag Chain Crossbody Shoul",
+       "relevant": true
+      },
+      {
+       "id": 26733,
+       "title": "DDDH Messenger Bag Leather Purses Women Handbags Tote Bag Crossbody Handbag(Claret-red)",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "H07",
+     "query": "blue denim jacket",
+     "returned": 10,
+     "relevant": 8,
+     "precision": 0.8,
+     "seconds": 6.69,
+     "matching_products": 4345,
+     "results": [
+      {
+       "id": 26804,
+       "title": "Men Trucker Jacket Woman Denim Jacket Fashion Denim Jacket Classic Denim Jacket Ripped Den",
+       "relevant": true
+      },
+      {
+       "id": 73,
+       "title": "Tanming Women's Casual Lapel Slim Long Sleeve Denim Outercoat Jacket Windbreaker (XX-Large",
+       "relevant": true
+      },
+      {
+       "id": 21020,
+       "title": "Licensed Betty Scoot Biker Denim Jacket DJ-9022",
+       "relevant": false
+      },
+      {
+       "id": 17017,
+       "title": "ABD Women's Juniors Lapel Button Vintage Ripped Distressed Denim Jacket Coat Small Denim B",
+       "relevant": true
+      },
+      {
+       "id": 60829,
+       "title": "chouyatou Men's Classic Notched Collar 3 Button Tailoring Distressed Denim Blazer Jacket",
+       "relevant": false
+      },
+      {
+       "id": 10348,
+       "title": "Buffalo Ladies' Knit Denim Jacket (Blue,X-Large)",
+       "relevant": true
+      },
+      {
+       "id": 39939,
+       "title": "SheIn Women's Classic Long Sleeve Boyfriend Denim Jacket Small Blue",
+       "relevant": true
+      },
+      {
+       "id": 44949,
+       "title": "SheIn Women's Classic Long Sleeve Boyfriend Denim Jacket Large Blue",
+       "relevant": true
+      },
+      {
+       "id": 15316,
+       "title": "Dasior Women's Loose Fit Long Jean Jacket Ripped Broken Denim Coat L Blue",
+       "relevant": true
+      },
+      {
+       "id": 23117,
+       "title": "Plaid&Plain Men's Faded Wash Slim Fit Denim Jacket Classic Trucker Jacket Blue M",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "H08",
+     "query": "silver heels",
+     "returned": 10,
+     "relevant": 8,
+     "precision": 0.8,
+     "seconds": 7.18,
+     "matching_products": 2781,
+     "results": [
+      {
+       "id": 60865,
+       "title": "ElElax Nude Black Silver Heels for Women Chunky, 4 Inches Block High Heels Strappy Womens ",
+       "relevant": true
+      },
+      {
+       "id": 69737,
+       "title": "NBUUNBU Silver Clear Heels For Women Dress Shoes Transparent Strap Sexy Stilletos Heels Op",
+       "relevant": true
+      },
+      {
+       "id": 19067,
+       "title": "Vedolay Women Espadrilles Platform Wedge Sandals Open Toe Strap Strappy Sandals Summer Bea",
+       "relevant": false
+      },
+      {
+       "id": 7764,
+       "title": "Sol Mia Wedding Shoes Comfortable Low Heel Dress Glitter Bridesmaid Prom Designer Slingbac",
+       "relevant": true
+      },
+      {
+       "id": 42131,
+       "title": "ISNOM Silver Platform Heels Sandals for Women, Sexy Stripper Heel Womens Chunky Block Heel",
+       "relevant": true
+      },
+      {
+       "id": 59783,
+       "title": "Ankis Nude Black Silver Gold Heels for Women Open Toe Ankle Strap Chunky Heel Pump Sandals",
+       "relevant": true
+      },
+      {
+       "id": 56902,
+       "title": "Ankis Closed Toe Heels for Women -Black Nude Gold Silver Pointed Toe Heels Low Block Chunk",
+       "relevant": true
+      },
+      {
+       "id": 59324,
+       "title": "V-Luxury Womens 32-ESSENTIAL74 Open Toe Rhinestone Strappy Stiletto High Heel Sandal Shoe,",
+       "relevant": true
+      },
+      {
+       "id": 56284,
+       "title": "IDIFU Women's IN4 Platform Heels Strappy Chunky Heels For Women Dressy Peep Toe High Heels",
+       "relevant": false
+      },
+      {
+       "id": 38332,
+       "title": "MissHeel Lace Up Stiletto Sandals Strappy Rhinestone Heels Iridescent Wrap Around Ankle He",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "H09",
+     "query": "brown leather wallet",
+     "returned": 10,
+     "relevant": 8,
+     "precision": 0.8,
+     "seconds": 4.26,
+     "matching_products": 1764,
+     "results": [
+      {
+       "id": 63646,
+       "title": "Leather Mens Wallet. Minimalist Wallet Credit Card Holder with Money Clip and RFID Wallet ",
+       "relevant": true
+      },
+      {
+       "id": 76557,
+       "title": "Kattee Vintage Women's Genuine Leather Trifold Wallet Brown",
+       "relevant": true
+      },
+      {
+       "id": 66865,
+       "title": "HENGSONG Men US Dollar Bill Wallet PU Leather Credit Card Photo Holder Bifold",
+       "relevant": false
+      },
+      {
+       "id": 73770,
+       "title": "910EB Fine Leather Hand Crafted Mans Man's Mens Men's Mini Wallet ID Credit Card Holder wi",
+       "relevant": true
+      },
+      {
+       "id": 77247,
+       "title": "Levi's Men's Extra Capacity Slimfold Wallet, Dark Brown, One Size",
+       "relevant": false
+      },
+      {
+       "id": 69397,
+       "title": "VULKIT Card Holder Wallet for Mens with ID Windows RFID Blocking Pop Up Wallet Slim Leathe",
+       "relevant": true
+      },
+      {
+       "id": 65169,
+       "title": "RUSTIC TOWN Slim Compact Leather Key Holder Wallet Pouch Gifts Him Her Men Women (Brown)",
+       "relevant": true
+      },
+      {
+       "id": 43724,
+       "title": "WalletBe Women's Leather Crossbody Smartphone Accordion ID Zipper Wallet, with Wristlet (P",
+       "relevant": true
+      },
+      {
+       "id": 76707,
+       "title": "Columbia Men's Leather Extra Capacity Slimfold Wallet",
+       "relevant": true
+      },
+      {
+       "id": 74354,
+       "title": "Travelambo Front Pocket Minimalist Leather Slim Wallet RFID Blocking Medium Size(vintage b",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "H10",
+     "query": "black baseball cap",
+     "returned": 10,
+     "relevant": 9,
+     "precision": 0.9,
+     "seconds": 5.71,
+     "matching_products": 5074,
+     "results": [
+      {
+       "id": 36492,
+       "title": "Mens Baseball Caps by King & Fifth | Womens Baseball Caps + Baseball Hat + Low Profile Fit",
+       "relevant": true
+      },
+      {
+       "id": 48139,
+       "title": "Uber Eats Washed Adjustable Baseball Cap Peaked Cap Dad Hat Unisex Breathable Quick-Drying",
+       "relevant": true
+      },
+      {
+       "id": 4493,
+       "title": "BCDshop Flower Baseball Cap Women Lady Duck Tongue Hat Anti Sai Cap",
+       "relevant": false
+      },
+      {
+       "id": 37801,
+       "title": "Roblox Boys Baseball Cap Snapback Baseball Hat Black",
+       "relevant": true
+      },
+      {
+       "id": 36596,
+       "title": "Muscle-Car-SRT8 Hip Hop Baseball Cap Golf Trucker Baseball Cap Adjustable Peaked Sandwich ",
+       "relevant": true
+      },
+      {
+       "id": 24993,
+       "title": "CafePress Cert Black Cap Baseball Hat, Novelty Black Cap",
+       "relevant": true
+      },
+      {
+       "id": 4509,
+       "title": "Akatsuki Uchiha Family Baseball Caps Leaf Village Baseball Cap Dad Hat (Black)",
+       "relevant": true
+      },
+      {
+       "id": 47399,
+       "title": "Blackskies Obsidian 5-Panel Cap | Black Wine Red Wool Visor Unisex Premium Baseball Cap",
+       "relevant": true
+      },
+      {
+       "id": 8840,
+       "title": "FOOT-ACC Manchester United Cap Soccer Cap Hat New Season - Embroidered Authentic Black Bas",
+       "relevant": true
+      },
+      {
+       "id": 11566,
+       "title": "Cekell Men's and Women's Military Seal Team Clay/Jason Hayes SAS Tactical Baseball Cap Sna",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "H11",
+     "query": "white sandals",
+     "returned": 10,
+     "relevant": 7,
+     "precision": 0.7,
+     "seconds": 4.82,
+     "matching_products": 3457,
+     "results": [
+      {
+       "id": 65390,
+       "title": "WHITE MOUNTAIN Women's Holland Footbed Sandal",
+       "relevant": true
+      },
+      {
+       "id": 2149,
+       "title": "Sandals for Women Platform Gibobby Women's 2019 Comfy Platform Sandal Shoes Summer Beach T",
+       "relevant": false
+      },
+      {
+       "id": 19067,
+       "title": "Vedolay Women Espadrilles Platform Wedge Sandals Open Toe Strap Strappy Sandals Summer Bea",
+       "relevant": false
+      },
+      {
+       "id": 61578,
+       "title": "ZhuLinFeng womens Flats",
+       "relevant": false
+      },
+      {
+       "id": 52298,
+       "title": "WHITE MOUNTAIN Women's Hayleigh Footbed Sandal",
+       "relevant": true
+      },
+      {
+       "id": 8040,
+       "title": "EQUICK Sport Sandals for Women, Open Toe Strap Sandal Anti-skidding Outdoor Water Sandals ",
+       "relevant": true
+      },
+      {
+       "id": 39504,
+       "title": "EQUICK Sport Sandals for Women, Open Toe Strap Sandal Anti-skidding Outdoor Water Sandals ",
+       "relevant": true
+      },
+      {
+       "id": 63095,
+       "title": "WHITE MOUNTAIN Women's Crawford Footbed Sandal",
+       "relevant": true
+      },
+      {
+       "id": 60665,
+       "title": "WHITE MOUNTAIN Women's Harley Footbed Sandal",
+       "relevant": true
+      },
+      {
+       "id": 56421,
+       "title": "WHITE MOUNTAIN Women's Mamba Espadrille Wedge Sandal",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "H12",
+     "query": "women's yellow dress",
+     "returned": 10,
+     "relevant": 9,
+     "precision": 0.9,
+     "seconds": 7.91,
+     "matching_products": 8199,
+     "results": [
+      {
+       "id": 15717,
+       "title": "MUXXN Women's Cute Cap Sleeve Retro Classic Wiggle Midi Dress (Yellow M)",
+       "relevant": true
+      },
+      {
+       "id": 2708,
+       "title": "KORSIS Women's Summer Casual Loose Sleeveless Racerback Long Maxi Swing Dresses with Pocke",
+       "relevant": true
+      },
+      {
+       "id": 17717,
+       "title": "JollieLovin Women's Pockets Casual Swing Loose T-Shirt Dress (7-Yellow, 2X)",
+       "relevant": true
+      },
+      {
+       "id": 47924,
+       "title": "KORSIS Women's Summer Casual Loose Sleeveless Racerback Long Maxi Swing Dresses with Pocke",
+       "relevant": true
+      },
+      {
+       "id": 32507,
+       "title": "Corala Women Off Shoulder Ruffle Long Sleeve Bodycon Party Midi Dress,Yellow,Large",
+       "relevant": true
+      },
+      {
+       "id": 28647,
+       "title": "Fire Kirin Women's Ruffles V-Neck Ruched Cocktail Club Evening Party Falbala Bodycon Dress",
+       "relevant": true
+      },
+      {
+       "id": 49095,
+       "title": "KORSIS Women's Summer Casual Loose Sleeveless Racerback Long Maxi Swing Dresses with Pocke",
+       "relevant": true
+      },
+      {
+       "id": 20107,
+       "title": "Dressystar DS1956 Women Vintage 1950s Retro Rockabilly Prom Dresses Cap-Sleeve S Yellow",
+       "relevant": true
+      },
+      {
+       "id": 74363,
+       "title": "Indian Trends Exclusive Designer Blue and Yellow Grorgette Bollywood Replica Saree",
+       "relevant": false
+      },
+      {
+       "id": 47123,
+       "title": "HUHOT Yellow Dresses for Women Sun Dresses Womens Cotton Sleeveless V Neck Dress with Pock",
+       "relevant": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "catalogue": "v4",
+   "mode": "strict",
+   "queries": 12,
+   "mean_precision": 0.983,
+   "micro_precision": 0.983,
+   "relevant_result_rate": 1.0,
+   "zero_result_queries": 0,
+   "results_returned": 120,
+   "relevant_returned": 118,
+   "median_seconds": 10.04,
+   "per_query": [
+    {
+     "id": "H01",
+     "query": "brown loafers",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 10.71,
+     "matching_products": 109,
+     "results": [
+      {
+       "id": 18540,
+       "title": "MIXIN Men’s Moccasin Slippers Memory Foam Loafers Shoes Dark Brown 14 M US",
+       "relevant": true
+      },
+      {
+       "id": 1523,
+       "title": "MIXIN Men's Casual Anti Slip Rubber Sole Slip on Cozy Loafers Moccasins Slippers (13 M US ",
+       "relevant": true
+      },
+      {
+       "id": 29474,
+       "title": "Men's Cozy Memory Foam Moccasin Slippers Microsuede Slip On Slippers Anti-Slip Loafers Sho",
+       "relevant": true
+      },
+      {
+       "id": 14692,
+       "title": "MIXIN Men's Casual Anti Slip Rubber Sole Slip on Cozy Loafers Moccasins Slippers (13 M US ",
+       "relevant": true
+      },
+      {
+       "id": 39659,
+       "title": "MIXIN Men's Casual Anti Slip Rubber Sole Slip on Cozy Loafers Moccasins Slippers (10 M US ",
+       "relevant": true
+      },
+      {
+       "id": 4801,
+       "title": "CareBey Mens Comfortable Warm and Soft Moccasin Slippers with Anti Slip Rubbler Sole Drivi",
+       "relevant": true
+      },
+      {
+       "id": 76075,
+       "title": "DREAM PAIRS Women's Auzy-01 Fuzzy House Slippers Cozy Faux Fur Micro Suede Moccasins Slip ",
+       "relevant": true
+      },
+      {
+       "id": 49285,
+       "title": "MIXIN Men’s Moccasin Slippers Memory Foam Loafers Shoes Light Brown 15 M US",
+       "relevant": true
+      },
+      {
+       "id": 10352,
+       "title": "shoeslocker Toddler Boys Girls Loafers Casual Boat Shoes Little Kids Slip on School Unifor",
+       "relevant": true
+      },
+      {
+       "id": 18631,
+       "title": "MIXIN Men's Casual Anti Slip Rubber Sole Slip on Cozy Loafers Moccasins Slippers (12 M US ",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "H02",
+     "query": "black skirt",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 7.37,
+     "matching_products": 527,
+     "results": [
+      {
+       "id": 4363,
+       "title": "Maxi Skirt for Women - Long Floral Skirt Great for Travel, Beach, Cocktail or Party (XL, B",
+       "relevant": true
+      },
+      {
+       "id": 4449,
+       "title": "Maxi Skirt for Women - Long Floral Skirt Great for Travel, Beach, Cocktail or Party (M, Bl",
+       "relevant": true
+      },
+      {
+       "id": 1043,
+       "title": "Black Fold Over Waist Skirt Black Knee Length Skirt Black Midi Skirt (Size X-Large, Black)",
+       "relevant": true
+      },
+      {
+       "id": 78140,
+       "title": "Indya Women's Indian Ethnic Black Lehenga Skirt",
+       "relevant": true
+      },
+      {
+       "id": 35011,
+       "title": "Aenlley Womens Basic Shirts Stretchy Short Pleated Circle Flared Skater Skirt Color Black ",
+       "relevant": true
+      },
+      {
+       "id": 45571,
+       "title": "Aenlley Womens Basic Shirts Stretchy Short Pleated Circle Flared Skater Skirt Color Black ",
+       "relevant": true
+      },
+      {
+       "id": 46340,
+       "title": "Zhanmai Women Ruffle Swim Bottom Skirt Elastic Quick-Dry Bikini Skirts Flounced Tankini Sk",
+       "relevant": true
+      },
+      {
+       "id": 5703,
+       "title": "Aenlley Womens Basic Shirts Stretchy Short Pleated Circle Flared Skater Skirt Color Black ",
+       "relevant": true
+      },
+      {
+       "id": 39780,
+       "title": "Aenlley Womens Basic Shirts Stretchy Short Pleated Circle Flared Skater Skirt Color Black ",
+       "relevant": true
+      },
+      {
+       "id": 47218,
+       "title": "Aenlley Womens Basic Shirts Stretchy Short Pleated Circle Flared Skater Skirt Color Black ",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "H03",
+     "query": "white t-shirt",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 8.68,
+     "matching_products": 360,
+     "results": [
+      {
+       "id": 32036,
+       "title": "Zulmaliu Men Tee Shirt, Cute Panda Print T-Shirt Polo Shirts Sportwear Outfit Cool Tank To",
+       "relevant": true
+      },
+      {
+       "id": 19619,
+       "title": "Velucci Womens Tunic Tank Top T-Shirt - Loose Basic Sleeveless Tee Shirt Blouse, (White-M)",
+       "relevant": true
+      },
+      {
+       "id": 52181,
+       "title": "Dream USA Men's Casual 3/4 Sleeve Baseball Tshirt Raglan Jersey Shirt White/.",
+       "relevant": true
+      },
+      {
+       "id": 47221,
+       "title": "Leadingstar Women's Stripe Crew Neck Long Sleeve Loose Casual Blouse T Shirt Tee Shirt Top",
+       "relevant": true
+      },
+      {
+       "id": 27280,
+       "title": "Velucci Womens Tunic Tank Top T-Shirt - Loose Basic Sleeveless Tee Shirt Blouse, (White-XL",
+       "relevant": true
+      },
+      {
+       "id": 33414,
+       "title": "Velucci Womens Tunic Tank Top T-Shirt - Loose Basic Sleeveless Tee Shirt Blouse, (White-L)",
+       "relevant": true
+      },
+      {
+       "id": 40594,
+       "title": "Daupanzees Men's Long Sleeve Embroidered Shirt T-Shirts Slim Fit Tee Shirt Casual Button D",
+       "relevant": true
+      },
+      {
+       "id": 47804,
+       "title": "Zulmaliu Men Tee Shirt, Cute Panda Print T-Shirt Polo Shirts Sportwear Outfit Cool Tank To",
+       "relevant": true
+      },
+      {
+       "id": 48409,
+       "title": "LISTONE Women's T-Shirt 3 4 Sleeve Floral Print Fold Bell sleeves Shirt tops Pink and Whit",
+       "relevant": true
+      },
+      {
+       "id": 48998,
+       "title": "Romwe Women's Half Sleeve V-Neck Striped T-Shirt Tops (M, White)",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "H04",
+     "query": "grey hoodie",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 6.94,
+     "matching_products": 237,
+     "results": [
+      {
+       "id": 21449,
+       "title": "Casual BTS Hoodie Grey Letter Print Long Sleeve Pullover Hooded Sweatshirt, Grey, Tag-L(US",
+       "relevant": true
+      },
+      {
+       "id": 4276,
+       "title": "Aeropostale Womens New York Hoodie Sweatshirt, Grey, Large",
+       "relevant": true
+      },
+      {
+       "id": 24613,
+       "title": "Hemlock Warm Hoodie Coat, Men Winter Slim Jacket Button Outwear Hooded Sweatshirt (M, Grey",
+       "relevant": true
+      },
+      {
+       "id": 14497,
+       "title": "MV Sport Sweatshirt Blanket Poncho Hoodie - Poncho Sweatshirt Hoodie Blanket - Pullover Po",
+       "relevant": true
+      },
+      {
+       "id": 49976,
+       "title": "Musterbrand Halo Men Knit Hoodie UNSC Workout Grey M",
+       "relevant": true
+      },
+      {
+       "id": 42826,
+       "title": "3pcs Adjustable Layering Fake Top Lower Sweeps- Detachable Hoodie Hemlines Half-Length Spl",
+       "relevant": true
+      },
+      {
+       "id": 12525,
+       "title": "Womens Mama Bear Printing Long Sleeves Pullover Shirt Top Casual Hoodie Sweatshirt (XL, Gr",
+       "relevant": true
+      },
+      {
+       "id": 45609,
+       "title": "3pcs Adjustable Layering Fake Top Lower Sweeps- Detachable Hoodie Hemlines Half-Length Spl",
+       "relevant": true
+      },
+      {
+       "id": 13396,
+       "title": "Icon Sport Real Madrid Hoodie Lightweight Fz Summer Light Zip up Jacket Grey Adults (Grey,",
+       "relevant": true
+      },
+      {
+       "id": 40547,
+       "title": "Isaac Morris Super Mario Big Boys Sherpa Fleece Zip Hoodie, Dark Grey, 8",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "H05",
+     "query": "black leggings",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 7.32,
+     "matching_products": 729,
+     "results": [
+      {
+       "id": 21454,
+       "title": "Bamans Leggings for Women, Stretch Mid-Rise Leggings, Not See Through Workout Leggings (Bl",
+       "relevant": true
+      },
+      {
+       "id": 22149,
+       "title": "Leggings Depot Capri Basic Solid Leggings Black",
+       "relevant": true
+      },
+      {
+       "id": 8167,
+       "title": "24 Pack in Black - Wholesale Women's Fleece Lined Bulk Leggings Women's Stretchy Thermal J",
+       "relevant": true
+      },
+      {
+       "id": 16564,
+       "title": "Leggings Depot Basic Solid Cotton Full Length Leggings (XL, Black)",
+       "relevant": true
+      },
+      {
+       "id": 32641,
+       "title": "Leggings Depot Basic Solid Cotton Full Length Leggings (2X, Black)",
+       "relevant": true
+      },
+      {
+       "id": 37586,
+       "title": "OUYISHANG Yoga Pants with Pockets for Women,Workout Leggings,High Waisted Tummy Control Le",
+       "relevant": true
+      },
+      {
+       "id": 11259,
+       "title": "Leggings Depot Premium Quality Ultra REGULAR and PLUS SIZE Soft Best Selling Capri Cropped",
+       "relevant": true
+      },
+      {
+       "id": 33558,
+       "title": "Print Leggings Black (BlackXXL128(3x-4x))",
+       "relevant": true
+      },
+      {
+       "id": 46910,
+       "title": "Solid Leggings Solid Black (SLE128-Black-S1)",
+       "relevant": true
+      },
+      {
+       "id": 3918,
+       "title": "alvon Women Skirted Leggings Workout Leggings with Skirt Athletic Skort with Leggings Hiki",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "H06",
+     "query": "red handbag",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 12.18,
+     "matching_products": 208,
+     "results": [
+      {
+       "id": 11749,
+       "title": "Molodo Womens Satchel Hobo Top Handle Tote Pu Leather Handbag Shoulder Purse (Red)",
+       "relevant": true
+      },
+      {
+       "id": 21356,
+       "title": "Women's Designer Handbags Tote Bag Satchel handbag Shoulder Bags Tote Purse (Red/White)",
+       "relevant": true
+      },
+      {
+       "id": 66734,
+       "title": "Women Genuine Leather Shoulder Bag Ladies Fashion Clutch Purses Quilted Crossbody Bags Wit",
+       "relevant": true
+      },
+      {
+       "id": 40932,
+       "title": "Obosoyo Women Shoulder Tote Satchel Bag Lady Messenger Purse Top Handle Hobo Handbags Wine",
+       "relevant": true
+      },
+      {
+       "id": 36636,
+       "title": "Women's Girls Lips Evening Bag Purses Clutch Vintage Banquet Handbag Chain Crossbody Shoul",
+       "relevant": true
+      },
+      {
+       "id": 9043,
+       "title": "Molodo Womenâ€™s Satchel Hobo Top Handle Tote Shoulder Purse Soft Leather Crossbody Design",
+       "relevant": true
+      },
+      {
+       "id": 24160,
+       "title": "PIJUSHI Floral Handbag Ladies Leather Tote Handbags for Women Top Handle Bag (65098 Red Lu",
+       "relevant": true
+      },
+      {
+       "id": 71219,
+       "title": "Fashion Women Korea Simple Style PU leather Clutch Handbag Bag Totes Purse Red",
+       "relevant": true
+      },
+      {
+       "id": 2296,
+       "title": "BOSTANTEN Handbags for Women Clearance leather purses and handbags Tote Bag Wine Red",
+       "relevant": true
+      },
+      {
+       "id": 26733,
+       "title": "DDDH Messenger Bag Leather Purses Women Handbags Tote Bag Crossbody Handbag(Claret-red)",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "H07",
+     "query": "blue denim jacket",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 9.9,
+     "matching_products": 41,
+     "results": [
+      {
+       "id": 26804,
+       "title": "Men Trucker Jacket Woman Denim Jacket Fashion Denim Jacket Classic Denim Jacket Ripped Den",
+       "relevant": true
+      },
+      {
+       "id": 73,
+       "title": "Tanming Women's Casual Lapel Slim Long Sleeve Denim Outercoat Jacket Windbreaker (XX-Large",
+       "relevant": true
+      },
+      {
+       "id": 17017,
+       "title": "ABD Women's Juniors Lapel Button Vintage Ripped Distressed Denim Jacket Coat Small Denim B",
+       "relevant": true
+      },
+      {
+       "id": 42649,
+       "title": "Dasior Women's Long Loose Fit Ripped Broken Denim Jacket Coat M Blue",
+       "relevant": true
+      },
+      {
+       "id": 15316,
+       "title": "Dasior Women's Loose Fit Long Jean Jacket Ripped Broken Denim Coat L Blue",
+       "relevant": true
+      },
+      {
+       "id": 8024,
+       "title": "Memorose Women Spring Cuffed Sleeve Lapel Blue Denim Thin Coat Cardigan Jacket M",
+       "relevant": true
+      },
+      {
+       "id": 13612,
+       "title": "VIISHOW Women Winter Coat Faux Fur Denim Jacket Slim Fur Collar Coat Outerwear (M, Light B",
+       "relevant": true
+      },
+      {
+       "id": 44949,
+       "title": "SheIn Women's Classic Long Sleeve Boyfriend Denim Jacket Large Blue",
+       "relevant": true
+      },
+      {
+       "id": 39608,
+       "title": "Denim Jacket for Women Distressed Butterfly Denim Long Sleeve Jean Jackets (X-Large, Blue-",
+       "relevant": true
+      },
+      {
+       "id": 10348,
+       "title": "Buffalo Ladies' Knit Denim Jacket (Blue,X-Large)",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "H08",
+     "query": "silver heels",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 10.28,
+     "matching_products": 38,
+     "results": [
+      {
+       "id": 69737,
+       "title": "NBUUNBU Silver Clear Heels For Women Dress Shoes Transparent Strap Sexy Stilletos Heels Op",
+       "relevant": true
+      },
+      {
+       "id": 60865,
+       "title": "ElElax Nude Black Silver Heels for Women Chunky, 4 Inches Block High Heels Strappy Womens ",
+       "relevant": true
+      },
+      {
+       "id": 38332,
+       "title": "MissHeel Lace Up Stiletto Sandals Strappy Rhinestone Heels Iridescent Wrap Around Ankle He",
+       "relevant": true
+      },
+      {
+       "id": 56902,
+       "title": "Ankis Closed Toe Heels for Women -Black Nude Gold Silver Pointed Toe Heels Low Block Chunk",
+       "relevant": true
+      },
+      {
+       "id": 65364,
+       "title": "IDIFU Womens Silver Gold Wedding Shoes for Bride Bridesmaid Low Kitten Peep Toe Heels Dres",
+       "relevant": true
+      },
+      {
+       "id": 67188,
+       "title": "Fabulous Kids Teresa 86K Little Girls Rhinestone Pageant Heels Synthetic Sandals Silver",
+       "relevant": true
+      },
+      {
+       "id": 38246,
+       "title": "Apple2 Silver Round Toe Glitter Mesh Rhinestone Studded Low Platform Pump Heels-7.5",
+       "relevant": true
+      },
+      {
+       "id": 42131,
+       "title": "ISNOM Silver Platform Heels Sandals for Women, Sexy Stripper Heel Womens Chunky Block Heel",
+       "relevant": true
+      },
+      {
+       "id": 59783,
+       "title": "Ankis Nude Black Silver Gold Heels for Women Open Toe Ankle Strap Chunky Heel Pump Sandals",
+       "relevant": true
+      },
+      {
+       "id": 59324,
+       "title": "V-Luxury Womens 32-ESSENTIAL74 Open Toe Rhinestone Strappy Stiletto High Heel Sandal Shoe,",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "H09",
+     "query": "brown leather wallet",
+     "returned": 10,
+     "relevant": 8,
+     "precision": 0.8,
+     "seconds": 7.74,
+     "matching_products": 121,
+     "results": [
+      {
+       "id": 69397,
+       "title": "VULKIT Card Holder Wallet for Mens with ID Windows RFID Blocking Pop Up Wallet Slim Leathe",
+       "relevant": true
+      },
+      {
+       "id": 76557,
+       "title": "Kattee Vintage Women's Genuine Leather Trifold Wallet Brown",
+       "relevant": true
+      },
+      {
+       "id": 74354,
+       "title": "Travelambo Front Pocket Minimalist Leather Slim Wallet RFID Blocking Medium Size(vintage b",
+       "relevant": true
+      },
+      {
+       "id": 77247,
+       "title": "Levi's Men's Extra Capacity Slimfold Wallet, Dark Brown, One Size",
+       "relevant": false
+      },
+      {
+       "id": 63697,
+       "title": "Checkbook Holder Wallet",
+       "relevant": false
+      },
+      {
+       "id": 65169,
+       "title": "RUSTIC TOWN Slim Compact Leather Key Holder Wallet Pouch Gifts Him Her Men Women (Brown)",
+       "relevant": true
+      },
+      {
+       "id": 72098,
+       "title": "Banuce Colored Top Grain Leather Trifold Wallet for Women Small Slim Clutch Purse Card Hol",
+       "relevant": true
+      },
+      {
+       "id": 62399,
+       "title": "Access Denied Slim Minimalist Wallets For Men & Women - Leather Front Pocket Thin Mens Wal",
+       "relevant": true
+      },
+      {
+       "id": 58374,
+       "title": "Jack&Chris Leather Wristlet Wallet, Premium Clutch Wallet Double Zipper Card Cell Phone Ho",
+       "relevant": true
+      },
+      {
+       "id": 43724,
+       "title": "WalletBe Women's Leather Crossbody Smartphone Accordion ID Zipper Wallet, with Wristlet (P",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "H10",
+     "query": "black baseball cap",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 10.17,
+     "matching_products": 1122,
+     "results": [
+      {
+       "id": 36492,
+       "title": "Mens Baseball Caps by King & Fifth | Womens Baseball Caps + Baseball Hat + Low Profile Fit",
+       "relevant": true
+      },
+      {
+       "id": 48139,
+       "title": "Uber Eats Washed Adjustable Baseball Cap Peaked Cap Dad Hat Unisex Breathable Quick-Drying",
+       "relevant": true
+      },
+      {
+       "id": 36596,
+       "title": "Muscle-Car-SRT8 Hip Hop Baseball Cap Golf Trucker Baseball Cap Adjustable Peaked Sandwich ",
+       "relevant": true
+      },
+      {
+       "id": 8840,
+       "title": "FOOT-ACC Manchester United Cap Soccer Cap Hat New Season - Embroidered Authentic Black Bas",
+       "relevant": true
+      },
+      {
+       "id": 37801,
+       "title": "Roblox Boys Baseball Cap Snapback Baseball Hat Black",
+       "relevant": true
+      },
+      {
+       "id": 24993,
+       "title": "CafePress Cert Black Cap Baseball Hat, Novelty Black Cap",
+       "relevant": true
+      },
+      {
+       "id": 4509,
+       "title": "Akatsuki Uchiha Family Baseball Caps Leaf Village Baseball Cap Dad Hat (Black)",
+       "relevant": true
+      },
+      {
+       "id": 5476,
+       "title": "CafePress NX 01 Black Cap Black Text/Command Red Bckground Baseball Hat, Novelty Black Cap",
+       "relevant": true
+      },
+      {
+       "id": 49040,
+       "title": "Army National Guard Veteran Black Cap - Baseball Hat, Novelty Black Cap",
+       "relevant": true
+      },
+      {
+       "id": 47399,
+       "title": "Blackskies Obsidian 5-Panel Cap | Black Wine Red Wool Visor Unisex Premium Baseball Cap",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "H11",
+     "query": "white sandals",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 10.56,
+     "matching_products": 113,
+     "results": [
+      {
+       "id": 17141,
+       "title": "Kiderence Toddler Girls Slides Sandals Kids Sandals Little Girls Shoes White Toddler 12M",
+       "relevant": true
+      },
+      {
+       "id": 14935,
+       "title": "SHIBEVER Wedge Sandals for Women Bohemia Elastic Ankle Strap Sandals White 8",
+       "relevant": true
+      },
+      {
+       "id": 26437,
+       "title": "OMGard Dress Shoes for Girls, Toddler Princess Jelly Sandals Ankle Strap, White Cute Littl",
+       "relevant": true
+      },
+      {
+       "id": 8040,
+       "title": "EQUICK Sport Sandals for Women, Open Toe Strap Sandal Anti-skidding Outdoor Water Sandals ",
+       "relevant": true
+      },
+      {
+       "id": 10764,
+       "title": "KOLILI Women's Sport Walking Sandals | Quick-dry Water Sandals | Comfort for Travel, Beach",
+       "relevant": true
+      },
+      {
+       "id": 46306,
+       "title": "Little Mae’s Boutique Mary Jane White Flower Punch Squeaky Sandals for Toddler Girls, Todd",
+       "relevant": true
+      },
+      {
+       "id": 39504,
+       "title": "EQUICK Sport Sandals for Women, Open Toe Strap Sandal Anti-skidding Outdoor Water Sandals ",
+       "relevant": true
+      },
+      {
+       "id": 15039,
+       "title": "KOLILI Women's Sport Walking Sandals | Quick-dry Water Sandals | Comfort for Travel, Beach",
+       "relevant": true
+      },
+      {
+       "id": 34433,
+       "title": "Little Mae’s Boutique Mary Jane White Flower Punch Squeaky Sandals for Toddler Girls, Todd",
+       "relevant": true
+      },
+      {
+       "id": 36750,
+       "title": "KOLILI Women's Sport Walking Sandals | Quick-dry Water Sandals | Comfort for Travel, Beach",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "H12",
+     "query": "women's yellow dress",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 13.07,
+     "matching_products": 129,
+     "results": [
+      {
+       "id": 15717,
+       "title": "MUXXN Women's Cute Cap Sleeve Retro Classic Wiggle Midi Dress (Yellow M)",
+       "relevant": true
+      },
+      {
+       "id": 28647,
+       "title": "Fire Kirin Women's Ruffles V-Neck Ruched Cocktail Club Evening Party Falbala Bodycon Dress",
+       "relevant": true
+      },
+      {
+       "id": 32507,
+       "title": "Corala Women Off Shoulder Ruffle Long Sleeve Bodycon Party Midi Dress,Yellow,Large",
+       "relevant": true
+      },
+      {
+       "id": 34947,
+       "title": "Women's Summer Floral Bohemian Spaghetti Strap Button Down Swing Midi Dress with Pockets (",
+       "relevant": true
+      },
+      {
+       "id": 47123,
+       "title": "HUHOT Yellow Dresses for Women Sun Dresses Womens Cotton Sleeveless V Neck Dress with Pock",
+       "relevant": true
+      },
+      {
+       "id": 20107,
+       "title": "Dressystar DS1956 Women Vintage 1950s Retro Rockabilly Prom Dresses Cap-Sleeve S Yellow",
+       "relevant": true
+      },
+      {
+       "id": 31072,
+       "title": "Verdusa Women's Short Sleeve Casual Loose Long Maxi Dress with Pockets Yellow XL",
+       "relevant": true
+      },
+      {
+       "id": 2708,
+       "title": "KORSIS Women's Summer Casual Loose Sleeveless Racerback Long Maxi Swing Dresses with Pocke",
+       "relevant": true
+      },
+      {
+       "id": 17717,
+       "title": "JollieLovin Women's Pockets Casual Swing Loose T-Shirt Dress (7-Yellow, 2X)",
+       "relevant": true
+      },
+      {
+       "id": 47924,
+       "title": "KORSIS Women's Summer Casual Loose Sleeveless Racerback Long Maxi Swing Dresses with Pocke",
+       "relevant": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

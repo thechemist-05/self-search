@@ -1,0 +1,26 @@
+# Revision 1 of eval/strict_queries_v4.jsonl (2026-10-23), made AFTER seeing the v4 results.
+# The only change: the saree queries' "none" rule no longer rejects every title containing
+# "blouse", because sarees are sold "with unstitched blouse piece"; it now rejects only blouse
+# products ("saree blouse", "blouse for saree", "readymade blouse", "blouse only").
+# Every other criterion is unchanged (including V02's "art/faux/imitation silk is not silk").
+# The original pre-registered file and its results are kept and reported alongside this one.
+{"id": "V01", "query": "saree", "all": ["\\b(sarees?|saris?|saaree)\\b"], "none": ["\\b((sarees?|saris?)\\s+blouses?|blouses?\\s+(for|with)\\s+(sarees?|saris?)|readymade blouses?|blouses? only|petticoat|shapewear|lehengas?|kurtas?|kurtis?|bags?|potli|earrings?|necklace|doll)\\b"]}
+{"id": "V02", "query": "silk saree", "all": ["\\b(sarees?|saris?)\\b"], "material": "\\bsilk\\b", "none": ["\\b((sarees?|saris?)\\s+blouses?|blouses?\\s+(for|with)\\s+(sarees?|saris?)|readymade blouses?|blouses? only|petticoat|shapewear|lehengas?)\\b", "\\b(art|faux|imitation) silk\\b"]}
+{"id": "V03", "query": "red silk saree under ₹3,000", "all": ["\\b(sarees?|saris?)\\b"], "colour": "\\b(red|maroon|burgundy|crimson|wine red)\\b", "material": "\\bsilk\\b", "none": ["\\b((sarees?|saris?)\\s+blouses?|blouses?\\s+(for|with)\\s+(sarees?|saris?)|readymade blouses?|blouses? only|petticoat|shapewear)\\b"], "max_inr": 3000}
+{"id": "V04", "query": "banarasi saree", "all": ["\\b(sarees?|saris?)\\b", "\\b(banarasi|benarasi|banarsi)\\b"], "none": ["\\b((sarees?|saris?)\\s+blouses?|blouses?\\s+(for|with)\\s+(sarees?|saris?)|readymade blouses?|blouses? only|petticoat)\\b"]}
+{"id": "V05", "query": "cotton saree", "all": ["\\b(sarees?|saris?)\\b"], "material": "\\bcotton\\b", "none": ["\\b((sarees?|saris?)\\s+blouses?|blouses?\\s+(for|with)\\s+(sarees?|saris?)|readymade blouses?|blouses? only|petticoat|shapewear)\\b"]}
+{"id": "V06", "query": "georgette saree", "all": ["\\b(sarees?|saris?)\\b"], "material": "\\bgeorgette\\b", "none": ["\\b((sarees?|saris?)\\s+blouses?|blouses?\\s+(for|with)\\s+(sarees?|saris?)|readymade blouses?|blouses? only|petticoat)\\b"]}
+{"id": "V07", "query": "lehenga", "all": ["\\b(lehengas?|lehngas?|lenghas?|lehangas?|ghagras?|chaniya)\\b"], "none": ["\\b(sarees?|saris?|petticoat|can can|earrings?|necklace|bags?)\\b"]}
+{"id": "V08", "query": "lehnga choli", "all": ["\\b(lehengas?|lehngas?|lenghas?|lehangas?|ghagras?|chaniya)\\b"], "none": ["\\b(sarees?|saris?|petticoat)\\b"]}
+{"id": "V09", "query": "bridal lehenga", "all": ["\\b(lehengas?|lehngas?|lenghas?|lehangas?|ghagras?)\\b"], "occasion": "\\b(bridal|bride|dulhan)\\b", "none": ["\\b(sarees?|petticoat)\\b"]}
+{"id": "V10", "query": "festive lehenga", "all": ["\\b(lehengas?|lehngas?|lenghas?|lehangas?|ghagras?|chaniya)\\b"], "occasion": "\\b(festive|festival|diwali|navratri|garba|eid|puja|pooja)\\b", "none": ["\\b(sarees?|petticoat)\\b"]}
+{"id": "V11", "query": "velvet lehenga", "all": ["\\b(lehengas?|lehngas?|lenghas?|lehangas?|ghagras?)\\b"], "material": "\\bvelvet\\b", "none": ["\\b(sarees?|petticoat)\\b"]}
+{"id": "V12", "query": "earrings", "all": ["\\b(earrings?|jhumk[ai]s?|chandbalis?|ear studs?|ear cuffs?|huggies?)\\b"], "none": ["\\b(necklaces?|pendants?|bracelets?|anklets?|sets?|backs|backings|holders?|organizers?|findings|hooks?)\\b"]}
+{"id": "V13", "query": "jhumkas", "all": ["\\b(earrings?|jhumk[ai]s?|chandbalis?|ear studs?)\\b"], "none": ["\\b(necklaces?|pendants?|bracelets?|sets?|backs|holders?)\\b"]}
+{"id": "V14", "query": "jhumki", "all": ["\\b(earrings?|jhumk[ai]s?|chandbalis?|ear studs?)\\b"], "none": ["\\b(necklaces?|pendants?|bracelets?|sets?|backs|holders?)\\b"]}
+{"id": "V15", "query": "chandbali earrings", "all": ["\\b(chandbalis?|chand bali)\\b"], "none": ["\\b(necklaces?|sets?|backs)\\b"]}
+{"id": "V16", "query": "bridal jhumkas under ₹1,500", "all": ["\\b(earrings?|jhumk[ai]s?|chandbalis?)\\b"], "occasion": "\\b(bridal|bride|dulhan)\\b", "none": ["\\b(necklaces?|sets?|backs)\\b"], "max_inr": 1500}
+{"id": "V17", "query": "oxidised silver jhumka", "all": ["\\b(earrings?|jhumk[ai]s?|chandbalis?)\\b", "\\b(oxidi[sz]ed|german silver)\\b"], "none": ["\\b(necklaces?|sets?|backs)\\b"]}
+{"id": "V18", "query": "pearl stud earrings", "all": ["\\b(earrings?|ear studs?|studs?)\\b"], "material": "\\bpearls?\\b", "none": ["\\b(necklaces?|sets?|backs)\\b"]}
+{"id": "V19", "query": "gold plated earrings under ₹1,000", "all": ["\\b(earrings?|jhumk[ai]s?|chandbalis?|ear studs?|huggies?)\\b"], "material": "\\bgold[- ](plated|plating|tone|toned)\\b", "none": ["\\b(necklaces?|sets?|backs)\\b"], "max_inr": 1000}
+{"id": "V20", "query": "kundan earrings", "all": ["\\b(earrings?|jhumk[ai]s?|chandbalis?)\\b", "\\bkundan\\b"], "none": ["\\b(necklaces?|sets?|backs)\\b"]}

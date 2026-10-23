@@ -1,0 +1,49 @@
+# Streamlit settings for the Self Search UI.
+
+[server]
+# Loopback only for local development. The Docker setup overrides this inside the
+# container and publishes the port on 127.0.0.1 (see docker-compose.yml).
+address = "127.0.0.1"
+port = 8501
+headless = true
+
+[browser]
+# No usage telemetry: Self Search must not send data off the machine.
+gatherUsageStats = false
+
+[client]
+showErrorDetails = false
+toolbarMode = "minimal"
+
+# Visual identity (editorial redesign, 2026-10-22). Colours must match frontend/theme.py PALETTE
+# (contrast-checked by tests). Fonts are Streamlit's bundled, locally served
+# Source Sans 3 / Source Serif 4 / Source Code Pro; nothing is downloaded.
+[theme]
+base = "light"
+primaryColor = "#2346D1"             # cobalt: actions, focus, checkboxes, tabs
+backgroundColor = "#F8F5EF"          # ivory canvas
+secondaryBackgroundColor = "#FFFFFF" # paper: inputs and widget surfaces
+textColor = "#1B1F2B"                # ink
+linkColor = "#1A35A3"
+borderColor = "#867E72"              # control boundaries (>= 3:1 on paper/cream)
+showWidgetBorder = true
+font = "sans-serif"
+headingFont = "serif"
+codeFont = "monospace"
+baseRadius = "0.5rem"
+buttonRadius = "0.5rem"
+headingFontSizes = ["2.75rem", "2rem", "1.5rem", "1.125rem", "1rem", "0.875rem"]
+headingFontWeights = [750, 700, 650, 700, 600, 600]
+# Alert colours follow the same jobs as the palette.
+yellowBackgroundColor = "#FBF0D6"    # mustard tint: caution / offline / fallback
+yellowTextColor = "#6B4B00"
+orangeBackgroundColor = "#FBF0D6"
+orangeTextColor = "#6B4B00"
+redBackgroundColor = "#FCE9E5"       # coral tint: failed validation / errors
+redTextColor = "#AE3426"
+blueBackgroundColor = "#E9EDFB"      # cobalt tint: information / clarification
+blueTextColor = "#1A35A3"
+greenBackgroundColor = "#E2F4EC"     # mint tint: success / verified
+greenTextColor = "#0E6544"
+violetBackgroundColor = "#EFEBFB"    # lavender tint: personal
+violetTextColor = "#5A3DB5"

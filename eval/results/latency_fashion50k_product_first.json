@@ -1,0 +1,909 @@
+{
+  "database": "data\\experiments\\fashion-v3-20261022T085353Z\\shelfsense.db",
+  "index_dir": "data\\experiments\\fashion-v3-20261022T085353Z\\vector_store",
+  "queries_file": "eval\\fashion_queries.jsonl",
+  "query_parser_mode": "rules_first",
+  "ollama_timeout_s": 110,
+  "runs": [
+    {
+      "model": "llama3.2:3b",
+      "warmup_seconds": 2.5,
+      "summary": {
+        "queries": 12,
+        "turns": 26,
+        "search_latency_seconds": {
+          "median": 1.36,
+          "mean": 1.35,
+          "max": 3.1
+        },
+        "searches_calling_the_model": 0,
+        "summary_latency_seconds": {
+          "median": 51.8,
+          "mean": 53.1,
+          "max": 62.9
+        },
+        "followup_latency_seconds": {
+          "median": 38.8,
+          "mean": 38.8,
+          "max": 44.7
+        },
+        "prompt_tokens_evaluated": {
+          "median": 1068.0,
+          "min": 725,
+          "max": 1163
+        },
+        "answered": 14,
+        "llm_success_rate": 1.0,
+        "fallback_rate": 0.0,
+        "fallback_reasons": {},
+        "output_validity": {
+          "first_attempt_valid_rate": 1.0,
+          "answers_needing_retry": 0,
+          "invalid_after_retries": 0
+        },
+        "evidence_compliance_llm_answers": {
+          "answers": 14,
+          "all_claims_supported_rate": 0.071,
+          "mean_support_rate": 0.44,
+          "claims": 45,
+          "unsupported_claims": 24,
+          "fabricated_citations": 0,
+          "cross_product_mismatches": 11,
+          "numeric_mismatches": 0
+        },
+        "latency_seconds": {
+          "median": 51.5,
+          "mean": 51.1,
+          "max": 62.9
+        },
+        "model_calls": 14,
+        "model_call_errors": {},
+        "relevant_retrieved_rate": null
+      },
+      "queries": [
+        {
+          "query_id": "F01",
+          "kind": "search",
+          "query": "Find running shoes",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "908caeb5-32db-42b2-a72f-e4b60d2c042f",
+          "seconds": 3.1,
+          "products_shown": 10,
+          "evidence_items": 6,
+          "answer_prompt_chars": 0,
+          "model_calls": [],
+          "mode": "none",
+          "reason": "summary_not_requested",
+          "attempts": null,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 0,
+            "supported_claims": 0,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "F01+summary",
+          "kind": "summary",
+          "query": "Find running shoes",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "908caeb5-32db-42b2-a72f-e4b60d2c042f",
+          "seconds": 51.64,
+          "products_shown": 10,
+          "evidence_items": 6,
+          "answer_prompt_chars": 3697,
+          "model_calls": [
+            {
+              "seconds": 51.64,
+              "ok": true,
+              "prompt_eval_count": 1029,
+              "prompt_eval_duration": 27105009000,
+              "eval_count": 135,
+              "eval_duration": 22345561000,
+              "load_duration": 21072400
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 3,
+            "supported_claims": 2,
+            "unsupported_claims": 1,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 1,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.6667,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "F02",
+          "kind": "search",
+          "query": "Find running shoes under \u20b93000",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "56df8b4d-3fef-4da0-9dea-b4eabe4922d1",
+          "seconds": 0.68,
+          "products_shown": 10,
+          "evidence_items": 6,
+          "answer_prompt_chars": 0,
+          "model_calls": [],
+          "mode": "none",
+          "reason": "summary_not_requested",
+          "attempts": null,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 0,
+            "supported_claims": 0,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "F02+summary",
+          "kind": "summary",
+          "query": "Find running shoes under \u20b93000",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "56df8b4d-3fef-4da0-9dea-b4eabe4922d1",
+          "seconds": 51.29,
+          "products_shown": 10,
+          "evidence_items": 6,
+          "answer_prompt_chars": 3791,
+          "model_calls": [
+            {
+              "seconds": 51.28,
+              "ok": true,
+              "prompt_eval_count": 1067,
+              "prompt_eval_duration": 30579851000,
+              "eval_count": 122,
+              "eval_duration": 18537547000,
+              "load_duration": 18933800
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 0,
+            "unsupported_claims": 2,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 1,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.0,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "F03",
+          "kind": "search",
+          "query": "women's summer dress",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "6b278cb6-fb01-4b54-8b0f-d84ae38920bd",
+          "seconds": 1.32,
+          "products_shown": 10,
+          "evidence_items": 6,
+          "answer_prompt_chars": 0,
+          "model_calls": [],
+          "mode": "none",
+          "reason": "summary_not_requested",
+          "attempts": null,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 0,
+            "supported_claims": 0,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "F03+summary",
+          "kind": "summary",
+          "query": "women's summer dress",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "6b278cb6-fb01-4b54-8b0f-d84ae38920bd",
+          "seconds": 51.96,
+          "products_shown": 10,
+          "evidence_items": 6,
+          "answer_prompt_chars": 3835,
+          "model_calls": [
+            {
+              "seconds": 51.95,
+              "ok": true,
+              "prompt_eval_count": 1069,
+              "prompt_eval_duration": 26917743000,
+              "eval_count": 159,
+              "eval_duration": 22850898000,
+              "load_duration": 17640400
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 3,
+            "supported_claims": 1,
+            "unsupported_claims": 2,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 1,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.3333,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "F04",
+          "kind": "search",
+          "query": "men's leather wallet",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "b1048777-fcfb-45ad-9979-9dd1c5ad95da",
+          "seconds": 1.62,
+          "products_shown": 10,
+          "evidence_items": 6,
+          "answer_prompt_chars": 0,
+          "model_calls": [],
+          "mode": "none",
+          "reason": "summary_not_requested",
+          "attempts": null,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 0,
+            "supported_claims": 0,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "F04+summary",
+          "kind": "summary",
+          "query": "men's leather wallet",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "b1048777-fcfb-45ad-9979-9dd1c5ad95da",
+          "seconds": 53.51,
+          "products_shown": 10,
+          "evidence_items": 6,
+          "answer_prompt_chars": 3191,
+          "model_calls": [
+            {
+              "seconds": 53.5,
+              "ok": true,
+              "prompt_eval_count": 917,
+              "prompt_eval_duration": 21312975000,
+              "eval_count": 214,
+              "eval_duration": 29988758000,
+              "load_duration": 32928800
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 4,
+            "supported_claims": 2,
+            "unsupported_claims": 2,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 1,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.5,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "F05",
+          "kind": "search",
+          "query": "comfortable sandals for walking",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "9cb8d1d2-5355-4775-8815-e5f4971d6e44",
+          "seconds": 1.58,
+          "products_shown": 10,
+          "evidence_items": 6,
+          "answer_prompt_chars": 0,
+          "model_calls": [],
+          "mode": "none",
+          "reason": "summary_not_requested",
+          "attempts": null,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 0,
+            "supported_claims": 0,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "F05+summary",
+          "kind": "summary",
+          "query": "comfortable sandals for walking",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "9cb8d1d2-5355-4775-8815-e5f4971d6e44",
+          "seconds": 47.62,
+          "products_shown": 10,
+          "evidence_items": 6,
+          "answer_prompt_chars": 3869,
+          "model_calls": [
+            {
+              "seconds": 47.61,
+              "ok": true,
+              "prompt_eval_count": 1120,
+              "prompt_eval_duration": 28513588000,
+              "eval_count": 119,
+              "eval_duration": 16928678000,
+              "load_duration": 16718000
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 1,
+            "unsupported_claims": 1,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.5,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "F06",
+          "kind": "search",
+          "query": "waterproof winter boots",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "6f2f137f-f565-40b6-86a2-52626e1e7151",
+          "seconds": 1.42,
+          "products_shown": 10,
+          "evidence_items": 6,
+          "answer_prompt_chars": 0,
+          "model_calls": [],
+          "mode": "none",
+          "reason": "summary_not_requested",
+          "attempts": null,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 0,
+            "supported_claims": 0,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "F06+summary",
+          "kind": "summary",
+          "query": "waterproof winter boots",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "6f2f137f-f565-40b6-86a2-52626e1e7151",
+          "seconds": 62.53,
+          "products_shown": 10,
+          "evidence_items": 6,
+          "answer_prompt_chars": 3907,
+          "model_calls": [
+            {
+              "seconds": 62.53,
+              "ok": true,
+              "prompt_eval_count": 1087,
+              "prompt_eval_duration": 27433046000,
+              "eval_count": 218,
+              "eval_duration": 32901775999,
+              "load_duration": 20395700
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 4,
+            "supported_claims": 1,
+            "unsupported_claims": 3,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.25,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "F07",
+          "kind": "search",
+          "query": "women's handbag 4+ stars",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "abfd9f41-9522-41c4-b040-70543a27c1ef",
+          "seconds": 1.41,
+          "products_shown": 10,
+          "evidence_items": 6,
+          "answer_prompt_chars": 0,
+          "model_calls": [],
+          "mode": "none",
+          "reason": "summary_not_requested",
+          "attempts": null,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 0,
+            "supported_claims": 0,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "F07+summary",
+          "kind": "summary",
+          "query": "women's handbag 4+ stars",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "abfd9f41-9522-41c4-b040-70543a27c1ef",
+          "seconds": 62.92,
+          "products_shown": 10,
+          "evidence_items": 6,
+          "answer_prompt_chars": 4135,
+          "model_calls": [
+            {
+              "seconds": 62.91,
+              "ok": true,
+              "prompt_eval_count": 1157,
+              "prompt_eval_duration": 29177396000,
+              "eval_count": 213,
+              "eval_duration": 31513816000,
+              "load_duration": 21206300
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 5,
+            "supported_claims": 3,
+            "unsupported_claims": 2,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 2,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.6,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "F08",
+          "kind": "search",
+          "query": "backpack for school under \u20b92000",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "1bdd012a-3092-4882-b552-a52a8c0f1db6",
+          "seconds": 0.46,
+          "products_shown": 10,
+          "evidence_items": 6,
+          "answer_prompt_chars": 0,
+          "model_calls": [],
+          "mode": "none",
+          "reason": "summary_not_requested",
+          "attempts": null,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 0,
+            "supported_claims": 0,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "F08+summary",
+          "kind": "summary",
+          "query": "backpack for school under \u20b92000",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "1bdd012a-3092-4882-b552-a52a8c0f1db6",
+          "seconds": 49.91,
+          "products_shown": 10,
+          "evidence_items": 6,
+          "answer_prompt_chars": 3898,
+          "model_calls": [
+            {
+              "seconds": 49.9,
+              "ok": true,
+              "prompt_eval_count": 1077,
+              "prompt_eval_duration": 26956851000,
+              "eval_count": 146,
+              "eval_duration": 20738474000,
+              "load_duration": 20108100
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 3,
+            "supported_claims": 1,
+            "unsupported_claims": 2,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 1,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.3333,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "F09",
+          "kind": "search",
+          "query": "leggings with pockets",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "b8bc6295-1cf9-4cff-9bf7-50cedd876fa7",
+          "seconds": 0.89,
+          "products_shown": 10,
+          "evidence_items": 6,
+          "answer_prompt_chars": 0,
+          "model_calls": [],
+          "mode": "none",
+          "reason": "summary_not_requested",
+          "attempts": null,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 0,
+            "supported_claims": 0,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "F09+summary",
+          "kind": "summary",
+          "query": "leggings with pockets",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "b8bc6295-1cf9-4cff-9bf7-50cedd876fa7",
+          "seconds": 56.76,
+          "products_shown": 10,
+          "evidence_items": 6,
+          "answer_prompt_chars": 3638,
+          "model_calls": [
+            {
+              "seconds": 56.75,
+              "ok": true,
+              "prompt_eval_count": 1015,
+              "prompt_eval_duration": 25097828000,
+              "eval_count": 189,
+              "eval_duration": 29499651000,
+              "load_duration": 23800300
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 4,
+            "supported_claims": 3,
+            "unsupported_claims": 1,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 1,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.75,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "F10",
+          "kind": "search",
+          "query": "white sneakers",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "e4f97269-fa05-44a5-9a43-d70cee8e4f13",
+          "seconds": 2.4,
+          "products_shown": 10,
+          "evidence_items": 6,
+          "answer_prompt_chars": 0,
+          "model_calls": [],
+          "mode": "none",
+          "reason": "summary_not_requested",
+          "attempts": null,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 0,
+            "supported_claims": 0,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "F10+summary",
+          "kind": "summary",
+          "query": "white sneakers",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "e4f97269-fa05-44a5-9a43-d70cee8e4f13",
+          "seconds": 52.0,
+          "products_shown": 10,
+          "evidence_items": 6,
+          "answer_prompt_chars": 3130,
+          "model_calls": [
+            {
+              "seconds": 51.98,
+              "ok": true,
+              "prompt_eval_count": 904,
+              "prompt_eval_duration": 25277447000,
+              "eval_count": 144,
+              "eval_duration": 24522558000,
+              "load_duration": 16325300
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 3,
+            "supported_claims": 1,
+            "unsupported_claims": 2,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 1,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.3333,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "F10>1",
+          "kind": "followup",
+          "query": "compare the first two",
+          "intent": "COMPARE",
+          "session_id": "e4f97269-fa05-44a5-9a43-d70cee8e4f13",
+          "seconds": 44.66,
+          "products_shown": 2,
+          "evidence_items": 4,
+          "answer_prompt_chars": 2565,
+          "model_calls": [
+            {
+              "seconds": 44.65,
+              "ok": true,
+              "prompt_eval_count": 737,
+              "prompt_eval_duration": 13745159000,
+              "eval_count": 208,
+              "eval_duration": 28766807000,
+              "load_duration": 22452400
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 5,
+            "supported_claims": 2,
+            "unsupported_claims": 3,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 1,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.4,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "F11",
+          "kind": "search",
+          "query": "hiking boots",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "16348643-3b02-4c1d-98e7-0497595106d9",
+          "seconds": 0.82,
+          "products_shown": 10,
+          "evidence_items": 6,
+          "answer_prompt_chars": 0,
+          "model_calls": [],
+          "mode": "none",
+          "reason": "summary_not_requested",
+          "attempts": null,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 0,
+            "supported_claims": 0,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "F11+summary",
+          "kind": "summary",
+          "query": "hiking boots",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "16348643-3b02-4c1d-98e7-0497595106d9",
+          "seconds": 47.8,
+          "products_shown": 10,
+          "evidence_items": 6,
+          "answer_prompt_chars": 3842,
+          "model_calls": [
+            {
+              "seconds": 47.79,
+              "ok": true,
+              "prompt_eval_count": 1078,
+              "prompt_eval_duration": 25758478000,
+              "eval_count": 136,
+              "eval_duration": 19914414000,
+              "load_duration": 19938700
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 3,
+            "supported_claims": 3,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "F11>1",
+          "kind": "followup",
+          "query": "is the first one comfortable for long walks?",
+          "intent": "PRODUCT_QUESTION",
+          "session_id": "16348643-3b02-4c1d-98e7-0497595106d9",
+          "seconds": 32.96,
+          "products_shown": 1,
+          "evidence_items": 3,
+          "answer_prompt_chars": 2629,
+          "model_calls": [
+            {
+              "seconds": 32.95,
+              "ok": true,
+              "prompt_eval_count": 725,
+              "prompt_eval_duration": 13570808000,
+              "eval_count": 131,
+              "eval_duration": 17206944000,
+              "load_duration": 16316500
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 1,
+            "unsupported_claims": 1,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.5,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "F12",
+          "kind": "search",
+          "query": "polarized sunglasses",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "9d0ad9fe-cc69-4f02-8e95-05d6f2b31004",
+          "seconds": 0.45,
+          "products_shown": 10,
+          "evidence_items": 6,
+          "answer_prompt_chars": 0,
+          "model_calls": [],
+          "mode": "none",
+          "reason": "summary_not_requested",
+          "attempts": null,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 0,
+            "supported_claims": 0,
+            "unsupported_claims": 0,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 1.0,
+            "is_valid": true
+          }
+        },
+        {
+          "query_id": "F12+summary",
+          "kind": "summary",
+          "query": "polarized sunglasses",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "9d0ad9fe-cc69-4f02-8e95-05d6f2b31004",
+          "seconds": 49.61,
+          "products_shown": 10,
+          "evidence_items": 6,
+          "answer_prompt_chars": 4296,
+          "model_calls": [
+            {
+              "seconds": 49.6,
+              "ok": true,
+              "prompt_eval_count": 1163,
+              "prompt_eval_duration": 30040285000,
+              "eval_count": 118,
+              "eval_duration": 17409343000,
+              "load_duration": 21490600
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 0,
+            "unsupported_claims": 2,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 1,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.0,
+            "is_valid": false
+          }
+        }
+      ]
+    }
+  ]
+}

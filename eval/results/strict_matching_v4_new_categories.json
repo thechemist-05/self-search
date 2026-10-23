@@ -1,0 +1,2402 @@
+{
+ "summary": [
+  {
+   "catalogue": "v4",
+   "mode": "relaxed",
+   "queries": 20,
+   "mean_precision": 0.605,
+   "micro_precision": 0.605,
+   "relevant_result_rate": 0.85,
+   "zero_result_queries": 0,
+   "results_returned": 200,
+   "relevant_returned": 121,
+   "median_seconds": 9.81
+  },
+  {
+   "catalogue": "v4",
+   "mode": "strict",
+   "queries": 20,
+   "mean_precision": 0.705,
+   "micro_precision": 0.74,
+   "relevant_result_rate": 0.85,
+   "zero_result_queries": 1,
+   "results_returned": 181,
+   "relevant_returned": 134,
+   "median_seconds": 5.7
+  }
+ ],
+ "runs": [
+  {
+   "catalogue": "v4",
+   "mode": "relaxed",
+   "queries": 20,
+   "mean_precision": 0.605,
+   "micro_precision": 0.605,
+   "relevant_result_rate": 0.85,
+   "zero_result_queries": 0,
+   "results_returned": 200,
+   "relevant_returned": 121,
+   "median_seconds": 9.81,
+   "per_query": [
+    {
+     "id": "V01",
+     "query": "saree",
+     "returned": 10,
+     "relevant": 2,
+     "precision": 0.2,
+     "seconds": 11.18,
+     "matching_products": 1419,
+     "results": [
+      {
+       "id": 78194,
+       "title": "Anantdiva Women's Soft Cotton Silk Saree Indian Wedding Fancy Party Wear Bollywood Style S",
+       "relevant": true
+      },
+      {
+       "id": 76113,
+       "title": "Shonaya Indian Women`S Party Wear Banarasi Silk Saree With Unstitched Blouse Piece (Orange",
+       "relevant": false
+      },
+      {
+       "id": 75385,
+       "title": "Jaanvi fashion Women's Peackock Printed Crepe Silk Kalamkari Printed Saree with Unstitched",
+       "relevant": false
+      },
+      {
+       "id": 72308,
+       "title": "Jaanvi fashion Women's Bhagaluri Silk Paisley Printed Saree with Unstitched Blouse(Sai_pal",
+       "relevant": false
+      },
+      {
+       "id": 77621,
+       "title": "Jaanvi fashion Women's Marble Chiffon Printed Saree with Lace with Unstitched Blouse(sapna",
+       "relevant": false
+      },
+      {
+       "id": 73772,
+       "title": "Jaanvi fashion Women's Crepe Printed Saree with Unstitched Blouse(extreme-7504-c)",
+       "relevant": false
+      },
+      {
+       "id": 73605,
+       "title": "Banday Collections Blue & White Velvet Saree with Stone and Embroidered Work Net Saree Wom",
+       "relevant": true
+      },
+      {
+       "id": 75943,
+       "title": "Jaanvi fashion Women's Elegant Crepe Silk Printed Saree With Unstitched Blouse(9405)",
+       "relevant": false
+      },
+      {
+       "id": 60886,
+       "title": "Indian Women Saree Wedding Traditional Gift Printed Designer Saree Bridal Collection Silk ",
+       "relevant": false
+      },
+      {
+       "id": 78081,
+       "title": "Regent Women’s Multi Colors Bhagalpuri Printed Designer Bandhani Saree with Blouse Piese W",
+       "relevant": false
+      }
+     ]
+    },
+    {
+     "id": "V02",
+     "query": "silk saree",
+     "returned": 10,
+     "relevant": 0,
+     "precision": 0.0,
+     "seconds": 4.94,
+     "matching_products": 1419,
+     "results": [
+      {
+       "id": 76113,
+       "title": "Shonaya Indian Women`S Party Wear Banarasi Silk Saree With Unstitched Blouse Piece (Orange",
+       "relevant": false
+      },
+      {
+       "id": 75958,
+       "title": "PISARA Women Kanjivaram Silk Cotton Saree with Blouse Piece,Cream Sari, Multi-colored, Lar",
+       "relevant": false
+      },
+      {
+       "id": 60886,
+       "title": "Indian Women Saree Wedding Traditional Gift Printed Designer Saree Bridal Collection Silk ",
+       "relevant": false
+      },
+      {
+       "id": 76006,
+       "title": "DREAMANGEL FASHION Womens Art Silk Woven Banarasi Saree with Unstitched Blouse",
+       "relevant": false
+      },
+      {
+       "id": 71205,
+       "title": "KANCHNAR Women's White Khadi Silk Varli Printed Saree with Unstitched Blouse",
+       "relevant": false
+      },
+      {
+       "id": 71302,
+       "title": "Shonaya Indian Women`S Party Wear Banarasi Art Silk Embellished Saree with Unstitched Blou",
+       "relevant": false
+      },
+      {
+       "id": 76392,
+       "title": "Viva N Diva Sarees for Women's Embroidered Cotton Silk Woven Saree with Un-Stiched Blouse ",
+       "relevant": false
+      },
+      {
+       "id": 76095,
+       "title": "Nivah Fashion Women's Jacquard Pure Banarasi Silk Saree with Heavy Work Blouse Piece",
+       "relevant": false
+      },
+      {
+       "id": 74301,
+       "title": "Kanchnar Women's Art Silk Printed Saree with Unstitched Blouse",
+       "relevant": false
+      },
+      {
+       "id": 70967,
+       "title": "Shonaya Women's Bhaglpuri Art Silk Printed Saree With Unstitched Blouse Piece (Green)",
+       "relevant": false
+      }
+     ]
+    },
+    {
+     "id": "V03",
+     "query": "red silk saree under ₹3,000",
+     "returned": 10,
+     "relevant": 0,
+     "precision": 0.0,
+     "seconds": 3.27,
+     "matching_products": 215,
+     "results": [
+      {
+       "id": 74860,
+       "title": "Elina fashion Pack of Two Saree for Women Cotton Silk Woven Sarees | Indian Ethnic Wedding",
+       "relevant": false
+      },
+      {
+       "id": 60227,
+       "title": "Elina fashion Sarees For Women Linen Silk Woven Saree || Indian Wedding Gift Sari with Uns",
+       "relevant": false
+      },
+      {
+       "id": 75333,
+       "title": "Elina fashion Pack of Two Sarees for Women Mysore Art Silk Printed Indian Wedding Saree | ",
+       "relevant": false
+      },
+      {
+       "id": 76129,
+       "title": "Elina fashion Pack of Two Sarees for Women Mysore Art Silk Printed Indian Wedding Sari || ",
+       "relevant": false
+      },
+      {
+       "id": 75963,
+       "title": "Elina fashion Pack of Two Sarees for Women Mysore Art Silk Printed Sarees Combo | Indian E",
+       "relevant": false
+      },
+      {
+       "id": 74370,
+       "title": "SIRIL Women's Woven Patta Poly Silk Saree With Blouse",
+       "relevant": false
+      },
+      {
+       "id": 52577,
+       "title": "Elina fashion Sarees For Women Banarasi Art Silk Woven Saree l Indian Wedding Traditional ",
+       "relevant": false
+      },
+      {
+       "id": 76959,
+       "title": "Jaanvi fashion Women's Crepe Silk Floral Printed Saree Pink-With Unstitched Blouse",
+       "relevant": false
+      },
+      {
+       "id": 76877,
+       "title": "Sarees for Women Crepe Silk Woven Saree l Indian Ethnic Wedding Gift Sari with Unstitched ",
+       "relevant": false
+      },
+      {
+       "id": 74204,
+       "title": "Sarees For Women Cotton Silk Woven Saree l Indian Wedding Gift Sari with Unstitched Blouse",
+       "relevant": false
+      }
+     ]
+    },
+    {
+     "id": "V04",
+     "query": "banarasi saree",
+     "returned": 10,
+     "relevant": 2,
+     "precision": 0.2,
+     "seconds": 4.78,
+     "matching_products": 1419,
+     "results": [
+      {
+       "id": 73099,
+       "title": "Women's Banarasi Silk Woven Work Saree Indian Wedding Ethnic Sari with Unstitch Blouse Pie",
+       "relevant": false
+      },
+      {
+       "id": 73927,
+       "title": "Sarees for Women Banarasi Art Silk Woven Saree l Indian Wedding Ethnic Sari & Blouse Piece",
+       "relevant": false
+      },
+      {
+       "id": 73917,
+       "title": "Sarees for Women Banarasi Art Silk Woven Saree l Indian Ethnic Wedding Gift Sari with Unst",
+       "relevant": false
+      },
+      {
+       "id": 76624,
+       "title": "Delisa Fashion Sarees for Women Banarasi Art Silk Woven Work Saree l Indian Wedding Tradit",
+       "relevant": false
+      },
+      {
+       "id": 63694,
+       "title": "Women`s Wear Saree Made from Banarasi Soft Silk Saree with Reach Heavy Border Casual Wear",
+       "relevant": true
+      },
+      {
+       "id": 67384,
+       "title": "Elina fashion Sarees For Women Banarasi Art Silk l Indian Rakhi Wedding Diwali Gift Sari w",
+       "relevant": false
+      },
+      {
+       "id": 71646,
+       "title": "Sarees for Women Banarasi Art Silk Woven Work Saree l Indian Ethnic Wear Wedding Sari with",
+       "relevant": false
+      },
+      {
+       "id": 56512,
+       "title": "Elina fashion Pack of Two Sarees for Women Banarasi Art Silk Woven Saree || Indian Wedding",
+       "relevant": true
+      },
+      {
+       "id": 78284,
+       "title": "Sarees for Women Banarasi Art Silk Woven Saree - Ethnic Indian Gift Traditional Gift Sari ",
+       "relevant": false
+      },
+      {
+       "id": 72873,
+       "title": "Elina fashion Sarees For Women Banarasi Art Silk l Traditional Indian Wedding Gift Sari wi",
+       "relevant": false
+      }
+     ]
+    },
+    {
+     "id": "V05",
+     "query": "cotton saree",
+     "returned": 10,
+     "relevant": 1,
+     "precision": 0.1,
+     "seconds": 5.44,
+     "matching_products": 1419,
+     "results": [
+      {
+       "id": 56241,
+       "title": "Sarees For Women Cotton Silk Printed Saree || Ethnic Traditional Indian Wedding Gift Sari ",
+       "relevant": false
+      },
+      {
+       "id": 78024,
+       "title": "Shonaya Indian Women`S Party Wear Cotton Silk Saree with Unstitched Blouse Piece (Grey Bla",
+       "relevant": false
+      },
+      {
+       "id": 78212,
+       "title": "RK Indian Store Women Cotton Silk Style Saree with Blouse Piece (Multi-Color_Free_Size) Ke",
+       "relevant": false
+      },
+      {
+       "id": 75958,
+       "title": "PISARA Women Kanjivaram Silk Cotton Saree with Blouse Piece,Cream Sari, Multi-colored, Lar",
+       "relevant": false
+      },
+      {
+       "id": 78246,
+       "title": "Sarees For Women Cotton Art Silk Woven Saree ||Ethnic Traditional Indian Wedding Gift Sari",
+       "relevant": false
+      },
+      {
+       "id": 70343,
+       "title": "MAHICH SAREE WOMEN'S Soft Cotton Silk Foil Printed For Women Half Sarees Beautiful free si",
+       "relevant": false
+      },
+      {
+       "id": 74907,
+       "title": "Jaanvi fashion Women's Printed Cotton Saree",
+       "relevant": true
+      },
+      {
+       "id": 70609,
+       "title": "Shonaya Women's Woven Cotton Silk Red Designer Saree With Unstitched Blouse Piece",
+       "relevant": false
+      },
+      {
+       "id": 73876,
+       "title": "TexStile Women Cotton Yellow Colour Designer Saree_Beige Chexs",
+       "relevant": false
+      },
+      {
+       "id": 77616,
+       "title": "Shonaya Women's Woven Work Cotton Silk Pink Designer Saree With Unstitched Blouse Piece",
+       "relevant": false
+      }
+     ]
+    },
+    {
+     "id": "V06",
+     "query": "georgette saree",
+     "returned": 10,
+     "relevant": 1,
+     "precision": 0.1,
+     "seconds": 4.92,
+     "matching_products": 1419,
+     "results": [
+      {
+       "id": 67548,
+       "title": "Indian Saree Sari Frill Ruffle Border Bollywood Georgette Work Ruffle Saree White",
+       "relevant": true
+      },
+      {
+       "id": 78335,
+       "title": "Triveni Women's Indian Red Colored Embroidered Faux Georgette Wedding Saree with Unstitche",
+       "relevant": false
+      },
+      {
+       "id": 78575,
+       "title": "Shonaya Women's Embroidered Yellow Color Georgette Saree with Unstitched Blouse Piece, Fre",
+       "relevant": false
+      },
+      {
+       "id": 77954,
+       "title": "DREAMANGEL FASHION Womens Georgette Sequence Party Wear Saree with UnStitched Blouse",
+       "relevant": false
+      },
+      {
+       "id": 78309,
+       "title": "Shonaya Women's Georgette Printed Saree with Unstitched Blouse Piece",
+       "relevant": false
+      },
+      {
+       "id": 75132,
+       "title": "Shonaya Women's Zari Embroidered Georgette Blue Designer Saree With Unstitched Blouse Piec",
+       "relevant": false
+      },
+      {
+       "id": 61464,
+       "title": "Women's Partywear Pure Georgette Saree With Unstitched Blouse",
+       "relevant": false
+      },
+      {
+       "id": 78252,
+       "title": "MAHEK Women's Georgette crochet sequince saree with Digital Printed Saree with Blouse Piec",
+       "relevant": false
+      },
+      {
+       "id": 75738,
+       "title": "Shonaya Women's Embroidered Faux Georgette Red Designer Saree With Unstitched Blouse Piece",
+       "relevant": false
+      },
+      {
+       "id": 78239,
+       "title": "Kalagiri Georgette Plain Saree with Unstiched Blouse Piece Saree for Women's",
+       "relevant": false
+      }
+     ]
+    },
+    {
+     "id": "V07",
+     "query": "lehenga",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 9.86,
+     "matching_products": 256,
+     "results": [
+      {
+       "id": 77925,
+       "title": "Aglare Ethnic Indan Vintage Banjara Gujrat Traditonal Garba,navratri,gujarat,kuch chaniya ",
+       "relevant": true
+      },
+      {
+       "id": 71056,
+       "title": "Ustaad Women's Fashion Heavy Embroidered Heavy Lehenga Choli Free Size Red",
+       "relevant": true
+      },
+      {
+       "id": 78174,
+       "title": "REKHA Readymade Lehenga Choli Designer Lehenga Choli Party Wear Lehenga Choli Wending Lehe",
+       "relevant": true
+      },
+      {
+       "id": 75802,
+       "title": "REKHA Pink Lehenga Ethnic Party Wear Lehenga Choli Digital Printed Lehenga Choli Digital S",
+       "relevant": true
+      },
+      {
+       "id": 78463,
+       "title": "Ethnic Indian Party Wear Lehenga Choli Latest Lehenga Choli Designer Wedding Wear Lehenga ",
+       "relevant": true
+      },
+      {
+       "id": 75826,
+       "title": "REKHA Lehenga Choli Embroidery Lehenga Choli Readymade Lehenga Choli Wedding Lehenga Choli",
+       "relevant": true
+      },
+      {
+       "id": 75928,
+       "title": "REKHA Lehenga Choli Indian Lehenga Black Lehenga Choli Digital Printed Lehenga Choli Party",
+       "relevant": true
+      },
+      {
+       "id": 77981,
+       "title": "REKHA Fantam Lehenga Choli Embroidery Lehenga Choli Readymade Lehenga Choli Wedding Leheng",
+       "relevant": true
+      },
+      {
+       "id": 78075,
+       "title": "REKHA Satin Banglory Party Wear Pink Lehenga Choli Latest Lehenga Choli Embroidery Work Le",
+       "relevant": true
+      },
+      {
+       "id": 78452,
+       "title": "WEMERA TRENDS Womens Rani pink Colour Embroidered Attractive Party Wear Silk Lehenga choli",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "V08",
+     "query": "lehnga choli",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 9.67,
+     "matching_products": 256,
+     "results": [
+      {
+       "id": 76320,
+       "title": "FOCIL Fully Stiched Lehnga Choli, Chaniya Choli,Ghagra Choli Dress for Girls",
+       "relevant": true
+      },
+      {
+       "id": 75118,
+       "title": "Semi-Stitched Lehenga Choli For Women, Net Embroidered Semi-Stitched Lehenga Choli Christm",
+       "relevant": true
+      },
+      {
+       "id": 73613,
+       "title": "SKY VIEW FASHION Indian Festival party wear wedding bridal lengha choli Christmas gift leh",
+       "relevant": true
+      },
+      {
+       "id": 66072,
+       "title": "skyview fashion Wedding Traditional Ethinc Shop Bridal Embroidery Indian Bollywood Designe",
+       "relevant": true
+      },
+      {
+       "id": 77409,
+       "title": "K&U Girls' Peach & Offwhite Lehenga Choli",
+       "relevant": true
+      },
+      {
+       "id": 76963,
+       "title": "Kotharis Indian Lehenga Blouse For Womens Dupatta || Hand Embroidered Silk Blend Stitched ",
+       "relevant": true
+      },
+      {
+       "id": 77452,
+       "title": "Ashwini Girls' Netted Lehenga Choli",
+       "relevant": true
+      },
+      {
+       "id": 77415,
+       "title": "HELLY FASHION Women Stitched Designer Lehenga Choli With Dupatta | Digital Printed Indian ",
+       "relevant": true
+      },
+      {
+       "id": 74196,
+       "title": "HELLY FASHION Helly Fashions Women's Stitched Designer Lehenga Choli With Dupatta | Digita",
+       "relevant": true
+      },
+      {
+       "id": 78019,
+       "title": "Women's Net Lehenga Choli Indian Party, Wedding Wear Designer Wedding Bollywood Wear Lehng",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "V09",
+     "query": "bridal lehenga",
+     "returned": 10,
+     "relevant": 8,
+     "precision": 0.8,
+     "seconds": 10.09,
+     "matching_products": 256,
+     "results": [
+      {
+       "id": 76136,
+       "title": "Firststepp Girls's lehanga, Bridal Lehenga, Lehenga for Girls, Lehenga Choli for Girls Wed",
+       "relevant": true
+      },
+      {
+       "id": 71999,
+       "title": "Ustaad Multicolor Embroidered Faux Georgett Lehenga Choli (Buy 1 Get 1 Free)",
+       "relevant": true
+      },
+      {
+       "id": 72904,
+       "title": "Ustaad Red Beige Georgette Party and Wedding Indian Lehenga Choli Designer Lehenga",
+       "relevant": true
+      },
+      {
+       "id": 71056,
+       "title": "Ustaad Women's Fashion Heavy Embroidered Heavy Lehenga Choli Free Size Red",
+       "relevant": true
+      },
+      {
+       "id": 75796,
+       "title": "Ustaad Women's Net Lehenga Choli",
+       "relevant": true
+      },
+      {
+       "id": 73931,
+       "title": "REKHA Ethinc Shop Traditional Bridal Wedding Lehenga Choli Orange Color with Net Duptta A3",
+       "relevant": true
+      },
+      {
+       "id": 77185,
+       "title": "EthnicDresses Eid Fashionable Design Anarkali Lehenga Women's Colorful",
+       "relevant": true
+      },
+      {
+       "id": 78182,
+       "title": "DULAREE FAB Indian Womens Attractive Black Lehenga Choli | Mirror Work Lehenga Choli |Semi",
+       "relevant": false
+      },
+      {
+       "id": 78527,
+       "title": "DULAREE FAB Indian Womens Attractive Pink Lehenga Choli | Floral Work |Semi- Stitched Lehe",
+       "relevant": false
+      },
+      {
+       "id": 74640,
+       "title": "Nivah Fashion Embroidery Unstitched Lehenga Choli for Women Indian Wedding Wear",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "V10",
+     "query": "festive lehenga",
+     "returned": 10,
+     "relevant": 7,
+     "precision": 0.7,
+     "seconds": 9.76,
+     "matching_products": 256,
+     "results": [
+      {
+       "id": 75124,
+       "title": "Kanchnar Women's Beige Banarsi Silk Lehenga Choli",
+       "relevant": true
+      },
+      {
+       "id": 78485,
+       "title": "TRADITIONINDIA Dupion Silk Party & Wedding Wear Lehenga Choli for Kids (2-3 Year), Hot Pin",
+       "relevant": true
+      },
+      {
+       "id": 72027,
+       "title": "Indya Women's Lavender Lehenga Skirt Floral Foil",
+       "relevant": false
+      },
+      {
+       "id": 72794,
+       "title": "Flawnt Multicolor Traditional Cotton Lehenga Choli",
+       "relevant": true
+      },
+      {
+       "id": 78304,
+       "title": "Janasya Women's Olive Green Foil Printed Crepe Lehenga Choli With Pant",
+       "relevant": false
+      },
+      {
+       "id": 78321,
+       "title": "Janasya Indian Women's Maroon Rayon Ethnic Motifs Foil Print Lehenga Choli With Dupatta",
+       "relevant": false
+      },
+      {
+       "id": 78019,
+       "title": "Women's Net Lehenga Choli Indian Party, Wedding Wear Designer Wedding Bollywood Wear Lehng",
+       "relevant": true
+      },
+      {
+       "id": 78275,
+       "title": "Festive Collection Wedding/Party Wear Indian Kids Dress Girls Lehenga Choli/Sharara Suit",
+       "relevant": true
+      },
+      {
+       "id": 78523,
+       "title": "Lehenga For Women's Beautiful Yellow Readymade Designer Lehenga With Jacket Crop Top India",
+       "relevant": true
+      },
+      {
+       "id": 66531,
+       "title": "TRADITIONINDIA Green Chanderi & Dupion Fabric Short Sleeve Weeding Wear Pattu Pavadai Lehe",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "V11",
+     "query": "velvet lehenga",
+     "returned": 10,
+     "relevant": 0,
+     "precision": 0.0,
+     "seconds": 9.75,
+     "matching_products": 256,
+     "results": [
+      {
+       "id": 76876,
+       "title": "REKHA Ethinc Shop Bridal Embroidery Work Indian Bollywood Designer Lehenga Choli A330",
+       "relevant": false
+      },
+      {
+       "id": 77834,
+       "title": "Rehsha Women Pakistani Wedding Jacket Pattern Lehenga",
+       "relevant": false
+      },
+      {
+       "id": 73993,
+       "title": "Chandrakala Banarasi Lehenga Choli Dupatta Set for Women Indian Wedding Dress Bollywood Em",
+       "relevant": false
+      },
+      {
+       "id": 78357,
+       "title": "DesiButik Wedding Wear Alluring Off White Jacquard Silk Lehenga Choli with Dupatta",
+       "relevant": false
+      },
+      {
+       "id": 66228,
+       "title": "JAY SAREES Designer Bollywood Ethnic Traditional Suit",
+       "relevant": false
+      },
+      {
+       "id": 72904,
+       "title": "Ustaad Red Beige Georgette Party and Wedding Indian Lehenga Choli Designer Lehenga",
+       "relevant": false
+      },
+      {
+       "id": 75796,
+       "title": "Ustaad Women's Net Lehenga Choli",
+       "relevant": false
+      },
+      {
+       "id": 71999,
+       "title": "Ustaad Multicolor Embroidered Faux Georgett Lehenga Choli (Buy 1 Get 1 Free)",
+       "relevant": false
+      },
+      {
+       "id": 78510,
+       "title": "Ustaad Heavy Fogg Printed Lehenga Choli With Un-Stitched Blouse Piece",
+       "relevant": false
+      },
+      {
+       "id": 71056,
+       "title": "Ustaad Women's Fashion Heavy Embroidered Heavy Lehenga Choli Free Size Red",
+       "relevant": false
+      }
+     ]
+    },
+    {
+     "id": "V12",
+     "query": "earrings",
+     "returned": 10,
+     "relevant": 8,
+     "precision": 0.8,
+     "seconds": 12.16,
+     "matching_products": 6618,
+     "results": [
+      {
+       "id": 73943,
+       "title": "Kawaii Earrings Aesthetic Earrings Bunny Earring Cool Earrings Kawaii Jewelry Cute Earring",
+       "relevant": true
+      },
+      {
+       "id": 50463,
+       "title": "PLOMFOV 20G Stainless Steel Stud Earrings for Women Men CZ Heart Star Moon Flat Back Earri",
+       "relevant": true
+      },
+      {
+       "id": 58718,
+       "title": "24 Pairs Weird Cute Earrings Drop Dangle Earrings for Women Girls Planet Astronaut Moon an",
+       "relevant": true
+      },
+      {
+       "id": 73207,
+       "title": "Chanteur Hypoallergenic Earrings For Girls | Leverback Heart Hoop Earrings for Girls | Gir",
+       "relevant": true
+      },
+      {
+       "id": 65090,
+       "title": "30 Pairs Assorted Stainless Steel Stud Earrings for Teen Girls - Hypoallergenic Stud Earri",
+       "relevant": true
+      },
+      {
+       "id": 71904,
+       "title": "ZowBinBin 925 Sterling Silver Pearl Earrings,Beautiful Fashion White Pearl Dangle Earrings",
+       "relevant": true
+      },
+      {
+       "id": 73056,
+       "title": "LUYI 28/35 Pairs Weird Cute Earrings Funny Kawaii Earrings Indie Funky Cool Earrings Inclu",
+       "relevant": true
+      },
+      {
+       "id": 70275,
+       "title": "Chanteur Hypoallergenic Earrings For Girls | Screw Back Earrings for Girls | Baby Earrings",
+       "relevant": false
+      },
+      {
+       "id": 72655,
+       "title": "33/30 Pairs Hypoallergenic Earrings for Girls Sensitive Ears with Stainless Steel Post -As",
+       "relevant": true
+      },
+      {
+       "id": 65411,
+       "title": "45 Pairs Gold Hoop Earrings for Girls Women, Chunky Twisted Small Big Hoops Earring Packs ",
+       "relevant": false
+      }
+     ]
+    },
+    {
+     "id": "V13",
+     "query": "jhumkas",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 11.54,
+     "matching_products": 6618,
+     "results": [
+      {
+       "id": 65101,
+       "title": "GiftPiper German Silver Asymmetric Jhumkas",
+       "relevant": true
+      },
+      {
+       "id": 70410,
+       "title": "Bodha 18k Antique Gold Plated Traditional Indian Jhumka Earrings (SJ_748)",
+       "relevant": true
+      },
+      {
+       "id": 71210,
+       "title": "GiftPiper Oxidized Metal Jhumkas/Jhumkis-White Beads",
+       "relevant": true
+      },
+      {
+       "id": 71895,
+       "title": "Traditional Indian Fashion Jewelry Gold Plated Jhumka Earrings",
+       "relevant": true
+      },
+      {
+       "id": 78556,
+       "title": "Indian Earrings for Women Jhumka Earrings for Girls Silver Boho Beaded Tassels Earrings In",
+       "relevant": true
+      },
+      {
+       "id": 77851,
+       "title": "Pahal Traditional Tribal Oxidized Silver Jhumka Earrings Ethnic Indian Wedding Jewelry",
+       "relevant": true
+      },
+      {
+       "id": 78476,
+       "title": "Pahal Traditional Bollywood South Indian Gold Silver Jhumka Earrings White Pearl Wedding J",
+       "relevant": true
+      },
+      {
+       "id": 66182,
+       "title": "Abhooshan Women's Pair Of Boat Shape Indian Jhumkis In Silver Alloy With Ear Wire",
+       "relevant": true
+      },
+      {
+       "id": 73962,
+       "title": "Pahal Bollywood Jadau Pink Big Gold Jhumka Earrings Indian Traditional Party Wear Wedding ",
+       "relevant": true
+      },
+      {
+       "id": 74687,
+       "title": "Jwellmart Afghani Partywear Indian Oxidized Mirror Work Dangle Jhumka Jhumki Fashion Earri",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "V14",
+     "query": "jhumki",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 11.18,
+     "matching_products": 6618,
+     "results": [
+      {
+       "id": 73573,
+       "title": "Indian Silver Oxidized Ethnic Bollywood Afghani Gypsy Tribal Designer Retro Fashion Bead G",
+       "relevant": true
+      },
+      {
+       "id": 75783,
+       "title": "The Jewelbox Peacock 22K Gold Plated Red Blue Green Pearl CZ Jhumki Earring for Women Chri",
+       "relevant": true
+      },
+      {
+       "id": 78295,
+       "title": "Indian Antique Jewelry Classic Designer Jhumki Earrings Gold by Maayra MY636E",
+       "relevant": true
+      },
+      {
+       "id": 78558,
+       "title": "Indian Antique Jewelry Great Stone Work Jhumki Earrings Gold by Maayra MY2378",
+       "relevant": true
+      },
+      {
+       "id": 78259,
+       "title": "Mehrunnisa Rajwada Kundan & Pearls Five Jhumkis Long Earrings With Attached Nine Jhumki & ",
+       "relevant": true
+      },
+      {
+       "id": 76666,
+       "title": "Zephyrr Fashion Junk Tibetan Beaded Hook Jhumki Earrings For Women",
+       "relevant": true
+      },
+      {
+       "id": 73944,
+       "title": "Bindhani Tribal Oxidized Silver Plated Brass Indian Jhumka Jhumki Earrings Jewelry For Wom",
+       "relevant": true
+      },
+      {
+       "id": 78263,
+       "title": "Rajwada Arts Women's Studded Traditional Jhumki Golden, Red, White",
+       "relevant": true
+      },
+      {
+       "id": 78233,
+       "title": "Bindhani Indian Bollywood Style Ethnic Jhumka Jhumki Earrings Jewelry Wedding Bridal Wear",
+       "relevant": true
+      },
+      {
+       "id": 72755,
+       "title": "Zephyrr Fashion German Silver Light weight Hook Jhumki Earrings with Pearls",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "V15",
+     "query": "chandbali earrings",
+     "returned": 10,
+     "relevant": 8,
+     "precision": 0.8,
+     "seconds": 11.21,
+     "matching_products": 6618,
+     "results": [
+      {
+       "id": 75049,
+       "title": "Jwellmart Indian Ethnic Partywear Wedding Gold Plated Chandbali Jhumka CZ Stone Earrings T",
+       "relevant": false
+      },
+      {
+       "id": 73061,
+       "title": "Jwellmart Indian Ethnic Partywear Traditional Gold Plated Lightweight Chandbali Kundan Ear",
+       "relevant": false
+      },
+      {
+       "id": 77907,
+       "title": "Bodha Antique Gold Afghani Chandbali Earrings (SJ_1352)",
+       "relevant": true
+      },
+      {
+       "id": 66030,
+       "title": "Silk Thread Chandbali Earrings With Designer Studs Beautiful Earrings",
+       "relevant": true
+      },
+      {
+       "id": 69456,
+       "title": "Bodha 925 Antique Silver Oxidised Afghani Chandbali Earrings (SJ_1353)",
+       "relevant": true
+      },
+      {
+       "id": 78162,
+       "title": "Zephyrr Fashion German Silver Turkish Style Beaded Chandbali Earrings for Women",
+       "relevant": true
+      },
+      {
+       "id": 72970,
+       "title": "Bodha Silver Antique Oxidised Afghani Chandbali Earrings with Pearl Hanging for Women (SJ_",
+       "relevant": true
+      },
+      {
+       "id": 69168,
+       "title": "Bodha Antique Silver Stylish Oxidised Afghani Chandbali Earrings (SJ_1418)",
+       "relevant": true
+      },
+      {
+       "id": 73740,
+       "title": "Zephyrr Fashion German Gold Chandbali Hoop Earrings with Pearls for Women",
+       "relevant": true
+      },
+      {
+       "id": 71552,
+       "title": "Zephyrr Traditional Hanging Pierced Chandbali Earrings with Zircons for Women",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "V16",
+     "query": "bridal jhumkas under ₹1,500",
+     "returned": 10,
+     "relevant": 8,
+     "precision": 0.8,
+     "seconds": 3.24,
+     "matching_products": 3111,
+     "results": [
+      {
+       "id": 59135,
+       "title": "Bindhani Bollywood Style Bridal Bridemaids Traditional Ethnic Fashion Wedding Jewelry Gold",
+       "relevant": true
+      },
+      {
+       "id": 73717,
+       "title": "Jewel India Handmade Ethnic Bollywood Traditional Wedding Bridal Party-wear Gold Plated In",
+       "relevant": true
+      },
+      {
+       "id": 75160,
+       "title": "Pahal Ethnic Oxidized Antique Multicolor Pearl Kundan Big Round Silver Jhumka Earrings Ind",
+       "relevant": true
+      },
+      {
+       "id": 71298,
+       "title": "Crunchy Fashion Gold Plated Stylish Traditional Indian Wedding Jewelry Ethnic Bridal Bride",
+       "relevant": true
+      },
+      {
+       "id": 78249,
+       "title": "Crunchy Fashion Bollywood Jewellery Traditional Ethnic Bridal Bride Wedding Bridesmaid Oxi",
+       "relevant": true
+      },
+      {
+       "id": 52850,
+       "title": "Jhumka Tassel Drop Earrings Bridal For Women Ethnic Afghan Gold Oorbellen Vintage Boho Tri",
+       "relevant": true
+      },
+      {
+       "id": 73869,
+       "title": "Bindhani Bollywood Style Peacock Colorful Meenakari Gold Plated Traditional Indian Jhumka ",
+       "relevant": false
+      },
+      {
+       "id": 74143,
+       "title": "Seakuur Bell Tassel Indian Vintage Bollywood Gypsy Gold Silver Plated Traditional Jhumka J",
+       "relevant": false
+      },
+      {
+       "id": 58272,
+       "title": "Efulgenz Indian Bollywood Bridal Designer Jewelry Oxidized Traditional Jhumka Jhumki Hoop ",
+       "relevant": true
+      },
+      {
+       "id": 68138,
+       "title": "Crunchy Fashion Bollywood Jewellery Traditional Ethnic Bridal Bride Wedding Bridesmaid Oxi",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "V17",
+     "query": "oxidised silver jhumka",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 11.42,
+     "matching_products": 6618,
+     "results": [
+      {
+       "id": 69456,
+       "title": "Bodha 925 Antique Silver Oxidised Afghani Chandbali Earrings (SJ_1353)",
+       "relevant": true
+      },
+      {
+       "id": 61040,
+       "title": "GEODE DELIGHT Women's Ethnic Red Beads Oxidized Silver Plated Jhumki Jhumka Earring",
+       "relevant": true
+      },
+      {
+       "id": 73573,
+       "title": "Indian Silver Oxidized Ethnic Bollywood Afghani Gypsy Tribal Designer Retro Fashion Bead G",
+       "relevant": true
+      },
+      {
+       "id": 71470,
+       "title": "Bodha Silver Plated Oxidised Dangle Drop Designer Jhumki Earrings for Women, Girls (SJ_144",
+       "relevant": true
+      },
+      {
+       "id": 69701,
+       "title": "Bodha Silver Plated Oxidised Elephant Jhumka Earring with Pearl Hanging for Women (SJ_1459",
+       "relevant": true
+      },
+      {
+       "id": 78097,
+       "title": "Jaipur Mart Indian Traditional Look Oxidised Plated Handmade Jhumka Jhumki Earrings Gift F",
+       "relevant": true
+      },
+      {
+       "id": 78146,
+       "title": "Bodha Traditional Indian Stylish Oxidised Silver Designer Chandbali Jhumka Earring for Gir",
+       "relevant": true
+      },
+      {
+       "id": 71188,
+       "title": "Ardour Oxidised Silver Indian Handmade Jhumka Jhumki Earrings Jewellery with Free Gift Box",
+       "relevant": true
+      },
+      {
+       "id": 77675,
+       "title": "Geode Delight Indian Oxidised Silver Black Jhumki Jhumka Earring Jewelry for Women & Girls",
+       "relevant": true
+      },
+      {
+       "id": 71897,
+       "title": "Jaipur Mart Oxidised Plated Jhumka Earrings Silver Jewellery Gift For Women",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "V18",
+     "query": "pearl stud earrings",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 11.09,
+     "matching_products": 6618,
+     "results": [
+      {
+       "id": 61433,
+       "title": "ZowBinBin Cat Earrings 18K White Gold Plated 925 Sterling Silver Cat Ear Stud Earrings,Fre",
+       "relevant": true
+      },
+      {
+       "id": 70818,
+       "title": "ZowBinBin Cute\"Animal Series\" Pearl Stud Earrings 925 Sterling Silver Handpicked Freshwate",
+       "relevant": true
+      },
+      {
+       "id": 63359,
+       "title": "Han han 925 Sterling Silver Dainty Pearl Earrings for Women, 18K White Gold Plated CZ Diam",
+       "relevant": true
+      },
+      {
+       "id": 74393,
+       "title": "ZDaoBen Lovely Cat Earrings for Women 925 Sterling Silver Cat Pearl Earrings with Freshwat",
+       "relevant": true
+      },
+      {
+       "id": 66654,
+       "title": "Pearl Earrings for Women, Freshwater Cultured White Pearl Stud Drop Earrings Sterling Silv",
+       "relevant": true
+      },
+      {
+       "id": 77741,
+       "title": "Alyc Pearl Teardrop Earrings,AAA+Freshwater Cultrued Pearl Dangle 925 Sterling Silver Hook",
+       "relevant": true
+      },
+      {
+       "id": 70351,
+       "title": "Pearl Drop Earrings for Women, Boho Faux Pearl Earrings Gold Dangle Stud Earrings Geometri",
+       "relevant": true
+      },
+      {
+       "id": 68063,
+       "title": "Fashion 9-10mm Pearl Earrings Pearl for Women Jewelry of Platinum Plating Oblate Freshwate",
+       "relevant": true
+      },
+      {
+       "id": 71012,
+       "title": "Rakumi Tiny Pearl Studs Earrings Sterling Silver 3mm Round AAAA White Freshwater Pearl Ear",
+       "relevant": true
+      },
+      {
+       "id": 75290,
+       "title": "Amazon Collection AuraPearl 14k Gold AA Quality White Freshwater Cultured Pearl Stud Earri",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "V19",
+     "query": "gold plated earrings under ₹1,000",
+     "returned": 10,
+     "relevant": 7,
+     "precision": 0.7,
+     "seconds": 2.05,
+     "matching_products": 1555,
+     "results": [
+      {
+       "id": 78248,
+       "title": "Jewar Earrings Gold Plated Elegant Traditional Wedding Festive Wear Pearl Polki Ad Cz Hand",
+       "relevant": true
+      },
+      {
+       "id": 64301,
+       "title": "Gold and Luster Women Jewelry Drop Dangle Earrings Set Diamond Cut Silver And Gold Plated ",
+       "relevant": false
+      },
+      {
+       "id": 63822,
+       "title": "KEZEF 14K Gold Plated Sterling Silver Ball Stud Earrings for Women and Kids 2mm - 10mm | 1",
+       "relevant": true
+      },
+      {
+       "id": 70552,
+       "title": "CZYJEW Gold Dangle Earring, Mini Drop Earring, 18K Gold or Rhodium Plated Dangle Earring, ",
+       "relevant": false
+      },
+      {
+       "id": 67253,
+       "title": "14K Gold Plated Earrings Cubic Zirconia Simulated Diamond Stud Earrings for Women Men (2 P",
+       "relevant": true
+      },
+      {
+       "id": 68593,
+       "title": "White Gold Plated Flower Opal Stud Earrings Hypoallergenic Jewelry Gift for Women",
+       "relevant": true
+      },
+      {
+       "id": 68336,
+       "title": "Twisted Chunky Hoop Earrings 14K Gold Plated Dainty Lightweight Hypoallergenic Open Hoops ",
+       "relevant": true
+      },
+      {
+       "id": 68717,
+       "title": "18K White Gold Plated Earrings Rainbow Quartz Halo CZ Created Mystic Topaz Stud Earrings H",
+       "relevant": true
+      },
+      {
+       "id": 69788,
+       "title": "Opal Stud Earrings 18K Gold Plated Tiny Gemstone Birthstone Stacking Earrings for Women Gi",
+       "relevant": true
+      },
+      {
+       "id": 74103,
+       "title": "ERLUER Women's Mickey Stud Earrings Mouse Shape Rose Gold Platinum Plated Zircon Crystal F",
+       "relevant": false
+      }
+     ]
+    },
+    {
+     "id": "V20",
+     "query": "kundan earrings",
+     "returned": 10,
+     "relevant": 9,
+     "precision": 0.9,
+     "seconds": 11.52,
+     "matching_products": 6618,
+     "results": [
+      {
+       "id": 78248,
+       "title": "Jewar Earrings Gold Plated Elegant Traditional Wedding Festive Wear Pearl Polki Ad Cz Hand",
+       "relevant": true
+      },
+      {
+       "id": 77303,
+       "title": "Bodha Traditional Indian Gold Plated Antique Traditional Peacock Jhumka With CZ, LCT Cryst",
+       "relevant": true
+      },
+      {
+       "id": 72212,
+       "title": "TIPTOP-Ethnic Traditional Dangle Kundan Green Beads Earrings Jhumka Bridal Jewelry",
+       "relevant": true
+      },
+      {
+       "id": 56083,
+       "title": "Accessher Chandbali Earrings Bollywood Jewelry Indian Earrings for Women Traditional India",
+       "relevant": true
+      },
+      {
+       "id": 72145,
+       "title": "Dancing Girl Black Bollywood Jewelry Kundan Traditional Pearl Kundan Indian Earrings for W",
+       "relevant": true
+      },
+      {
+       "id": 77384,
+       "title": "Mehrunnisa Traditional Kundan & Pearls Big Chand Bali Earrings With Free Kan Chain For Wom",
+       "relevant": true
+      },
+      {
+       "id": 71474,
+       "title": "Bodha Traditional Indian 24K Gold Plated Traditional Ethnic Jhumka With CZ, LCT Crystals,K",
+       "relevant": true
+      },
+      {
+       "id": 69001,
+       "title": "Mehrunnisa Nine Jhumkis Chand Bali Earrings with Pearls Kundan & Free Kan Chain for Women ",
+       "relevant": true
+      },
+      {
+       "id": 77967,
+       "title": "Finekraft Kundan Choker necklace Wedding Wear Jewelry with Earrings, Passa, Tikka",
+       "relevant": false
+      },
+      {
+       "id": 73692,
+       "title": "Mehrunnisa Traditional Uncut Kundan & Pearls Double Chand Bali Green Earrings with Kan Cha",
+       "relevant": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "catalogue": "v4",
+   "mode": "strict",
+   "queries": 20,
+   "mean_precision": 0.705,
+   "micro_precision": 0.74,
+   "relevant_result_rate": 0.85,
+   "zero_result_queries": 1,
+   "results_returned": 181,
+   "relevant_returned": 134,
+   "median_seconds": 5.7,
+   "per_query": [
+    {
+     "id": "V01",
+     "query": "saree",
+     "returned": 10,
+     "relevant": 2,
+     "precision": 0.2,
+     "seconds": 6.57,
+     "matching_products": 1313,
+     "results": [
+      {
+       "id": 78194,
+       "title": "Anantdiva Women's Soft Cotton Silk Saree Indian Wedding Fancy Party Wear Bollywood Style S",
+       "relevant": true
+      },
+      {
+       "id": 76113,
+       "title": "Shonaya Indian Women`S Party Wear Banarasi Silk Saree With Unstitched Blouse Piece (Orange",
+       "relevant": false
+      },
+      {
+       "id": 75385,
+       "title": "Jaanvi fashion Women's Peackock Printed Crepe Silk Kalamkari Printed Saree with Unstitched",
+       "relevant": false
+      },
+      {
+       "id": 72308,
+       "title": "Jaanvi fashion Women's Bhagaluri Silk Paisley Printed Saree with Unstitched Blouse(Sai_pal",
+       "relevant": false
+      },
+      {
+       "id": 77621,
+       "title": "Jaanvi fashion Women's Marble Chiffon Printed Saree with Lace with Unstitched Blouse(sapna",
+       "relevant": false
+      },
+      {
+       "id": 73772,
+       "title": "Jaanvi fashion Women's Crepe Printed Saree with Unstitched Blouse(extreme-7504-c)",
+       "relevant": false
+      },
+      {
+       "id": 73605,
+       "title": "Banday Collections Blue & White Velvet Saree with Stone and Embroidered Work Net Saree Wom",
+       "relevant": true
+      },
+      {
+       "id": 75943,
+       "title": "Jaanvi fashion Women's Elegant Crepe Silk Printed Saree With Unstitched Blouse(9405)",
+       "relevant": false
+      },
+      {
+       "id": 60886,
+       "title": "Indian Women Saree Wedding Traditional Gift Printed Designer Saree Bridal Collection Silk ",
+       "relevant": false
+      },
+      {
+       "id": 78081,
+       "title": "Regent Women’s Multi Colors Bhagalpuri Printed Designer Bandhani Saree with Blouse Piese W",
+       "relevant": false
+      }
+     ]
+    },
+    {
+     "id": "V02",
+     "query": "silk saree",
+     "returned": 10,
+     "relevant": 0,
+     "precision": 0.0,
+     "seconds": 5.25,
+     "matching_products": 627,
+     "results": [
+      {
+       "id": 76113,
+       "title": "Shonaya Indian Women`S Party Wear Banarasi Silk Saree With Unstitched Blouse Piece (Orange",
+       "relevant": false
+      },
+      {
+       "id": 75958,
+       "title": "PISARA Women Kanjivaram Silk Cotton Saree with Blouse Piece,Cream Sari, Multi-colored, Lar",
+       "relevant": false
+      },
+      {
+       "id": 60886,
+       "title": "Indian Women Saree Wedding Traditional Gift Printed Designer Saree Bridal Collection Silk ",
+       "relevant": false
+      },
+      {
+       "id": 76006,
+       "title": "DREAMANGEL FASHION Womens Art Silk Woven Banarasi Saree with Unstitched Blouse",
+       "relevant": false
+      },
+      {
+       "id": 71205,
+       "title": "KANCHNAR Women's White Khadi Silk Varli Printed Saree with Unstitched Blouse",
+       "relevant": false
+      },
+      {
+       "id": 71302,
+       "title": "Shonaya Indian Women`S Party Wear Banarasi Art Silk Embellished Saree with Unstitched Blou",
+       "relevant": false
+      },
+      {
+       "id": 76392,
+       "title": "Viva N Diva Sarees for Women's Embroidered Cotton Silk Woven Saree with Un-Stiched Blouse ",
+       "relevant": false
+      },
+      {
+       "id": 76095,
+       "title": "Nivah Fashion Women's Jacquard Pure Banarasi Silk Saree with Heavy Work Blouse Piece",
+       "relevant": false
+      },
+      {
+       "id": 74301,
+       "title": "Kanchnar Women's Art Silk Printed Saree with Unstitched Blouse",
+       "relevant": false
+      },
+      {
+       "id": 70967,
+       "title": "Shonaya Women's Bhaglpuri Art Silk Printed Saree With Unstitched Blouse Piece (Green)",
+       "relevant": false
+      }
+     ]
+    },
+    {
+     "id": "V03",
+     "query": "red silk saree under ₹3,000",
+     "returned": 1,
+     "relevant": 0,
+     "precision": 0.0,
+     "seconds": 11.06,
+     "matching_products": 1,
+     "results": [
+      {
+       "id": 72991,
+       "title": "SIRIL Siril Women'S Foil Print, Piping Poly Silk Saree With Blouse (1874S163; Maroon; Foil",
+       "relevant": false
+      }
+     ]
+    },
+    {
+     "id": "V04",
+     "query": "banarasi saree",
+     "returned": 10,
+     "relevant": 3,
+     "precision": 0.3,
+     "seconds": 5.74,
+     "matching_products": 169,
+     "results": [
+      {
+       "id": 73099,
+       "title": "Women's Banarasi Silk Woven Work Saree Indian Wedding Ethnic Sari with Unstitch Blouse Pie",
+       "relevant": false
+      },
+      {
+       "id": 73927,
+       "title": "Sarees for Women Banarasi Art Silk Woven Saree l Indian Wedding Ethnic Sari & Blouse Piece",
+       "relevant": false
+      },
+      {
+       "id": 76624,
+       "title": "Delisa Fashion Sarees for Women Banarasi Art Silk Woven Work Saree l Indian Wedding Tradit",
+       "relevant": false
+      },
+      {
+       "id": 63694,
+       "title": "Women`s Wear Saree Made from Banarasi Soft Silk Saree with Reach Heavy Border Casual Wear",
+       "relevant": true
+      },
+      {
+       "id": 73917,
+       "title": "Sarees for Women Banarasi Art Silk Woven Saree l Indian Ethnic Wedding Gift Sari with Unst",
+       "relevant": false
+      },
+      {
+       "id": 67384,
+       "title": "Elina fashion Sarees For Women Banarasi Art Silk l Indian Rakhi Wedding Diwali Gift Sari w",
+       "relevant": false
+      },
+      {
+       "id": 71646,
+       "title": "Sarees for Women Banarasi Art Silk Woven Work Saree l Indian Ethnic Wear Wedding Sari with",
+       "relevant": false
+      },
+      {
+       "id": 56512,
+       "title": "Elina fashion Pack of Two Sarees for Women Banarasi Art Silk Woven Saree || Indian Wedding",
+       "relevant": true
+      },
+      {
+       "id": 68663,
+       "title": "Elina fashion Pack of Two Sarees for Women Banarasi Art Silk Woven Saree || Indian Diwali ",
+       "relevant": true
+      },
+      {
+       "id": 72873,
+       "title": "Elina fashion Sarees For Women Banarasi Art Silk l Traditional Indian Wedding Gift Sari wi",
+       "relevant": false
+      }
+     ]
+    },
+    {
+     "id": "V05",
+     "query": "cotton saree",
+     "returned": 10,
+     "relevant": 1,
+     "precision": 0.1,
+     "seconds": 5.77,
+     "matching_products": 142,
+     "results": [
+      {
+       "id": 78246,
+       "title": "Sarees For Women Cotton Art Silk Woven Saree ||Ethnic Traditional Indian Wedding Gift Sari",
+       "relevant": false
+      },
+      {
+       "id": 56241,
+       "title": "Sarees For Women Cotton Silk Printed Saree || Ethnic Traditional Indian Wedding Gift Sari ",
+       "relevant": false
+      },
+      {
+       "id": 75317,
+       "title": "Elina fashion Pack of Two Saree for Women Cotton Silk Indian Wedding Woven Sarees | Ethnic",
+       "relevant": true
+      },
+      {
+       "id": 78024,
+       "title": "Shonaya Indian Women`S Party Wear Cotton Silk Saree with Unstitched Blouse Piece (Grey Bla",
+       "relevant": false
+      },
+      {
+       "id": 78212,
+       "title": "RK Indian Store Women Cotton Silk Style Saree with Blouse Piece (Multi-Color_Free_Size) Ke",
+       "relevant": false
+      },
+      {
+       "id": 75958,
+       "title": "PISARA Women Kanjivaram Silk Cotton Saree with Blouse Piece,Cream Sari, Multi-colored, Lar",
+       "relevant": false
+      },
+      {
+       "id": 70609,
+       "title": "Shonaya Women's Woven Cotton Silk Red Designer Saree With Unstitched Blouse Piece",
+       "relevant": false
+      },
+      {
+       "id": 77616,
+       "title": "Shonaya Women's Woven Work Cotton Silk Pink Designer Saree With Unstitched Blouse Piece",
+       "relevant": false
+      },
+      {
+       "id": 71045,
+       "title": "Shonaya Women's Printed Cotton Designer Saree With Unstitched Blouse Piece (Black)",
+       "relevant": false
+      },
+      {
+       "id": 70752,
+       "title": "Elina fashion Sarees For Women Indian Cotton Art Silk Sari Printed Patola Style Saree & Un",
+       "relevant": false
+      }
+     ]
+    },
+    {
+     "id": "V06",
+     "query": "georgette saree",
+     "returned": 10,
+     "relevant": 1,
+     "precision": 0.1,
+     "seconds": 5.04,
+     "matching_products": 174,
+     "results": [
+      {
+       "id": 67548,
+       "title": "Indian Saree Sari Frill Ruffle Border Bollywood Georgette Work Ruffle Saree White",
+       "relevant": true
+      },
+      {
+       "id": 78575,
+       "title": "Shonaya Women's Embroidered Yellow Color Georgette Saree with Unstitched Blouse Piece, Fre",
+       "relevant": false
+      },
+      {
+       "id": 78335,
+       "title": "Triveni Women's Indian Red Colored Embroidered Faux Georgette Wedding Saree with Unstitche",
+       "relevant": false
+      },
+      {
+       "id": 77954,
+       "title": "DREAMANGEL FASHION Womens Georgette Sequence Party Wear Saree with UnStitched Blouse",
+       "relevant": false
+      },
+      {
+       "id": 78309,
+       "title": "Shonaya Women's Georgette Printed Saree with Unstitched Blouse Piece",
+       "relevant": false
+      },
+      {
+       "id": 75132,
+       "title": "Shonaya Women's Zari Embroidered Georgette Blue Designer Saree With Unstitched Blouse Piec",
+       "relevant": false
+      },
+      {
+       "id": 61464,
+       "title": "Women's Partywear Pure Georgette Saree With Unstitched Blouse",
+       "relevant": false
+      },
+      {
+       "id": 78252,
+       "title": "MAHEK Women's Georgette crochet sequince saree with Digital Printed Saree with Blouse Piec",
+       "relevant": false
+      },
+      {
+       "id": 75738,
+       "title": "Shonaya Women's Embroidered Faux Georgette Red Designer Saree With Unstitched Blouse Piece",
+       "relevant": false
+      },
+      {
+       "id": 78239,
+       "title": "Kalagiri Georgette Plain Saree with Unstiched Blouse Piece Saree for Women's",
+       "relevant": false
+      }
+     ]
+    },
+    {
+     "id": "V07",
+     "query": "lehenga",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 4.18,
+     "matching_products": 210,
+     "results": [
+      {
+       "id": 77925,
+       "title": "Aglare Ethnic Indan Vintage Banjara Gujrat Traditonal Garba,navratri,gujarat,kuch chaniya ",
+       "relevant": true
+      },
+      {
+       "id": 71056,
+       "title": "Ustaad Women's Fashion Heavy Embroidered Heavy Lehenga Choli Free Size Red",
+       "relevant": true
+      },
+      {
+       "id": 78174,
+       "title": "REKHA Readymade Lehenga Choli Designer Lehenga Choli Party Wear Lehenga Choli Wending Lehe",
+       "relevant": true
+      },
+      {
+       "id": 75802,
+       "title": "REKHA Pink Lehenga Ethnic Party Wear Lehenga Choli Digital Printed Lehenga Choli Digital S",
+       "relevant": true
+      },
+      {
+       "id": 78463,
+       "title": "Ethnic Indian Party Wear Lehenga Choli Latest Lehenga Choli Designer Wedding Wear Lehenga ",
+       "relevant": true
+      },
+      {
+       "id": 75826,
+       "title": "REKHA Lehenga Choli Embroidery Lehenga Choli Readymade Lehenga Choli Wedding Lehenga Choli",
+       "relevant": true
+      },
+      {
+       "id": 75928,
+       "title": "REKHA Lehenga Choli Indian Lehenga Black Lehenga Choli Digital Printed Lehenga Choli Party",
+       "relevant": true
+      },
+      {
+       "id": 77981,
+       "title": "REKHA Fantam Lehenga Choli Embroidery Lehenga Choli Readymade Lehenga Choli Wedding Leheng",
+       "relevant": true
+      },
+      {
+       "id": 78075,
+       "title": "REKHA Satin Banglory Party Wear Pink Lehenga Choli Latest Lehenga Choli Embroidery Work Le",
+       "relevant": true
+      },
+      {
+       "id": 78452,
+       "title": "WEMERA TRENDS Womens Rani pink Colour Embroidered Attractive Party Wear Silk Lehenga choli",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "V08",
+     "query": "lehnga choli",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 1.7,
+     "matching_products": 210,
+     "results": [
+      {
+       "id": 76320,
+       "title": "FOCIL Fully Stiched Lehnga Choli, Chaniya Choli,Ghagra Choli Dress for Girls",
+       "relevant": true
+      },
+      {
+       "id": 75118,
+       "title": "Semi-Stitched Lehenga Choli For Women, Net Embroidered Semi-Stitched Lehenga Choli Christm",
+       "relevant": true
+      },
+      {
+       "id": 73613,
+       "title": "SKY VIEW FASHION Indian Festival party wear wedding bridal lengha choli Christmas gift leh",
+       "relevant": true
+      },
+      {
+       "id": 66072,
+       "title": "skyview fashion Wedding Traditional Ethinc Shop Bridal Embroidery Indian Bollywood Designe",
+       "relevant": true
+      },
+      {
+       "id": 77409,
+       "title": "K&U Girls' Peach & Offwhite Lehenga Choli",
+       "relevant": true
+      },
+      {
+       "id": 76963,
+       "title": "Kotharis Indian Lehenga Blouse For Womens Dupatta || Hand Embroidered Silk Blend Stitched ",
+       "relevant": true
+      },
+      {
+       "id": 77452,
+       "title": "Ashwini Girls' Netted Lehenga Choli",
+       "relevant": true
+      },
+      {
+       "id": 77415,
+       "title": "HELLY FASHION Women Stitched Designer Lehenga Choli With Dupatta | Digital Printed Indian ",
+       "relevant": true
+      },
+      {
+       "id": 74196,
+       "title": "HELLY FASHION Helly Fashions Women's Stitched Designer Lehenga Choli With Dupatta | Digita",
+       "relevant": true
+      },
+      {
+       "id": 78019,
+       "title": "Women's Net Lehenga Choli Indian Party, Wedding Wear Designer Wedding Bollywood Wear Lehng",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "V09",
+     "query": "bridal lehenga",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 7.57,
+     "matching_products": 16,
+     "results": [
+      {
+       "id": 76136,
+       "title": "Firststepp Girls's lehanga, Bridal Lehenga, Lehenga for Girls, Lehenga Choli for Girls Wed",
+       "relevant": true
+      },
+      {
+       "id": 75796,
+       "title": "Ustaad Women's Net Lehenga Choli",
+       "relevant": true
+      },
+      {
+       "id": 71999,
+       "title": "Ustaad Multicolor Embroidered Faux Georgett Lehenga Choli (Buy 1 Get 1 Free)",
+       "relevant": true
+      },
+      {
+       "id": 73931,
+       "title": "REKHA Ethinc Shop Traditional Bridal Wedding Lehenga Choli Orange Color with Net Duptta A3",
+       "relevant": true
+      },
+      {
+       "id": 71056,
+       "title": "Ustaad Women's Fashion Heavy Embroidered Heavy Lehenga Choli Free Size Red",
+       "relevant": true
+      },
+      {
+       "id": 78204,
+       "title": "TRENDMALLS Women's Indian Net Embroidery Bridal Wedding Semi Stitched Lehenga With Unstitc",
+       "relevant": true
+      },
+      {
+       "id": 76026,
+       "title": "Fab Glory Women's White Bollywood Designer Indian Lehenga Choli (Semi-Stitched)",
+       "relevant": true
+      },
+      {
+       "id": 78402,
+       "title": "Skyview Fashion Bridal Party Indian Satin Silk Embroidered Wedding Lehenga with Unstitched",
+       "relevant": true
+      },
+      {
+       "id": 74451,
+       "title": "Indian Designer Collection Embroidered Work Indian Bollywood Designer Lehenga Choli Ethnic",
+       "relevant": true
+      },
+      {
+       "id": 76876,
+       "title": "REKHA Ethinc Shop Bridal Embroidery Work Indian Bollywood Designer Lehenga Choli A330",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "V10",
+     "query": "festive lehenga",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 4.77,
+     "matching_products": 30,
+     "results": [
+      {
+       "id": 72794,
+       "title": "Flawnt Multicolor Traditional Cotton Lehenga Choli",
+       "relevant": true
+      },
+      {
+       "id": 78275,
+       "title": "Festive Collection Wedding/Party Wear Indian Kids Dress Girls Lehenga Choli/Sharara Suit",
+       "relevant": true
+      },
+      {
+       "id": 66531,
+       "title": "TRADITIONINDIA Green Chanderi & Dupion Fabric Short Sleeve Weeding Wear Pattu Pavadai Lehe",
+       "relevant": true
+      },
+      {
+       "id": 75124,
+       "title": "Kanchnar Women's Beige Banarsi Silk Lehenga Choli",
+       "relevant": true
+      },
+      {
+       "id": 78523,
+       "title": "Lehenga For Women's Beautiful Yellow Readymade Designer Lehenga With Jacket Crop Top India",
+       "relevant": true
+      },
+      {
+       "id": 77925,
+       "title": "Aglare Ethnic Indan Vintage Banjara Gujrat Traditonal Garba,navratri,gujarat,kuch chaniya ",
+       "relevant": true
+      },
+      {
+       "id": 76244,
+       "title": "REKHA Readymade Lehenga Choli Wedding Wear Lehenga Choli Digital Print Lehenga Choli Blous",
+       "relevant": true
+      },
+      {
+       "id": 68964,
+       "title": "ziya Pakistani Women's Ethnic wear Lehenga with Full Stitch Blouse (Choli) Indian Wedding ",
+       "relevant": true
+      },
+      {
+       "id": 78045,
+       "title": "REKHA Diwali Collection Full Stitch Lehenga Choli Readymade Lehenga Choli Wedding Wear Leh",
+       "relevant": true
+      },
+      {
+       "id": 73613,
+       "title": "SKY VIEW FASHION Indian Festival party wear wedding bridal lengha choli Christmas gift leh",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "V11",
+     "query": "velvet lehenga",
+     "returned": 0,
+     "relevant": 0,
+     "precision": null,
+     "seconds": 8.03,
+     "matching_products": 0,
+     "results": []
+    },
+    {
+     "id": "V12",
+     "query": "earrings",
+     "returned": 10,
+     "relevant": 8,
+     "precision": 0.8,
+     "seconds": 6.5,
+     "matching_products": 5843,
+     "results": [
+      {
+       "id": 73943,
+       "title": "Kawaii Earrings Aesthetic Earrings Bunny Earring Cool Earrings Kawaii Jewelry Cute Earring",
+       "relevant": true
+      },
+      {
+       "id": 50463,
+       "title": "PLOMFOV 20G Stainless Steel Stud Earrings for Women Men CZ Heart Star Moon Flat Back Earri",
+       "relevant": true
+      },
+      {
+       "id": 58718,
+       "title": "24 Pairs Weird Cute Earrings Drop Dangle Earrings for Women Girls Planet Astronaut Moon an",
+       "relevant": true
+      },
+      {
+       "id": 73207,
+       "title": "Chanteur Hypoallergenic Earrings For Girls | Leverback Heart Hoop Earrings for Girls | Gir",
+       "relevant": true
+      },
+      {
+       "id": 65090,
+       "title": "30 Pairs Assorted Stainless Steel Stud Earrings for Teen Girls - Hypoallergenic Stud Earri",
+       "relevant": true
+      },
+      {
+       "id": 71904,
+       "title": "ZowBinBin 925 Sterling Silver Pearl Earrings,Beautiful Fashion White Pearl Dangle Earrings",
+       "relevant": true
+      },
+      {
+       "id": 73056,
+       "title": "LUYI 28/35 Pairs Weird Cute Earrings Funny Kawaii Earrings Indie Funky Cool Earrings Inclu",
+       "relevant": true
+      },
+      {
+       "id": 70275,
+       "title": "Chanteur Hypoallergenic Earrings For Girls | Screw Back Earrings for Girls | Baby Earrings",
+       "relevant": false
+      },
+      {
+       "id": 72655,
+       "title": "33/30 Pairs Hypoallergenic Earrings for Girls Sensitive Ears with Stainless Steel Post -As",
+       "relevant": true
+      },
+      {
+       "id": 65411,
+       "title": "45 Pairs Gold Hoop Earrings for Girls Women, Chunky Twisted Small Big Hoops Earring Packs ",
+       "relevant": false
+      }
+     ]
+    },
+    {
+     "id": "V13",
+     "query": "jhumkas",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 2.57,
+     "matching_products": 5843,
+     "results": [
+      {
+       "id": 65101,
+       "title": "GiftPiper German Silver Asymmetric Jhumkas",
+       "relevant": true
+      },
+      {
+       "id": 70410,
+       "title": "Bodha 18k Antique Gold Plated Traditional Indian Jhumka Earrings (SJ_748)",
+       "relevant": true
+      },
+      {
+       "id": 71210,
+       "title": "GiftPiper Oxidized Metal Jhumkas/Jhumkis-White Beads",
+       "relevant": true
+      },
+      {
+       "id": 71895,
+       "title": "Traditional Indian Fashion Jewelry Gold Plated Jhumka Earrings",
+       "relevant": true
+      },
+      {
+       "id": 78556,
+       "title": "Indian Earrings for Women Jhumka Earrings for Girls Silver Boho Beaded Tassels Earrings In",
+       "relevant": true
+      },
+      {
+       "id": 77851,
+       "title": "Pahal Traditional Tribal Oxidized Silver Jhumka Earrings Ethnic Indian Wedding Jewelry",
+       "relevant": true
+      },
+      {
+       "id": 78476,
+       "title": "Pahal Traditional Bollywood South Indian Gold Silver Jhumka Earrings White Pearl Wedding J",
+       "relevant": true
+      },
+      {
+       "id": 73962,
+       "title": "Pahal Bollywood Jadau Pink Big Gold Jhumka Earrings Indian Traditional Party Wear Wedding ",
+       "relevant": true
+      },
+      {
+       "id": 74687,
+       "title": "Jwellmart Afghani Partywear Indian Oxidized Mirror Work Dangle Jhumka Jhumki Fashion Earri",
+       "relevant": true
+      },
+      {
+       "id": 78000,
+       "title": "Jwellmart Afghani Partywear Indian Oxidized Polish Ghungroo Dangle Jhumka Jhumki Fashion E",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "V14",
+     "query": "jhumki",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 2.5,
+     "matching_products": 5843,
+     "results": [
+      {
+       "id": 73573,
+       "title": "Indian Silver Oxidized Ethnic Bollywood Afghani Gypsy Tribal Designer Retro Fashion Bead G",
+       "relevant": true
+      },
+      {
+       "id": 75783,
+       "title": "The Jewelbox Peacock 22K Gold Plated Red Blue Green Pearl CZ Jhumki Earring for Women Chri",
+       "relevant": true
+      },
+      {
+       "id": 78295,
+       "title": "Indian Antique Jewelry Classic Designer Jhumki Earrings Gold by Maayra MY636E",
+       "relevant": true
+      },
+      {
+       "id": 78558,
+       "title": "Indian Antique Jewelry Great Stone Work Jhumki Earrings Gold by Maayra MY2378",
+       "relevant": true
+      },
+      {
+       "id": 78259,
+       "title": "Mehrunnisa Rajwada Kundan & Pearls Five Jhumkis Long Earrings With Attached Nine Jhumki & ",
+       "relevant": true
+      },
+      {
+       "id": 76666,
+       "title": "Zephyrr Fashion Junk Tibetan Beaded Hook Jhumki Earrings For Women",
+       "relevant": true
+      },
+      {
+       "id": 73944,
+       "title": "Bindhani Tribal Oxidized Silver Plated Brass Indian Jhumka Jhumki Earrings Jewelry For Wom",
+       "relevant": true
+      },
+      {
+       "id": 78263,
+       "title": "Rajwada Arts Women's Studded Traditional Jhumki Golden, Red, White",
+       "relevant": true
+      },
+      {
+       "id": 78233,
+       "title": "Bindhani Indian Bollywood Style Ethnic Jhumka Jhumki Earrings Jewelry Wedding Bridal Wear",
+       "relevant": true
+      },
+      {
+       "id": 72755,
+       "title": "Zephyrr Fashion German Silver Light weight Hook Jhumki Earrings with Pearls",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "V15",
+     "query": "chandbali earrings",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 2.53,
+     "matching_products": 5843,
+     "results": [
+      {
+       "id": 77907,
+       "title": "Bodha Antique Gold Afghani Chandbali Earrings (SJ_1352)",
+       "relevant": true
+      },
+      {
+       "id": 66030,
+       "title": "Silk Thread Chandbali Earrings With Designer Studs Beautiful Earrings",
+       "relevant": true
+      },
+      {
+       "id": 69456,
+       "title": "Bodha 925 Antique Silver Oxidised Afghani Chandbali Earrings (SJ_1353)",
+       "relevant": true
+      },
+      {
+       "id": 78162,
+       "title": "Zephyrr Fashion German Silver Turkish Style Beaded Chandbali Earrings for Women",
+       "relevant": true
+      },
+      {
+       "id": 72970,
+       "title": "Bodha Silver Antique Oxidised Afghani Chandbali Earrings with Pearl Hanging for Women (SJ_",
+       "relevant": true
+      },
+      {
+       "id": 69168,
+       "title": "Bodha Antique Silver Stylish Oxidised Afghani Chandbali Earrings (SJ_1418)",
+       "relevant": true
+      },
+      {
+       "id": 73740,
+       "title": "Zephyrr Fashion German Gold Chandbali Hoop Earrings with Pearls for Women",
+       "relevant": true
+      },
+      {
+       "id": 71552,
+       "title": "Zephyrr Traditional Hanging Pierced Chandbali Earrings with Zircons for Women",
+       "relevant": true
+      },
+      {
+       "id": 78320,
+       "title": "Zephyrr Fashion Oxidized Silver Afghani Tribal Dangler Hook Chandbali Earrings",
+       "relevant": true
+      },
+      {
+       "id": 75777,
+       "title": "Zephyrr Fashion Oxidized Ethnic Silver Golden Beaded Chandbali Earrings Women",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "V16",
+     "query": "bridal jhumkas under ₹1,500",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 5.66,
+     "matching_products": 92,
+     "results": [
+      {
+       "id": 59135,
+       "title": "Bindhani Bollywood Style Bridal Bridemaids Traditional Ethnic Fashion Wedding Jewelry Gold",
+       "relevant": true
+      },
+      {
+       "id": 73717,
+       "title": "Jewel India Handmade Ethnic Bollywood Traditional Wedding Bridal Party-wear Gold Plated In",
+       "relevant": true
+      },
+      {
+       "id": 71298,
+       "title": "Crunchy Fashion Gold Plated Stylish Traditional Indian Wedding Jewelry Ethnic Bridal Bride",
+       "relevant": true
+      },
+      {
+       "id": 78249,
+       "title": "Crunchy Fashion Bollywood Jewellery Traditional Ethnic Bridal Bride Wedding Bridesmaid Oxi",
+       "relevant": true
+      },
+      {
+       "id": 58272,
+       "title": "Efulgenz Indian Bollywood Bridal Designer Jewelry Oxidized Traditional Jhumka Jhumki Hoop ",
+       "relevant": true
+      },
+      {
+       "id": 76864,
+       "title": "RechicGu 2 Pairs Ethnic Gypsy Crescent Jhumka Jhumki Chandelier Earrings Bohemian Ear Stud",
+       "relevant": true
+      },
+      {
+       "id": 75160,
+       "title": "Pahal Ethnic Oxidized Antique Multicolor Pearl Kundan Big Round Silver Jhumka Earrings Ind",
+       "relevant": true
+      },
+      {
+       "id": 52850,
+       "title": "Jhumka Tassel Drop Earrings Bridal For Women Ethnic Afghan Gold Oorbellen Vintage Boho Tri",
+       "relevant": true
+      },
+      {
+       "id": 68138,
+       "title": "Crunchy Fashion Bollywood Jewellery Traditional Ethnic Bridal Bride Wedding Bridesmaid Oxi",
+       "relevant": true
+      },
+      {
+       "id": 75386,
+       "title": "Royal Bling Bollywood Jewellery Traditional Ethnic Oxidized Gold Tone Party Wear Bridal Br",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "V17",
+     "query": "oxidised silver jhumka",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 14.42,
+     "matching_products": 192,
+     "results": [
+      {
+       "id": 69456,
+       "title": "Bodha 925 Antique Silver Oxidised Afghani Chandbali Earrings (SJ_1353)",
+       "relevant": true
+      },
+      {
+       "id": 61040,
+       "title": "GEODE DELIGHT Women's Ethnic Red Beads Oxidized Silver Plated Jhumki Jhumka Earring",
+       "relevant": true
+      },
+      {
+       "id": 69701,
+       "title": "Bodha Silver Plated Oxidised Elephant Jhumka Earring with Pearl Hanging for Women (SJ_1459",
+       "relevant": true
+      },
+      {
+       "id": 77675,
+       "title": "Geode Delight Indian Oxidised Silver Black Jhumki Jhumka Earring Jewelry for Women & Girls",
+       "relevant": true
+      },
+      {
+       "id": 78249,
+       "title": "Crunchy Fashion Bollywood Jewellery Traditional Ethnic Bridal Bride Wedding Bridesmaid Oxi",
+       "relevant": true
+      },
+      {
+       "id": 73573,
+       "title": "Indian Silver Oxidized Ethnic Bollywood Afghani Gypsy Tribal Designer Retro Fashion Bead G",
+       "relevant": true
+      },
+      {
+       "id": 71470,
+       "title": "Bodha Silver Plated Oxidised Dangle Drop Designer Jhumki Earrings for Women, Girls (SJ_144",
+       "relevant": true
+      },
+      {
+       "id": 71188,
+       "title": "Ardour Oxidised Silver Indian Handmade Jhumka Jhumki Earrings Jewellery with Free Gift Box",
+       "relevant": true
+      },
+      {
+       "id": 78146,
+       "title": "Bodha Traditional Indian Stylish Oxidised Silver Designer Chandbali Jhumka Earring for Gir",
+       "relevant": true
+      },
+      {
+       "id": 71897,
+       "title": "Jaipur Mart Oxidised Plated Jhumka Earrings Silver Jewellery Gift For Women",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "V18",
+     "query": "pearl stud earrings",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 11.18,
+     "matching_products": 1485,
+     "results": [
+      {
+       "id": 70818,
+       "title": "ZowBinBin Cute\"Animal Series\" Pearl Stud Earrings 925 Sterling Silver Handpicked Freshwate",
+       "relevant": true
+      },
+      {
+       "id": 61433,
+       "title": "ZowBinBin Cat Earrings 18K White Gold Plated 925 Sterling Silver Cat Ear Stud Earrings,Fre",
+       "relevant": true
+      },
+      {
+       "id": 71648,
+       "title": "THE PEARL SOURCE Black Japanese Akoya Real Pearl Earrings for Women - 14k Gold Stud Earrin",
+       "relevant": true
+      },
+      {
+       "id": 70351,
+       "title": "Pearl Drop Earrings for Women, Boho Faux Pearl Earrings Gold Dangle Stud Earrings Geometri",
+       "relevant": true
+      },
+      {
+       "id": 62791,
+       "title": "ALYC Pearl Earrings Freshwater Pearl White Button Stud Earrings with 925 Sterling Silver f",
+       "relevant": true
+      },
+      {
+       "id": 63359,
+       "title": "Han han 925 Sterling Silver Dainty Pearl Earrings for Women, 18K White Gold Plated CZ Diam",
+       "relevant": true
+      },
+      {
+       "id": 74393,
+       "title": "ZDaoBen Lovely Cat Earrings for Women 925 Sterling Silver Cat Pearl Earrings with Freshwat",
+       "relevant": true
+      },
+      {
+       "id": 66654,
+       "title": "Pearl Earrings for Women, Freshwater Cultured White Pearl Stud Drop Earrings Sterling Silv",
+       "relevant": true
+      },
+      {
+       "id": 77741,
+       "title": "Alyc Pearl Teardrop Earrings,AAA+Freshwater Cultrued Pearl Dangle 925 Sterling Silver Hook",
+       "relevant": true
+      },
+      {
+       "id": 68063,
+       "title": "Fashion 9-10mm Pearl Earrings Pearl for Women Jewelry of Platinum Plating Oblate Freshwate",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "V19",
+     "query": "gold plated earrings under ₹1,000",
+     "returned": 10,
+     "relevant": 9,
+     "precision": 0.9,
+     "seconds": 5.41,
+     "matching_products": 182,
+     "results": [
+      {
+       "id": 78248,
+       "title": "Jewar Earrings Gold Plated Elegant Traditional Wedding Festive Wear Pearl Polki Ad Cz Hand",
+       "relevant": true
+      },
+      {
+       "id": 64301,
+       "title": "Gold and Luster Women Jewelry Drop Dangle Earrings Set Diamond Cut Silver And Gold Plated ",
+       "relevant": false
+      },
+      {
+       "id": 63822,
+       "title": "KEZEF 14K Gold Plated Sterling Silver Ball Stud Earrings for Women and Kids 2mm - 10mm | 1",
+       "relevant": true
+      },
+      {
+       "id": 67253,
+       "title": "14K Gold Plated Earrings Cubic Zirconia Simulated Diamond Stud Earrings for Women Men (2 P",
+       "relevant": true
+      },
+      {
+       "id": 68593,
+       "title": "White Gold Plated Flower Opal Stud Earrings Hypoallergenic Jewelry Gift for Women",
+       "relevant": true
+      },
+      {
+       "id": 68336,
+       "title": "Twisted Chunky Hoop Earrings 14K Gold Plated Dainty Lightweight Hypoallergenic Open Hoops ",
+       "relevant": true
+      },
+      {
+       "id": 68717,
+       "title": "18K White Gold Plated Earrings Rainbow Quartz Halo CZ Created Mystic Topaz Stud Earrings H",
+       "relevant": true
+      },
+      {
+       "id": 69788,
+       "title": "Opal Stud Earrings 18K Gold Plated Tiny Gemstone Birthstone Stacking Earrings for Women Gi",
+       "relevant": true
+      },
+      {
+       "id": 75038,
+       "title": "Hollow Out Flower Crystal 18k Gold Plated Earring Stud Women Jewelry + 925 Sterling Silver",
+       "relevant": true
+      },
+      {
+       "id": 66745,
+       "title": "Gacimy Chunky Gold Hoop Earrings for Women 14K Real Gold Plated, 925 Sterling Silver Post ",
+       "relevant": true
+      }
+     ]
+    },
+    {
+     "id": "V20",
+     "query": "kundan earrings",
+     "returned": 10,
+     "relevant": 10,
+     "precision": 1.0,
+     "seconds": 10.25,
+     "matching_products": 87,
+     "results": [
+      {
+       "id": 66069,
+       "title": "Jwellmart Indian Ethnic Partywear Traditional Gold Plated Big Chandbali Kundan Earrings fo",
+       "relevant": true
+      },
+      {
+       "id": 77303,
+       "title": "Bodha Traditional Indian Gold Plated Antique Traditional Peacock Jhumka With CZ, LCT Cryst",
+       "relevant": true
+      },
+      {
+       "id": 71474,
+       "title": "Bodha Traditional Indian 24K Gold Plated Traditional Ethnic Jhumka With CZ, LCT Crystals,K",
+       "relevant": true
+      },
+      {
+       "id": 77664,
+       "title": "Huilier Retro Indian Bollywood Kundan Peacock Jhumka Jhumki Drop Earrings Gypsy Jewelry",
+       "relevant": true
+      },
+      {
+       "id": 78069,
+       "title": "Bodha Traditional Indian Handcrafted Gold Plated Traditional Ethnic Meenakari Kundan Chand",
+       "relevant": true
+      },
+      {
+       "id": 77780,
+       "title": "Bodha Traditional Indian 24K Gold Plated Traditional Designer Ethnic Jhumka With CZ, LCT C",
+       "relevant": true
+      },
+      {
+       "id": 78248,
+       "title": "Jewar Earrings Gold Plated Elegant Traditional Wedding Festive Wear Pearl Polki Ad Cz Hand",
+       "relevant": true
+      },
+      {
+       "id": 72212,
+       "title": "TIPTOP-Ethnic Traditional Dangle Kundan Green Beads Earrings Jhumka Bridal Jewelry",
+       "relevant": true
+      },
+      {
+       "id": 72145,
+       "title": "Dancing Girl Black Bollywood Jewelry Kundan Traditional Pearl Kundan Indian Earrings for W",
+       "relevant": true
+      },
+      {
+       "id": 78390,
+       "title": "Bodha Traditional Indian Handcrafted Gold Plated Designer Traditional Ethnic Meenakari Kun",
+       "relevant": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

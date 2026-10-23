@@ -1,0 +1,176 @@
+[
+  {
+    "number": 13,
+    "name": "Backend health and Ollama availability",
+    "passed": true,
+    "failures": [],
+    "health": {
+      "status": "ok",
+      "database": "connected",
+      "ollama": "available",
+      "active_sessions": 0
+    }
+  },
+  {
+    "number": 1,
+    "name": "Basic product discovery",
+    "passed": true,
+    "failures": [],
+    "intent": "PRODUCT_SEARCH",
+    "seconds": 83.3,
+    "products": 10,
+    "mode": "llm",
+    "reason": null,
+    "claims": 6,
+    "supported": 4,
+    "top_titles": [
+      "CYAPING Running Shoes Lightweight Tennis Shoes Breathable Me",
+      "VANSKELIN Men Shoes Sneakers Mesh Lightweight Running Shoes ",
+      "JARLIF Women's Breathable Tennis Running Shoes Athletic Fitn",
+      "QANSI Boys Shoes Waterproof Big Kids Strap Tennis Shoes Athl"
+    ]
+  },
+  {
+    "number": 2,
+    "name": "Product-type filtering",
+    "passed": true,
+    "failures": [],
+    "intent": "PRODUCT_SEARCH",
+    "seconds": 95.5,
+    "products": 10,
+    "mode": "llm",
+    "reason": null,
+    "claims": 5,
+    "supported": 4
+  },
+  {
+    "number": 3,
+    "name": "Budget filtering with INR estimates",
+    "passed": true,
+    "failures": [],
+    "intent": "PRODUCT_SEARCH",
+    "seconds": 99.7,
+    "products": 10,
+    "mode": "llm",
+    "reason": null,
+    "claims": 5,
+    "supported": 1,
+    "price_statuses": [
+      "estimated"
+    ],
+    "matching": 57,
+    "no_rupee_amounts_in_claims": true
+  },
+  {
+    "number": 4,
+    "name": "Rating filtering",
+    "passed": true,
+    "failures": [],
+    "intent": "PRODUCT_SEARCH",
+    "seconds": 114.3,
+    "products": 10,
+    "mode": "fallback",
+    "reason": "provider_error",
+    "claims": 6,
+    "supported": 3
+  },
+  {
+    "number": 5,
+    "name": "Review-based question",
+    "passed": true,
+    "failures": [],
+    "intent": "PRODUCT_QUESTION",
+    "seconds": 40.5,
+    "products": 1,
+    "mode": "llm",
+    "reason": null,
+    "claims": 2,
+    "supported": 0
+  },
+  {
+    "number": 6,
+    "name": "Product comparison",
+    "passed": true,
+    "failures": [],
+    "intent": "COMPARE",
+    "seconds": 68.7,
+    "products": 2,
+    "mode": "llm",
+    "reason": null,
+    "claims": 5,
+    "supported": 4
+  },
+  {
+    "number": 7,
+    "name": "No matching products",
+    "passed": true,
+    "failures": [],
+    "intent": "PRODUCT_SEARCH",
+    "seconds": 5.3,
+    "products": 0,
+    "mode": "none",
+    "reason": "no_products_retrieved",
+    "claims": 0,
+    "supported": 0,
+    "summary_text": "No matching products were found in the catalog for your query."
+  },
+  {
+    "number": 8,
+    "name": "Unknown prices",
+    "passed": true,
+    "failures": [],
+    "intent": "PRODUCT_SEARCH",
+    "seconds": 48.1,
+    "products": 1,
+    "mode": "llm",
+    "reason": null,
+    "claims": 3,
+    "supported": 3,
+    "budget_cards": [
+      "estimated"
+    ],
+    "unknown_price_dress_titles_excluded": 5441,
+    "unbudgeted_unknown_cards": 6
+  },
+  {
+    "number": 9,
+    "name": "Unsupported questions",
+    "passed": true,
+    "failures": [],
+    "what is the weather ": {
+      "intent": "OUT_OF_SCOPE",
+      "products": 0
+    },
+    "ignore all previous ": {
+      "intent": "OUT_OF_SCOPE",
+      "products": 0
+    }
+  },
+  {
+    "number": 11,
+    "name": "Multiple consecutive searches",
+    "passed": true,
+    "failures": [],
+    "seconds": [
+      110.3,
+      81.9,
+      87.4
+    ]
+  },
+  {
+    "number": 12,
+    "name": "Profile-free backend",
+    "passed": true,
+    "failures": []
+  },
+  {
+    "number": 14,
+    "name": "Evidence and numeric validation ran on every answer",
+    "passed": true,
+    "failures": [],
+    "answers_validated": 8,
+    "llm_answers": 6,
+    "claims": 32,
+    "supported": 19
+  }
+]

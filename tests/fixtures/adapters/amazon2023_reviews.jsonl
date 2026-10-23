@@ -1,0 +1,12 @@
+{"parent_asin": "TST-SNK-001", "asin": "TST-SNK-001-9", "user_id": "AFAKEUSERID000000000000000001", "rating": 5.0, "title": "Comfortable", "text": "Very comfortable for daily walks.<br />Good grip.", "timestamp": 1680000000000, "helpful_vote": 3, "verified_purchase": true, "images": ["x"]}
+{"parent_asin": "TST-SNK-001", "asin": "TST-SNK-001-8", "user_id": "AFAKEUSERID000000000000000002", "rating": 2.0, "title": "Runs small", "text": "Size runs small, order one size up.", "timestamp": 1690000000000, "helpful_vote": 10, "verified_purchase": false, "images": []}
+{"parent_asin": "TST-SNK-001", "asin": "TST-SNK-001-9", "user_id": "AFAKEUSERID000000000000000003", "rating": 4.0, "title": "Good value", "text": "Good value, sole wore out after a year.", "timestamp": 1695000000000, "helpful_vote": 0, "verified_purchase": true, "images": []}
+{"parent_asin": "TST-EAR-001", "asin": "TST-EAR-001", "user_id": "AFAKEUSERID000000000000000004", "rating": 4.0, "title": "Decent", "text": "Battery lasts about five hours.", "timestamp": 1670000000000, "helpful_vote": 1, "verified_purchase": true}
+{"parent_asin": "TST-SNK-001", "asin": "TST-SNK-001-9", "user_id": "AFAKEUSERID000000000000000001", "rating": 5.0, "title": "Comfortable", "text": "Very comfortable for daily walks.<br />Good grip.", "timestamp": 1680000000000, "helpful_vote": 3, "verified_purchase": true}
+{"parent_asin": "TST-GONE-001", "user_id": "AFAKEUSERID000000000000000005", "rating": 3.0, "text": "Review for a product that is not in this source.", "timestamp": 1670000000000}
+{"parent_asin": "tst-snk-001", "user_id": "AFAKEUSERID000000000000000006", "rating": 3.0, "text": "Case differs from the product id, so it must not match.", "timestamp": 1670000000000}
+{"parent_asin": "B0CROSS0001", "user_id": "AFAKEUSERID000000000000000007", "rating": 4.0, "text": "Same id as an ABO listing, different source: must not match.", "timestamp": 1670000000000}
+{"parent_asin": "TST-EAR-001", "user_id": "AFAKEUSERID000000000000000008", "rating": 4.0, "text": "   "}
+{"parent_asin": "TST-EAR-001", "user_id": "AFAKEUSERID000000000000000009", "rating": 0, "text": "Zero stars?"}
+{"user_id": "AFAKEUSERID000000000000000010", "rating": 4.0, "text": "No product id."}
+[1, 2, 3]

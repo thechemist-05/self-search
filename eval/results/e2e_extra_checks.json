@@ -1,0 +1,50 @@
+{
+ "10a_model_timeout": {
+  "http": 200,
+  "seconds": 13.5,
+  "generation": {
+   "mode": "fallback",
+   "reason": "provider_error",
+   "model": null,
+   "attempts": null
+  },
+  "products": 10,
+  "products_in_db": 10,
+  "evidence_belongs_to_products": true,
+  "recommended_subset_of_shown": true
+ },
+ "10b_ui_timeout": {
+  "kind": "timeout",
+  "detail": "No response within 3 s",
+  "message": "The answer took too long, so the request was stopped. The API is running, but the local AI model is busy or slow on this computer. Try again, or ask for something more specific."
+ },
+ "12_unknown_session": {
+  "http": 200,
+  "body": "{\"session_id\":\"00000000-0000-0000-0000-000000000000\",\"intent\":\"SMALLTALK\",\"answer\":null,\"clarification_question\":null,\"smalltalk_response\":\"Hello! I'm ShelfSens"
+ },
+ "12_new_session": {
+  "http": 200,
+  "intent": "SMALLTALK",
+  "new_session_id": true
+ },
+ "2b_exclusion": {
+  "seconds": 111.8,
+  "constraints": [
+   [
+    "product_type",
+    "applied",
+    "Product type: footwear (title or description mentions: boot, footwear, loafer, sandal, shoe, slipper, sneaker, trainer)"
+   ],
+   [
+    "excluded_term",
+    "applied",
+    "Excludes products mentioning “leather”"
+   ]
+  ],
+  "products": 10,
+  "products_mentioning_leather": [
+   15781
+  ],
+  "generation": "llm"
+ }
+}

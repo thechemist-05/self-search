@@ -1,0 +1,14 @@
+# Held-out strict-matching queries (2026-10-22): written after the rules were tuned on
+# eval/strict_queries.jsonl and NOT used to change them. Same judge format.
+{"id": "H01", "query": "brown loafers", "all": ["\\b(loafers?|moccasins?)\\b"], "colour": "\\b(brown|tan|camel|coffee|chocolate)\\b", "none": ["\\b(socks?|cleaner|for loafers)\\b"]}
+{"id": "H02", "query": "black skirt", "all": ["\\b(skirts?|skorts?)\\b"], "colour": "\\bblack\\b", "none": ["\\b(dress|swimsuit|hanger|bed skirt)\\b"]}
+{"id": "H03", "query": "white t-shirt", "all": ["\\b(t-?shirts?|tees?|tshirts?)\\b"], "colour": "\\b(white|ivory|off[- ]white)\\b", "none": ["\\b(dress|shorts|pants)\\b"]}
+{"id": "H04", "query": "grey hoodie", "all": ["\\b(hoodies?|sweatshirts?)\\b"], "colour": "\\b(gr[ae]y|charcoal)\\b", "none": ["\\b(dress|pants|shorts)\\b"]}
+{"id": "H05", "query": "black leggings", "all": ["\\bleggings?\\b"], "colour": "\\bblack\\b", "none": ["\\b(shorts|socks?|dress)\\b"]}
+{"id": "H06", "query": "red handbag", "all": ["\\b(handbags?|purses?|totes?|shoulder bag|crossbody|clutch|satchel|hobo)\\b"], "colour": "\\b(red|burgundy|maroon|wine red|crimson)\\b", "none": ["\\b(shoes?|heels?|boots?|wallets?|straps?|charms?)\\b"]}
+{"id": "H07", "query": "blue denim jacket", "all": ["\\b(jackets?|coats?)\\b", "\\bdenim\\b"], "colour": "\\b(blue|navy|light blue|dark blue)\\b", "none": ["\\b(dress|pants|shorts|skirt)\\b"]}
+{"id": "H08", "query": "silver heels", "all": ["\\b(heels?|pumps?|stilettos?)\\b"], "colour": "\\bsilver\\b", "none": ["\\b(boots?|booties?|grips?|sneakers?)\\b"]}
+{"id": "H09", "query": "brown leather wallet", "all": ["\\b(wallets?|card holders?|billfolds?)\\b", "\\bleather\\b"], "colour": "\\b(brown|tan|camel|coffee|chocolate)\\b", "none": ["\\b(faux|vegan|pu|synthetic) leather\\b"]}
+{"id": "H10", "query": "black baseball cap", "all": ["\\b(caps?|hats?)\\b"], "colour": "\\bblack\\b", "none": ["\\b(cap sleeves?|toe cap|shower cap|dress|shirt)\\b"]}
+{"id": "H11", "query": "white sandals", "all": ["\\b(sandals?|flip[- ]?flops?|slides?)\\b"], "colour": "\\b(white|ivory|off[- ]white)\\b", "none": ["\\b(socks?|cleaner)\\b"]}
+{"id": "H12", "query": "women's yellow dress", "all": ["\\b(dress|dresses|gown|sundress)\\b"], "colour": "\\b(yellow|mustard)\\b", "none": ["\\bdress (shoes?|shirts?|socks?|pants?)\\b", "\\b(shoes?|heels?|sandals?)\\b"]}

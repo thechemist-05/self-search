@@ -1,0 +1,278 @@
+[
+  {
+    "id": "CASE_01_SUPPORTED_BACKPACK_WATERPROOF",
+    "category": "supported",
+    "product_id": 1,
+    "claim": "The backpack provides reliable waterproofing and durable ripstop nylon construction.",
+    "evidence_ids": ["R1"],
+    "evidence_pack": [
+      {
+        "evidence_id": "R1",
+        "product_id": 1,
+        "review_id": 1,
+        "text": "This backpack is incredibly lightweight yet durable. Used it on a 3-day hike and it held up perfectly in the rain. The waterproofing really works!",
+        "rating": 5.0,
+        "aspects": ["waterproofing", "durability", "weight"]
+      }
+    ],
+    "expected_status": "SUPPORTED",
+    "expected_supported": true
+  },
+  {
+    "id": "CASE_02_SUPPORTED_NUMERIC_PRICE_RATING",
+    "category": "supported",
+    "product_id": 1,
+    "claim": "Priced at $49.99 with 4.3 stars across 1,250 reviews, praised as an unbeatable value under 50 bucks for daily use.",
+    "evidence_ids": ["R4"],
+    "evidence_pack": [
+      {
+        "evidence_id": "R4",
+        "product_id": 1,
+        "review_id": 4,
+        "text": "For under 50 bucks this is unbeatable. Light enough for daily use but tough enough for weekend hikes. Pockets are well designed.",
+        "rating": 5.0,
+        "aspects": ["price", "value"]
+      }
+    ],
+    "expected_status": "SUPPORTED",
+    "expected_supported": true
+  },
+  {
+    "id": "CASE_03_SUPPORTED_SPEC_CAPACITY",
+    "category": "supported",
+    "product_id": 1,
+    "claim": "Features 40L capacity and durable padded straps for long outdoor excursions.",
+    "evidence_ids": ["R1"],
+    "evidence_pack": [
+      {
+        "evidence_id": "R1",
+        "product_id": 1,
+        "review_id": 1,
+        "text": "This backpack is incredibly lightweight yet durable. The waterproofing really works!",
+        "rating": 5.0,
+        "aspects": ["waterproofing"]
+      }
+    ],
+    "expected_status": "SUPPORTED",
+    "expected_supported": true
+  },
+  {
+    "id": "CASE_04_FABRICATED_CITATION_ID",
+    "category": "fabricated_citation",
+    "product_id": 1,
+    "claim": "Reviewers confirm that the laptop compartment easily accommodates a 17 inch gaming laptop.",
+    "evidence_ids": ["R9999_FABRICATED"],
+    "evidence_pack": [
+      {
+        "evidence_id": "R1",
+        "product_id": 1,
+        "review_id": 1,
+        "text": "This backpack is incredibly lightweight yet durable.",
+        "rating": 5.0,
+        "aspects": ["weight"]
+      }
+    ],
+    "expected_status": "FABRICATED_CITATION",
+    "expected_supported": false
+  },
+  {
+    "id": "CASE_05_CROSS_PRODUCT_CITATION",
+    "category": "cross_product_mismatch",
+    "product_id": 1,
+    "claim": "Active noise cancellation blocks ambient subway commute noises effectively.",
+    "evidence_ids": ["R6"],
+    "evidence_pack": [
+      {
+        "evidence_id": "R6",
+        "product_id": 2,
+        "review_id": 6,
+        "text": "Sound quality is surprisingly good for wireless earbuds in this price range. ANC works well on the subway.",
+        "rating": 4.0,
+        "aspects": ["noise_cancellation", "sound"]
+      }
+    ],
+    "expected_status": "CROSS_PRODUCT_MISMATCH",
+    "expected_supported": false
+  },
+  {
+    "id": "CASE_06_NUMERIC_PRICE_HALLUCINATION",
+    "category": "numeric_price_mismatch",
+    "product_id": 1,
+    "claim": "This budget backpack costs only $14.99, making it a very cheap option.",
+    "evidence_ids": ["R4"],
+    "evidence_pack": [
+      {
+        "evidence_id": "R4",
+        "product_id": 1,
+        "review_id": 4,
+        "text": "For under 50 bucks this is unbeatable. Light enough for daily use.",
+        "rating": 5.0,
+        "aspects": ["price"]
+      }
+    ],
+    "expected_status": "NUMERIC_MISMATCH",
+    "expected_supported": false
+  },
+  {
+    "id": "CASE_07_NUMERIC_RATING_HALLUCINATION",
+    "category": "numeric_rating_mismatch",
+    "product_id": 1,
+    "claim": "Users rate this backpack poorly with only 2.1 stars on average.",
+    "evidence_ids": ["R3"],
+    "evidence_pack": [
+      {
+        "evidence_id": "R3",
+        "product_id": 1,
+        "review_id": 3,
+        "text": "The backpack itself is nice and light. Unfortunately the main zipper started sticking after 2 months.",
+        "rating": 3.0,
+        "aspects": ["zipper"]
+      }
+    ],
+    "expected_status": "NUMERIC_MISMATCH",
+    "expected_supported": false
+  },
+  {
+    "id": "CASE_08_NUMERIC_COUNT_HALLUCINATION",
+    "category": "numeric_count_mismatch",
+    "product_id": 1,
+    "claim": "Extensively tested with over 55,000 customer reviews worldwide.",
+    "evidence_ids": ["R4"],
+    "evidence_pack": [
+      {
+        "evidence_id": "R4",
+        "product_id": 1,
+        "review_id": 4,
+        "text": "For under 50 bucks this is unbeatable.",
+        "rating": 5.0,
+        "aspects": ["price"]
+      }
+    ],
+    "expected_status": "NUMERIC_MISMATCH",
+    "expected_supported": false
+  },
+  {
+    "id": "CASE_09_UNVERIFIABLE_SPEC_NOT_IN_CATALOG",
+    "category": "unverifiable_spec",
+    "product_id": 1,
+    "claim": "Equipped with an integrated 15W solar charging panel on the top flap for off-grid power.",
+    "evidence_ids": ["R1_SOLAR"],
+    "evidence_pack": [
+      {
+        "evidence_id": "R1_SOLAR",
+        "product_id": 1,
+        "review_id": 1,
+        "text": "I love the integrated solar charging panel on the top flap for off-grid hiking power. Very handy feature!",
+        "rating": 5.0,
+        "aspects": ["solar_panel"]
+      }
+    ],
+    "expected_status": "UNVERIFIABLE",
+    "expected_supported": true
+  },
+  {
+    "id": "CASE_10_LOW_SIMILARITY_FABRICATED_ASSERTION",
+    "category": "low_similarity_hallucination",
+    "product_id": 1,
+    "claim": "Includes ceramic brake pads and carbon fiber rotors for extreme mountain biking speed.",
+    "evidence_ids": ["R1"],
+    "evidence_pack": [
+      {
+        "evidence_id": "R1",
+        "product_id": 1,
+        "review_id": 1,
+        "text": "This backpack is incredibly lightweight yet durable. The waterproofing really works!",
+        "rating": 5.0,
+        "aspects": ["waterproofing"]
+      }
+    ],
+    "expected_status": "UNSUPPORTED_LOW_SIMILARITY",
+    "expected_supported": false
+  },
+  {
+    "id": "CASE_11_SUPPORTED_EARBUDS_ANC",
+    "category": "supported",
+    "product_id": 2,
+    "claim": "The wireless earbuds offer active noise cancellation suitable for subway commutes.",
+    "evidence_ids": ["R6"],
+    "evidence_pack": [
+      {
+        "evidence_id": "R6",
+        "product_id": 2,
+        "review_id": 6,
+        "text": "Sound quality is surprisingly good for wireless earbuds in this price range. ANC works well on the subway.",
+        "rating": 4.0,
+        "aspects": ["noise_cancellation", "sound"]
+      }
+    ],
+    "expected_status": "SUPPORTED",
+    "expected_supported": true
+  },
+  {
+    "id": "CASE_12_SUPPORTED_CHARGING_CABLE_100W",
+    "category": "supported",
+    "product_id": 6,
+    "claim": "Delivers 100W fast charging and features a braided 6ft cable.",
+    "evidence_ids": ["R50"],
+    "evidence_pack": [
+      {
+        "evidence_id": "R50",
+        "product_id": 6,
+        "review_id": 50,
+        "text": "Finally a cable that actually delivers 100W charging. My laptop charges at full speed. The braided construction feels very durable.",
+        "rating": 5.0,
+        "aspects": ["charging_speed", "durability"]
+      }
+    ],
+    "expected_status": "SUPPORTED",
+    "expected_supported": true
+  },
+  {
+    "id": "CASE_13_NUMERIC_PRICE_TOLERANCE_MATCH",
+    "category": "supported",
+    "product_id": 6,
+    "claim": "Available for $12.99 with 6ft length.",
+    "evidence_ids": ["R51"],
+    "evidence_pack": [
+      {
+        "evidence_id": "R51",
+        "product_id": 6,
+        "review_id": 51,
+        "text": "Good quality cable. Charges my phone and laptop quickly. The 6ft length is perfect for my desk setup.",
+        "rating": 4.0,
+        "aspects": ["length"]
+      }
+    ],
+    "expected_status": "SUPPORTED",
+    "expected_supported": true
+  },
+  {
+    "id": "CASE_14_UNVERIFIABLE_DB_NULL_PRICE",
+    "category": "unverifiable_db_null",
+    "product_id": 999,
+    "claim": "Priced at $89.00 for premium customers.",
+    "evidence_ids": ["R999"],
+    "evidence_pack": [
+      {
+        "evidence_id": "R999",
+        "product_id": 999,
+        "review_id": 999,
+        "text": "Great premium item for customers.",
+        "rating": 5.0,
+        "aspects": ["value"]
+      }
+    ],
+    "expected_status": "UNVERIFIABLE",
+    "expected_supported": true
+  },
+  {
+    "id": "CASE_15_NO_CITATIONS_UNVERIFIED_CLAIM",
+    "category": "low_similarity_hallucination",
+    "product_id": 1,
+    "claim": "Customers universally praise the titanium zipper buckles.",
+    "evidence_ids": [],
+    "evidence_pack": [],
+    "expected_status": "UNSUPPORTED_LOW_SIMILARITY",
+    "expected_supported": false
+  }
+]

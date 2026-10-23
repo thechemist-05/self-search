@@ -1,0 +1,187 @@
+{
+  "session_id": "2b8045da-4488-463a-a635-3b8edeb3361c",
+  "intent": "PRODUCT_SEARCH",
+  "answer": {
+    "summary": "Marathon Running Shoes - Men by SpeedFit are lightweight with responsive cushioning and breathable mesh upper, suitable for running and suitable for daily training.",
+    "recommendations": [
+      {
+        "product_id": 3,
+        "external_id": "P003",
+        "title": "Marathon Running Shoes - Men",
+        "why_it_matches": [
+          {
+            "claim": "Suitable for running and daily training.",
+            "evidence_ids": [
+              "R3"
+            ]
+          }
+        ],
+        "watch_outs": [
+          {
+            "claim": "Runs slightly small.",
+            "evidence_ids": [
+              "R2"
+            ]
+          }
+        ]
+      }
+    ],
+    "insufficient_evidence": false,
+    "missing_information": null
+  },
+  "clarification_question": null,
+  "smalltalk_response": null,
+  "support_report": {
+    "query": "Find running shoes",
+    "total_claims": 2,
+    "supported_claims": 2,
+    "unsupported_claims": 0,
+    "fabricated_citations": 0,
+    "cross_product_mismatches": 0,
+    "numeric_mismatches": 0,
+    "unverifiable_claims": 0,
+    "support_rate": 1.0,
+    "is_valid": true,
+    "claim_results": [
+      {
+        "claim_text": "Suitable for running and daily training.",
+        "product_id": 3,
+        "evidence_ids": [
+          "R3"
+        ],
+        "status": "SUPPORTED",
+        "is_supported": true,
+        "lexical_score": 0.087,
+        "semantic_score": 0.1905,
+        "numeric_checks": [],
+        "reasons": []
+      },
+      {
+        "claim_text": "Runs slightly small.",
+        "product_id": 3,
+        "evidence_ids": [
+          "R2"
+        ],
+        "status": "SUPPORTED",
+        "is_supported": true,
+        "lexical_score": 0.1,
+        "semantic_score": 0.1771,
+        "numeric_checks": [],
+        "reasons": []
+      }
+    ]
+  },
+  "active_filters": {
+    "category": null,
+    "brand": null,
+    "min_price": null,
+    "max_price": null,
+    "min_rating": null
+  },
+  "shown_product_ids": [
+    3
+  ],
+  "parsing_confidence": 0.4,
+  "result_product_ids": [
+    3
+  ],
+  "products": [
+    {
+      "id": 3,
+      "external_id": "P003",
+      "title": "Marathon Running Shoes - Men",
+      "brand": "SpeedFit",
+      "category": "Sports_and_Outdoors",
+      "price": 89.99,
+      "currency": "USD",
+      "price_status": "verified",
+      "estimated_price": null,
+      "catalog_rating": 4.5,
+      "catalog_rating_count": 876,
+      "local_review_count": 5,
+      "image_url": "https://example.com/img/shoes1.jpg",
+      "features": [
+        "Breathable mesh",
+        "Responsive cushioning",
+        "Lightweight"
+      ],
+      "attributes": {
+        "sizes": [
+          "8",
+          "9",
+          "10",
+          "11",
+          "12"
+        ]
+      },
+      "aspects": [],
+      "recommended": true,
+      "retrieval_rank": 1,
+      "constraint_checks": [
+        {
+          "kind": "product_type",
+          "detail": "footwear: title mentions “shoe”"
+        }
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "R1",
+      "review_id": 11,
+      "product_id": 3,
+      "title": "Like running on clouds",
+      "text": "These shoes transformed my running experience. The cushioning is incredible and they are so lightweight. Ran my first half marathon in them!",
+      "rating": 5.0,
+      "verified": true,
+      "helpful_votes": 56
+    },
+    {
+      "evidence_id": "R2",
+      "review_id": 12,
+      "product_id": 3,
+      "title": "Runs slightly small",
+      "text": "Great shoes but they run about half a size small. Order up. Once I got the right size, they are extremely comfortable for long runs.",
+      "rating": 4.0,
+      "verified": true,
+      "helpful_votes": 42
+    },
+    {
+      "evidence_id": "R3",
+      "review_id": 14,
+      "product_id": 3,
+      "title": "Perfect for daily training",
+      "text": "Use these 5 days a week for training runs. Breathable mesh keeps feet cool even in summer. Best running shoes I have owned in this price range.",
+      "rating": 5.0,
+      "verified": true,
+      "helpful_votes": 25
+    }
+  ],
+  "generation": {
+    "mode": "llm",
+    "reason": null,
+    "model": "llama3.2:3b",
+    "attempts": 1
+  },
+  "constraints": {
+    "items": [
+      {
+        "kind": "product_type",
+        "label": "Product type: footwear (title or description mentions: boot, footwear, loafer, sandal, shoe, slipper, sneaker, trainer)",
+        "value": [
+          "footwear"
+        ],
+        "status": "applied",
+        "reason": null,
+        "checked_fields": [
+          "title",
+          "description"
+        ]
+      }
+    ],
+    "matching_products": 1,
+    "catalog_currencies": [
+      "USD"
+    ]
+  }
+}

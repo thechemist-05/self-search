@@ -1,0 +1,482 @@
+# Product selection rules, version 4 (2026-10-23): 50,000 products ADDED to the validated
+# 50,000-product selection-v3 catalogue, in the allocation requested on 2026-10-23, from the
+# same pinned Amazon Reviews 2023 revision:
+#
+#   [clothing]  Clothing, Shoes & Jewelry   sarees 8,000; lehengas 7,000; earrings 6,000;
+#                                           footwear 7,000; bags and accessories 5,000;
+#                                           other jewellery 4,000; men's fashion 5,000
+#   [beauty]    All Beauty                  beauty and personal care 4,000
+#   [handmade]  Handmade Products           home and lifestyle 3,000
+#   [sports]    Sports and Outdoors         sports and fitness 1,000
+#
+# - The v3 catalogue (config/selection_amazon2023_v3.toml) is kept as it is; these rules only
+#   choose additional products. Products already in v3 (same parent_asin), identical normalised
+#   titles and same-seller near-duplicates are never added twice (scripts/build_expanded_db.py).
+# - Each group's quota is shared by its sub-style types with the balanced split, so a group
+#   covers its range (silk, Banarasi, Kanjivaram, cotton ... sarees). A group with too few
+#   genuine products is filled as far as possible and the shortfall is reported; it is never
+#   padded with other products.
+# - Types are matched in file order: the first type whose keywords (and required words)
+#   are in the title wins; exclude phrases veto a type or, at category level, every type.
+# - Review rule: at least ONE review of >= 20 characters (v3 required three). Several
+#   requested categories are scarce in this US dataset; a product with one real review still
+#   has evidence. Within each type the products with the most qualifying reviews are chosen
+#   first, so abundant groups still get well-reviewed products. At most 8 reviews are kept.
+
+version = "selection-v4-allocation"
+dedupe_identical_titles = true
+min_qualifying_reviews = 1
+min_review_chars = 20
+max_reviews_per_product = 8
+
+# ============================================================================
+[clothing]
+quota = 42000
+exclude_title_keywords = [
+  "socks", "shoe size", "sock size", "watch", "watches", "wristwatch",
+  "keychain", "keychains", "key chain", "key ring", "keyring",
+  "shoe charms", "clog charms", "bag charm", "purse charm", "handbag charm", "charms for",
+  "shoelaces", "shoe laces", "laces", "shoe covers", "insoles", "packing cubes",
+  "hanger", "hangers", "sticker", "stickers", "face mask", "dress gloves", "dress hat",
+  "cleaner", "cleaners", "cleaning", "eraser", "erasers", "shoe polish", "deodorizer", "deodorizers",
+  "deodorant", "shoe stretcher", "shoe stretchers", "shoe tree", "shoe trees", "shoe brush",
+  "protector spray", "waterproofing spray", "repair kit", "lace lock", "lace locks", "clouser",
+  "heel grips", "heel grip", "heel pads", "heel protectors", "shoe clips", "shoe horn",
+  "doll", "dolls", "costume accessory", "jewelry making", "jewellery making", "beads for",
+  "earring back", "earring backs", "earring backings", "earring holder", "earring organizer",
+  "jewelry box", "jewelry organizer", "jewellery box", "jewelry cleaner", "ring sizer",
+]
+
+[clothing.groups]
+sarees = 8000
+lehengas = 7000
+earrings = 6000
+jewellery = 4000
+mens = 5000
+footwear = 7000
+bags = 5000
+
+# ---- sarees (8,000): sub-styles first, then any other genuine saree ----
+[[clothing.type]]
+key = "saree_banarasi"
+group = "sarees"
+title_keywords = ["banarasi", "benarasi", "banarsi"]
+requires = ["saree", "sarees", "sari", "saris"]
+exclude_title_keywords = ["saree blouse", "sari blouse", "for saree", "petticoat", "shapewear"]
+
+[[clothing.type]]
+key = "saree_kanjivaram"
+group = "sarees"
+title_keywords = ["kanjivaram", "kanjeevaram", "kanchipuram", "kanchi"]
+requires = ["saree", "sarees", "sari", "saris"]
+exclude_title_keywords = ["saree blouse", "sari blouse", "for saree", "petticoat", "shapewear"]
+
+[[clothing.type]]
+key = "saree_silk"
+group = "sarees"
+title_keywords = ["silk"]
+requires = ["saree", "sarees", "sari", "saris"]
+exclude_title_keywords = ["saree blouse", "sari blouse", "for saree", "petticoat", "shapewear"]
+
+[[clothing.type]]
+key = "saree_chiffon_georgette"
+group = "sarees"
+title_keywords = ["chiffon", "georgette"]
+requires = ["saree", "sarees", "sari", "saris"]
+exclude_title_keywords = ["saree blouse", "sari blouse", "for saree", "petticoat", "shapewear"]
+
+[[clothing.type]]
+key = "saree_organza_linen"
+group = "sarees"
+title_keywords = ["organza", "linen"]
+requires = ["saree", "sarees", "sari", "saris"]
+exclude_title_keywords = ["saree blouse", "sari blouse", "for saree", "petticoat", "shapewear"]
+
+[[clothing.type]]
+key = "saree_cotton"
+group = "sarees"
+title_keywords = ["cotton", "handloom"]
+requires = ["saree", "sarees", "sari", "saris"]
+exclude_title_keywords = ["saree blouse", "sari blouse", "for saree", "petticoat", "shapewear"]
+
+[[clothing.type]]
+key = "saree_printed_embroidered"
+group = "sarees"
+title_keywords = ["printed", "print", "embroidered", "embroidery", "zari", "sequin"]
+requires = ["saree", "sarees", "sari", "saris"]
+exclude_title_keywords = ["saree blouse", "sari blouse", "for saree", "petticoat", "shapewear"]
+
+[[clothing.type]]
+key = "saree_other"
+group = "sarees"
+title_keywords = ["saree", "sarees", "sari", "saris", "saaree"]
+exclude_title_keywords = ["saree blouse", "sari blouse", "saree blouses", "saree petticoat", "saree shapewear",
+  "saree pin", "saree pins", "saree cover", "saree covers", "saree bag", "saree bags", "saree storage",
+  "for saree", "for sarees", "for sari", "saree brooch", "lehenga", "petticoat", "shapewear"]
+
+# ---- lehengas (7,000) ----
+[[clothing.type]]
+key = "lehenga_bridal"
+group = "lehengas"
+title_keywords = ["bridal", "bride", "wedding"]
+requires = ["lehenga", "lehengas", "lehnga", "lengha", "lehanga", "ghagra", "chaniya choli"]
+exclude_title_keywords = ["for lehenga", "lehenga cover", "lehenga bag", "petticoat", "can can", "saree"]
+
+[[clothing.type]]
+key = "lehenga_mirror_work"
+group = "lehengas"
+title_keywords = ["mirror work", "mirror"]
+requires = ["lehenga", "lehengas", "lehnga", "lengha", "lehanga", "ghagra", "chaniya choli"]
+exclude_title_keywords = ["for lehenga", "lehenga cover", "lehenga bag", "petticoat", "can can", "saree"]
+
+[[clothing.type]]
+key = "lehenga_party_festive"
+group = "lehengas"
+title_keywords = ["party", "party wear", "festive", "festival", "navratri", "garba", "diwali"]
+requires = ["lehenga", "lehengas", "lehnga", "lengha", "lehanga", "ghagra", "chaniya choli"]
+exclude_title_keywords = ["for lehenga", "lehenga cover", "lehenga bag", "petticoat", "can can", "saree"]
+
+[[clothing.type]]
+key = "lehenga_embroidered"
+group = "lehengas"
+title_keywords = ["embroidered", "embroidery", "sequin", "sequence", "zari", "velvet", "silk"]
+requires = ["lehenga", "lehengas", "lehnga", "lengha", "lehanga", "ghagra", "chaniya choli"]
+exclude_title_keywords = ["for lehenga", "lehenga cover", "lehenga bag", "petticoat", "can can", "saree"]
+
+[[clothing.type]]
+key = "lehenga_other"
+group = "lehengas"
+title_keywords = ["lehenga", "lehengas", "lehnga", "lehngas", "lengha", "lenghas", "lehanga", "lehenga choli",
+  "ghagra", "ghagra choli", "chaniya choli", "chaniya cholis"]
+exclude_title_keywords = ["for lehenga", "lehenga cover", "lehenga bag", "lehenga can can", "lehenga petticoat",
+  "petticoat", "can can", "saree"]
+
+# ---- other jewellery (4,000), before earrings so sets never count as earrings ----
+[[clothing.type]]
+key = "jewellery_sets"
+group = "jewellery"
+title_keywords = ["set", "sets", "jewelry set", "jewellery set", "combo"]
+requires = ["necklace", "necklaces", "choker", "bangle", "bangles", "jewelry", "jewellery", "maang tikka", "pendant"]
+
+[[clothing.type]]
+key = "maang_tikka"
+group = "jewellery"
+title_keywords = ["maang tikka", "mang tikka", "maang tika", "tikka", "matha patti", "maatha patti"]
+
+[[clothing.type]]
+key = "necklaces"
+group = "jewellery"
+title_keywords = ["necklace", "necklaces", "choker", "chokers", "pendant", "mangalsutra"]
+exclude_title_keywords = ["earring", "earrings", "jhumka", "jhumkas"]
+
+[[clothing.type]]
+key = "bangles_bracelets"
+group = "jewellery"
+title_keywords = ["bangle", "bangles", "kada", "bracelet", "bracelets", "cuff bracelet"]
+exclude_title_keywords = ["earring", "earrings"]
+
+[[clothing.type]]
+key = "rings"
+group = "jewellery"
+title_keywords = ["ring", "rings", "finger ring", "toe ring"]
+exclude_title_keywords = ["earring", "earrings", "nose ring", "ring set holder", "o ring", "d ring", "split ring"]
+
+[[clothing.type]]
+key = "anklets"
+group = "jewellery"
+title_keywords = ["anklet", "anklets", "payal"]
+
+# ---- earrings (6,000) ----
+[[clothing.type]]
+key = "earrings_jhumka"
+group = "earrings"
+title_keywords = ["jhumka", "jhumkas", "jhumki", "jhumkis"]
+exclude_title_keywords = ["necklace", "set", "earring back", "earring backs"]
+
+[[clothing.type]]
+key = "earrings_chandbali"
+group = "earrings"
+title_keywords = ["chandbali", "chandbalis", "chand bali"]
+exclude_title_keywords = ["necklace", "set"]
+
+[[clothing.type]]
+key = "earrings_studs"
+group = "earrings"
+title_keywords = ["stud earring", "stud earrings", "studs", "ear studs"]
+requires = ["earring", "earrings", "ear studs"]
+exclude_title_keywords = ["necklace", "set", "earring back", "earring backs"]
+
+[[clothing.type]]
+key = "earrings_hoops"
+group = "earrings"
+title_keywords = ["hoop", "hoops", "huggie", "huggies"]
+requires = ["earring", "earrings"]
+exclude_title_keywords = ["necklace", "set"]
+
+[[clothing.type]]
+key = "earrings_oxidised_kundan_pearl"
+group = "earrings"
+title_keywords = ["oxidised", "oxidized", "kundan", "pearl", "pearls", "meenakari", "polki"]
+requires = ["earring", "earrings"]
+exclude_title_keywords = ["necklace", "set"]
+
+[[clothing.type]]
+key = "earrings_other"
+group = "earrings"
+title_keywords = ["earring", "earrings", "ear cuff", "ear cuffs"]
+exclude_title_keywords = ["necklace", "set", "earring back", "earring backs", "earring holder", "earring hooks",
+  "earring findings", "ear wires", "earring converters", "earring lifters", "for earrings", "earring posts"]
+
+# ---- men's fashion (5,000), before generic footwear and clothing ----
+[[clothing.type]]
+key = "mens_kurtas"
+group = "mens"
+title_keywords = ["kurta", "kurtas", "kurta pajama", "sherwani", "nehru jacket", "pathani"]
+requires = ["men", "mens", "men's"]
+exclude_title_keywords = ["women", "womens", "women's", "girls", "ladies"]
+
+[[clothing.type]]
+key = "mens_shirts"
+group = "mens"
+title_keywords = ["shirt", "shirts"]
+requires = ["men", "mens", "men's"]
+exclude_title_keywords = ["women", "womens", "women's", "girls", "ladies", "t-shirt", "t-shirts", "tshirt", "tee", "sweatshirt"]
+
+[[clothing.type]]
+key = "mens_tshirts"
+group = "mens"
+title_keywords = ["t-shirt", "t-shirts", "tshirt", "tee", "tees", "polo"]
+requires = ["men", "mens", "men's"]
+exclude_title_keywords = ["women", "womens", "women's", "girls", "ladies"]
+
+[[clothing.type]]
+key = "mens_jeans_trousers"
+group = "mens"
+title_keywords = ["jeans", "trousers", "chinos", "joggers", "pants", "cargo"]
+requires = ["men", "mens", "men's"]
+exclude_title_keywords = ["women", "womens", "women's", "girls", "ladies", "underwear", "boxer"]
+
+[[clothing.type]]
+key = "mens_jackets"
+group = "mens"
+title_keywords = ["jacket", "jackets", "coat", "blazer", "hoodie", "hoodies"]
+requires = ["men", "mens", "men's"]
+exclude_title_keywords = ["women", "womens", "women's", "girls", "ladies"]
+
+[[clothing.type]]
+key = "mens_footwear"
+group = "mens"
+title_keywords = ["shoe", "shoes", "sneaker", "sneakers", "loafer", "loafers", "boot", "boots", "sandal", "sandals",
+  "jutti", "juttis", "mojari", "mojaris", "oxford", "oxfords"]
+requires = ["men", "mens", "men's"]
+exclude_title_keywords = ["women", "womens", "women's", "girls", "ladies", "boot cut", "bootcut"]
+
+# ---- footwear (7,000) ----
+[[clothing.type]]
+key = "footwear_juttis"
+group = "footwear"
+title_keywords = ["jutti", "juttis", "mojari", "mojaris", "kolhapuri", "punjabi jutti"]
+
+[[clothing.type]]
+key = "footwear_sneakers"
+group = "footwear"
+title_keywords = ["sneaker", "sneakers", "running shoe", "running shoes", "trainers"]
+
+[[clothing.type]]
+key = "footwear_heels"
+group = "footwear"
+title_keywords = ["heels", "high heels", "pumps", "stiletto", "stilettos", "wedges"]
+exclude_title_keywords = ["boot", "boots", "heel grips"]
+
+[[clothing.type]]
+key = "footwear_sandals"
+group = "footwear"
+title_keywords = ["sandal", "sandals", "flip flop", "flip flops", "flip-flops", "slides", "chappal", "chappals"]
+
+[[clothing.type]]
+key = "footwear_flats"
+group = "footwear"
+title_keywords = ["flats", "ballet flats", "ballerina"]
+exclude_title_keywords = ["flat iron"]
+
+[[clothing.type]]
+key = "footwear_boots"
+group = "footwear"
+title_keywords = ["boot", "boots", "booties"]
+exclude_title_keywords = ["boot cut", "bootcut", "boot socks", "boot cuffs"]
+
+[[clothing.type]]
+key = "footwear_loafers"
+group = "footwear"
+title_keywords = ["loafer", "loafers", "moccasin", "moccasins"]
+
+# ---- bags and accessories (5,000) ----
+[[clothing.type]]
+key = "bags_clutches"
+group = "bags"
+title_keywords = ["clutch", "clutches", "potli", "evening bag"]
+exclude_title_keywords = ["clutch purse wallet"]
+
+[[clothing.type]]
+key = "bags_sling"
+group = "bags"
+title_keywords = ["sling bag", "sling bags", "crossbody", "cross body"]
+
+[[clothing.type]]
+key = "bags_handbags"
+group = "bags"
+title_keywords = ["handbag", "handbags", "tote", "purse", "shoulder bag", "satchel", "hobo bag"]
+exclude_title_keywords = ["purse organizer", "purse insert", "purse strap", "handbag strap", "bag strap", "coin purse"]
+
+[[clothing.type]]
+key = "bags_backpacks"
+group = "bags"
+title_keywords = ["backpack", "backpacks", "rucksack"]
+exclude_title_keywords = ["backpack charm", "backpack keychain", "backpack pin", "backpack straps", "backpack cover"]
+
+[[clothing.type]]
+key = "bags_wallets"
+group = "bags"
+title_keywords = ["wallet", "wallets", "billfold", "bifold", "trifold", "card holder", "coin purse", "money clip"]
+
+[[clothing.type]]
+key = "bags_belts"
+group = "bags"
+title_keywords = ["belt", "belts"]
+exclude_title_keywords = ["belt bag", "belt clip", "belt buckle only", "seat belt", "waist trainer"]
+
+[[clothing.type]]
+key = "bags_sunglasses"
+group = "bags"
+title_keywords = ["sunglasses", "sunglass", "shades"]
+exclude_title_keywords = ["sunglasses case", "sunglass case", "sunglasses strap", "sunglass holder", "lens replacement"]
+
+# ============================================================================
+[beauty]
+quota = 4000
+exclude_title_keywords = ["sample", "samples", "empty bottle", "empty bottles", "refill bottle", "dispenser",
+  "mannequin", "practice hand", "training head", "nail tips", "false nails", "wig", "wigs", "hair extension",
+  "hair extensions"]
+
+[beauty.groups]
+beauty = 4000
+
+[[beauty.type]]
+key = "makeup"
+group = "beauty"
+title_keywords = ["lipstick", "lip gloss", "lip liner", "foundation", "concealer", "eyeliner", "kajal", "kohl",
+  "mascara", "eyeshadow", "eye shadow", "blush", "highlighter", "compact powder", "makeup", "nail polish",
+  "bb cream", "primer"]
+
+[[beauty.type]]
+key = "skincare"
+group = "beauty"
+title_keywords = ["serum", "moisturizer", "moisturiser", "face cream", "night cream", "face wash", "cleanser",
+  "sunscreen", "toner", "face mask", "sheet mask", "lotion", "body butter", "scrub", "exfoliator", "eye cream"]
+exclude_title_keywords = ["hair serum"]
+
+[[beauty.type]]
+key = "haircare"
+group = "beauty"
+title_keywords = ["shampoo", "conditioner", "hair oil", "hair mask", "hair serum", "hair cream", "hair spray",
+  "hair gel", "dry shampoo", "hair dye", "hair color", "hair colour"]
+
+[[beauty.type]]
+key = "fragrances"
+group = "beauty"
+title_keywords = ["perfume", "perfumes", "fragrance", "eau de parfum", "eau de toilette", "attar", "body mist",
+  "cologne"]
+
+[[beauty.type]]
+key = "grooming"
+group = "beauty"
+title_keywords = ["razor", "trimmer", "beard oil", "beard balm", "shaving", "shave", "aftershave", "after shave",
+  "grooming kit", "nail clipper", "tweezers"]
+
+# ============================================================================
+[handmade]
+quota = 3000
+exclude_title_keywords = ["earring", "earrings", "necklace", "bracelet", "ring", "rings", "pendant", "anklet",
+  "jewelry", "jewellery", "keychain", "sticker", "stickers", "card", "cards", "invitation", "print file",
+  "digital download", "svg", "pdf", "pattern only", "costume", "dog", "cat collar", "pet"]
+
+[handmade.groups]
+home = 3000
+
+[[handmade.type]]
+key = "home_bedding"
+group = "home"
+title_keywords = ["bedsheet", "bed sheet", "bed sheets", "duvet", "duvet cover", "quilt", "bedspread",
+  "comforter", "bed cover", "blanket", "throw blanket"]
+
+[[handmade.type]]
+key = "home_cushions"
+group = "home"
+title_keywords = ["cushion", "cushions", "cushion cover", "pillow cover", "pillow covers", "throw pillow",
+  "pillowcase", "pillow case"]
+
+[[handmade.type]]
+key = "home_lamps_lighting"
+group = "home"
+title_keywords = ["lamp", "lamps", "lantern", "lanterns", "night light", "string lights", "lamp shade",
+  "lampshade", "candle holder", "candle holders", "diya"]
+
+[[handmade.type]]
+key = "home_decor"
+group = "home"
+title_keywords = ["wall art", "wall decor", "wall hanging", "decor", "vase", "vases", "wreath", "macrame",
+  "ornament", "ornaments", "sign", "figurine", "planter", "planters", "candle", "candles"]
+
+[[handmade.type]]
+key = "home_storage"
+group = "home"
+title_keywords = ["basket", "baskets", "storage", "organizer", "box", "boxes", "tray", "trays", "caddy"]
+
+[[handmade.type]]
+key = "home_kitchenware"
+group = "home"
+title_keywords = ["cutting board", "serving board", "spoon", "spoons", "spatula", "apron", "bowl", "bowls",
+  "plate", "plates", "coaster", "coasters", "trivet", "pot holder", "oven mitt", "tea towel", "kitchen towel"]
+
+[[handmade.type]]
+key = "home_drinkware"
+group = "home"
+title_keywords = ["mug", "mugs", "cup", "cups", "tumbler", "tumblers", "wine glass", "glasses", "water bottle",
+  "teapot", "tea cup"]
+
+# ============================================================================
+[sports]
+quota = 1000
+exclude_title_keywords = ["replacement part", "replacement parts", "decal", "sticker", "stickers", "fishing",
+  "hunting", "gun", "rifle", "ammo", "holster", "knife", "knives", "bike", "bicycle", "golf ball", "tent", "camping"]
+
+[sports.groups]
+sports = 1000
+
+[[sports.type]]
+key = "sports_yoga_mats"
+group = "sports"
+title_keywords = ["yoga mat", "yoga mats", "exercise mat", "fitness mat", "pilates mat"]
+
+[[sports.type]]
+key = "sports_resistance_bands"
+group = "sports"
+title_keywords = ["resistance band", "resistance bands", "exercise bands", "loop bands", "pull up band"]
+
+[[sports.type]]
+key = "sports_gym_accessories"
+group = "sports"
+title_keywords = ["gym bag", "lifting straps", "wrist wraps", "weightlifting belt", "lifting gloves", "gym gloves",
+  "jump rope", "skipping rope", "foam roller", "yoga block", "yoga blocks", "yoga strap", "shaker bottle"]
+
+[[sports.type]]
+key = "sports_fitness_equipment"
+group = "sports"
+title_keywords = ["dumbbell", "dumbbells", "kettlebell", "kettlebells", "ab roller", "ab wheel", "push up bars",
+  "pull up bar", "exercise ball", "stability ball", "medicine ball", "hand grip", "weight plate", "ankle weights"]
+
+[[sports.type]]
+key = "sports_sportswear"
+group = "sports"
+title_keywords = ["sports bra", "compression shirt", "compression shorts", "running shorts", "athletic shorts",
+  "workout shirt", "track pants", "tracksuit", "gym shorts", "yoga pants", "workout leggings", "athletic shirt"]

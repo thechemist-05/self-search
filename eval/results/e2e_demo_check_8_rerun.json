@@ -1,0 +1,20 @@
+[
+  {
+    "number": 8,
+    "name": "Unknown prices",
+    "passed": true,
+    "failures": [],
+    "intent": "PRODUCT_SEARCH",
+    "seconds": 38.6,
+    "products": 10,
+    "mode": "llm",
+    "reason": null,
+    "claims": 4,
+    "supported": 3,
+    "budget_cards": [
+      "estimated"
+    ],
+    "unknown_price_dress_titles_excluded": 2496,
+    "unbudgeted_unknown_cards": 6
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "manifest_version": 1,
+  "created_at": "2026-10-21T00:29:17.179711+00:00",
+  "db_path": "data\\processed\\shelfsense.db",
+  "catalogue": {
+    "products": {
+      "rows": 20,
+      "sha256": "8e374586fde84d971ee2360f3f036b262af3c6bfeff19665ef77314a421503c0"
+    },
+    "reviews": {
+      "rows": 100,
+      "sha256": "d58382e8b31c8f43c4a6eb562b2a6664f4cc4de9c7877ce91cf32b3de90add96"
+    }
+  },
+  "embedder": {
+    "name": "unrecorded (index built before manifests existed)",
+    "dimension": 64
+  },
+  "indexes": {
+    "products": {
+      "file": "products.index",
+      "sha256": "f86f2ffc32e5646606da630dbe0563330a37f148480cec041e95402c4d7ecb7f",
+      "map_file": "products.pkl",
+      "map_sha256": "d2f32339096e8ed863a7166162a441fd6d5acc456103245a0291726f65f46ddd",
+      "vectors": 20,
+      "dimension": 64
+    },
+    "reviews": {
+      "file": "reviews.index",
+      "sha256": "25297d8dfd2b9bc075adfae00acd87cc54fed1a36adbbc653415b1a377b848b2",
+      "map_file": "reviews.pkl",
+      "map_sha256": "e52d0f41b44acc25bdaf90b129a530524b5f427c2bfe3dc971dcbb2e4659b32c",
+      "vectors": 100,
+      "dimension": 64
+    }
+  },
+  "excluded": {
+    "faiss.index": {
+      "sha256": "5ce5baf1a235cb7a911aa1e5fc01bb1722026d047f08817c1c06b6098971d1f8",
+      "reason": "Legacy combined index read only by /ask; products and reviews share integer ids and collide in it. Not covered by this manifest and not verified.",
+      "map_sha256": "5f84b0a56b59137993e0122da0fbb8bd2fa1981269fa3e3ed3ebcccd0ea5fe3f"
+    }
+  }
+}

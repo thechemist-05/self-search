@@ -1,0 +1,28 @@
+# Exchange rates used to show source prices in Indian rupees (added 2026-10-23).
+#
+# Self Search shows every product price in INR. A source price in another currency is
+# converted ONLY with a rate listed here, from an official published source, for a stated
+# date. A currency without an entry here is never converted: the product shows
+# "Price unavailable". Nothing is guessed, and no symbol is ever swapped.
+#
+# Why this date: the catalogue's source prices are an amazon.com snapshot from the
+# Amazon Reviews 2023 crawl (reviews up to September 2023), so they are converted at the
+# rate of the last ECB working day of September 2023. Change the date only together with
+# the two ECB figures below, and bump `version`.
+#
+# The USD -> INR rate is derived from the ECB's two official euro reference rates for the
+# same day (ECB publishes rates against the euro only):
+#     USD->INR = (INR per EUR) / (USD per EUR) = 88.0165 / 1.0594 = 83.0815 (4 decimals)
+# src/pricing/fx.py recomputes this and refuses the file if the stored rate disagrees.
+
+version = "fx-ecb-20230929-v1"
+
+[USD]
+quote = "INR"
+rate = 83.0815
+rate_date = "2023-09-29"
+ecb_inr_per_eur = 88.0165
+ecb_usd_per_eur = 1.0594
+source = "European Central Bank euro foreign exchange reference rates (series EXR.D.INR.EUR.SP00.A and EXR.D.USD.EUR.SP00.A)"
+source_url = "https://data-api.ecb.europa.eu/service/data/EXR/D.USD+INR.EUR.SP00.A?startPeriod=2023-09-29&endPeriod=2023-09-29&format=csvdata"
+retrieved = "2026-10-23"

@@ -1,0 +1,28 @@
+# Strict-matching evaluation (2026-10-22). A returned product is relevant only if it meets
+# every criterion, judged on its own title (plus details.Color for colour) — written by hand
+# per query, independent of src/retrieval/constraints.py:
+#   all:   regexes that must each match the title (case-insensitive)
+#   none:  regexes that must not match the title
+#   colour: regex that must match the title or details.Color
+#   max_inr: the product's INR price (estimate for unpriced products) must be <= this
+#   brand: regex that must match the store or the start of the title
+{"id": "S01", "query": "black heels", "all": ["\\b(heels?|pumps?|stilettos?)\\b"], "colour": "\\bblack\\b", "none": ["\\bboots?\\b", "\\bbooties?\\b", "\\bgrips?\\b", "\\bsneakers?\\b", "\\bslippers?\\b", "\\bsocks?\\b", "\\bpads?\\b"]}
+{"id": "S02", "query": "white heels", "all": ["\\b(heels?|pumps?|stilettos?)\\b"], "colour": "\\b(white|ivory|off[- ]white)\\b", "none": ["\\bboots?\\b", "\\bbooties?\\b", "\\bgrips?\\b", "\\bsneakers?\\b", "\\bslippers?\\b"]}
+{"id": "S03", "query": "black handbag", "all": ["\\b(handbags?|purses?|totes?|shoulder bag|crossbody|clutch|satchel|hobo)\\b"], "colour": "\\bblack\\b", "none": ["\\b(shoes?|sneakers?|boots?|sandals?|heels?)\\b", "\\bwallets?\\b", "\\bstraps?\\b", "\\borganizer\\b", "\\bcharms?\\b"]}
+{"id": "S04", "query": "red dress", "all": ["\\b(dress|dresses|gown|sundress)\\b"], "colour": "\\b(red|burgundy|maroon|wine red|crimson)\\b", "none": ["\\bdress (shoes?|shirts?|socks?|pants?|boots?|sandals?)\\b", "\\b(shoes?|heels?|pumps?|sandals?)\\b"]}
+{"id": "S05", "query": "running shoes", "all": ["\\b(running|jogging)\\b", "\\b(shoes?|sneakers?|trainers?)\\b"], "none": ["\\b(football|soccer|cleats?|sandals?|slippers?|basketball|golf)\\b", "\\b(cleaner|cleaning|eraser|laces?|insoles?)\\b", "\\bshorts?\\b"]}
+{"id": "S06", "query": "running shoes under ₹3000", "all": ["\\b(running|jogging)\\b", "\\b(shoes?|sneakers?|trainers?)\\b"], "none": ["\\b(football|soccer|cleats?|sandals?|slippers?)\\b", "\\b(cleaner|cleaning|eraser)\\b"], "max_inr": 3000}
+{"id": "S07", "query": "white sneakers", "all": ["\\b(sneakers?|trainers?|tennis shoes?|athletic shoes?)\\b"], "colour": "\\b(white|ivory|off[- ]white)\\b", "none": ["\\b(sandals?|slippers?|cleaner|socks?)\\b"]}
+{"id": "S08", "query": "black ankle boots", "all": ["\\b(boots?|booties?)\\b"], "colour": "\\bblack\\b", "none": ["\\bboot ?cut\\b", "\\bsocks?\\b", "\\b(cleats?|football|soccer)\\b"]}
+{"id": "S09", "query": "men's leather belt", "all": ["\\bbelts?\\b"], "none": ["\\b(faux|vegan|pu|synthetic) leather\\b", "\\bbelt bag\\b", "\\b(dress|skirt|pants?|jeans|shorts?|coat|jacket)\\b"], "colour": null, "material": "\\bleather\\b"}
+{"id": "S10", "query": "blue jeans", "all": ["\\bjeans\\b"], "colour": "\\b(blue|navy|denim blue|light blue|dark blue)\\b", "none": ["\\b(jacket|shorts?|skirt|shirt|dress|vest)\\b"]}
+{"id": "S11", "query": "denim shorts", "all": ["\\bshorts\\b", "\\bdenim\\b"], "none": ["\\bshort sleeve", "\\b(dress|skirt|boots?)\\b"]}
+{"id": "S12", "query": "pink swimsuit", "all": ["\\b(swimsuits?|bikinis?|swimwear|bathing suits?|tankinis?|swim trunks?)\\b"], "colour": "\\b(pink|hot pink|blush|fuchsia)\\b", "none": ["\\bcover ?up\\b"]}
+{"id": "S13", "query": "black backpack", "all": ["\\b(backpacks?|rucksacks?|daypacks?)\\b"], "colour": "\\bblack\\b", "none": ["\\b(charms?|keychains?|straps?|covers?|pins?)\\b"]}
+{"id": "S14", "query": "wool sweater", "all": ["\\b(sweaters?|cardigans?|pullovers?|jumpers?)\\b", "\\b(wool|merino)\\b"], "none": ["\\bsweater dress\\b"]}
+{"id": "S15", "query": "black handbag under ₹2500", "all": ["\\b(handbags?|purses?|totes?|shoulder bag|crossbody|clutch|satchel|hobo)\\b"], "colour": "\\bblack\\b", "none": ["\\b(shoes?|sneakers?|boots?|heels?)\\b", "\\bwallets?\\b"], "max_inr": 2500}
+{"id": "S16", "query": "nike running shoes", "all": ["\\b(running|jogging)\\b", "\\b(shoes?|sneakers?|trainers?)\\b"], "brand": "^nike\\b", "none": ["\\b(football|soccer|cleats?)\\b"]}
+{"id": "S17", "query": "red summer dress under ₹2000", "all": ["\\b(dress|dresses|gown|sundress)\\b"], "colour": "\\b(red|burgundy|maroon|wine red|crimson)\\b", "none": ["\\b(shoes?|heels?|sandals?)\\b"], "max_inr": 2000}
+{"id": "S18", "query": "women's black sandals", "all": ["\\b(sandals?|flip[- ]?flops?|slides?)\\b"], "colour": "\\bblack\\b", "none": ["\\b(socks?|cleaner)\\b"]}
+{"id": "S19", "query": "green heels", "all": ["\\b(heels?|pumps?|stilettos?)\\b"], "colour": "\\b(green|olive|sage|mint green|army green)\\b", "none": ["\\bboots?\\b", "\\bgrips?\\b", "\\b(bags?|backpacks?|feeding)\\b"]}
+{"id": "S20", "query": "black leather jacket", "all": ["\\b(jackets?|coats?|blazers?)\\b", "\\bleather\\b"], "colour": "\\bblack\\b", "none": ["\\b(faux|vegan|pu|synthetic) leather\\b", "\\b(dress|pants?|skirt)\\b"]}

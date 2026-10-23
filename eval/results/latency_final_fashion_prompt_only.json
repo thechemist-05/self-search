@@ -1,0 +1,493 @@
+{
+  "database": "data\\experiments\\fashion-v2-20261021T094306Z\\shelfsense.db",
+  "index_dir": "data\\experiments\\fashion-v2-20261021T094306Z\\vector_store",
+  "queries_file": "eval\\fashion_queries.jsonl",
+  "query_parser_mode": "rules_first",
+  "ollama_timeout_s": 180,
+  "runs": [
+    {
+      "model": "llama3.2:3b",
+      "warmup_seconds": 2.9,
+      "summary": {
+        "queries": 14,
+        "answered": 14,
+        "llm_success_rate": 0.857,
+        "fallback_rate": 0.143,
+        "fallback_reasons": {
+          "provider_error": 2
+        },
+        "output_validity": {
+          "first_attempt_valid_rate": 0.857,
+          "answers_needing_retry": 0,
+          "invalid_after_retries": 0
+        },
+        "evidence_compliance_llm_answers": {
+          "answers": 12,
+          "all_claims_supported_rate": 0.0,
+          "mean_support_rate": 0.306,
+          "claims": 40,
+          "unsupported_claims": 28,
+          "fabricated_citations": 0,
+          "cross_product_mismatches": 5,
+          "numeric_mismatches": 2
+        },
+        "latency_seconds": {
+          "median": 85.1,
+          "mean": 98.9,
+          "max": 183.9
+        },
+        "model_calls": 16,
+        "model_call_errors": {
+          "OllamaTimeoutError": 2
+        },
+        "relevant_retrieved_rate": null
+      },
+      "queries": [
+        {
+          "query_id": "F01",
+          "query": "Find running shoes",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "d3338b6f-b0c9-4af8-aef9-97f12f9428e4",
+          "seconds": 62.94,
+          "products_shown": 10,
+          "evidence_items": 8,
+          "answer_prompt_chars": 4508,
+          "model_calls": [
+            {
+              "seconds": 61.15,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 0,
+            "unsupported_claims": 2,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 1,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.0,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "F02",
+          "query": "Find running shoes under \u20b93000",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "8a7c5fb0-b130-4fe6-9c20-3958768caef0",
+          "seconds": 66.33,
+          "products_shown": 10,
+          "evidence_items": 8,
+          "answer_prompt_chars": 4858,
+          "model_calls": [
+            {
+              "seconds": 65.76,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 1,
+            "unsupported_claims": 1,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.5,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "F03",
+          "query": "women's summer dress",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "64217054-bacc-4603-a71e-c1ec1f64f929",
+          "seconds": 101.4,
+          "products_shown": 10,
+          "evidence_items": 8,
+          "answer_prompt_chars": 5412,
+          "model_calls": [
+            {
+              "seconds": 101.08,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 6,
+            "supported_claims": 1,
+            "unsupported_claims": 5,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.1667,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "F04",
+          "query": "men's leather wallet",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "ac28877c-b255-45ed-856f-c045e9618095",
+          "seconds": 75.32,
+          "products_shown": 10,
+          "evidence_items": 8,
+          "answer_prompt_chars": 4938,
+          "model_calls": [
+            {
+              "seconds": 74.91,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 1,
+            "unsupported_claims": 1,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 1,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.5,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "F05",
+          "query": "comfortable sandals for walking",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "7a95a9a7-5ad9-48f1-b703-e280930c0b0a",
+          "seconds": 64.08,
+          "products_shown": 10,
+          "evidence_items": 8,
+          "answer_prompt_chars": 5066,
+          "model_calls": [
+            {
+              "seconds": 62.34,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 1,
+            "unsupported_claims": 1,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 1,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.5,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "F06",
+          "query": "waterproof winter boots",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "7cdde0c1-c080-4952-a174-9feab4a5c6c2",
+          "seconds": 76.37,
+          "products_shown": 10,
+          "evidence_items": 8,
+          "answer_prompt_chars": 5481,
+          "model_calls": [
+            {
+              "seconds": 74.64,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 0,
+            "unsupported_claims": 2,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 2,
+            "unverifiable_claims": 0,
+            "support_rate": 0.0,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "F07",
+          "query": "women's handbag 4+ stars",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "b1b8648c-e337-404d-a77c-b42a1fcf1919",
+          "seconds": 183.87,
+          "products_shown": 10,
+          "evidence_items": 8,
+          "answer_prompt_chars": 7360,
+          "model_calls": [
+            {
+              "seconds": 112.47,
+              "ok": true
+            },
+            {
+              "seconds": 69.49,
+              "ok": false,
+              "error": "OllamaTimeoutError"
+            }
+          ],
+          "mode": "fallback",
+          "reason": "provider_error",
+          "attempts": null,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 6,
+            "supported_claims": 3,
+            "unsupported_claims": 3,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.5,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "F08",
+          "query": "backpack for school under \u20b92000",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "e9824a66-d0ac-4eff-ab76-65c13cbeb4dc",
+          "seconds": 111.56,
+          "products_shown": 10,
+          "evidence_items": 8,
+          "answer_prompt_chars": 4822,
+          "model_calls": [
+            {
+              "seconds": 110.91,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 6,
+            "supported_claims": 2,
+            "unsupported_claims": 4,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 1,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.3333,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "F09",
+          "query": "leggings with pockets",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "92770cd4-b3db-4ce6-89d1-25f172acfa68",
+          "seconds": 157.43,
+          "products_shown": 10,
+          "evidence_items": 8,
+          "answer_prompt_chars": 5547,
+          "model_calls": [
+            {
+              "seconds": 155.78,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 4,
+            "supported_claims": 2,
+            "unsupported_claims": 2,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.5,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "F10",
+          "query": "white sneakers",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "29a5c8d5-893e-4d02-8faa-274105794dcd",
+          "seconds": 112.08,
+          "products_shown": 10,
+          "evidence_items": 8,
+          "answer_prompt_chars": 5328,
+          "model_calls": [
+            {
+              "seconds": 110.33,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 4,
+            "supported_claims": 2,
+            "unsupported_claims": 2,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.5,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "F10>1",
+          "query": "compare the first two",
+          "intent": "COMPARE",
+          "session_id": "29a5c8d5-893e-4d02-8faa-274105794dcd",
+          "seconds": 44.04,
+          "products_shown": 2,
+          "evidence_items": 4,
+          "answer_prompt_chars": 3516,
+          "model_calls": [
+            {
+              "seconds": 44.04,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 1,
+            "unsupported_claims": 1,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.5,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "F11",
+          "query": "hiking boots",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "536f985b-6c8c-46d5-a7e7-6157fcb9a5d2",
+          "seconds": 93.82,
+          "products_shown": 10,
+          "evidence_items": 8,
+          "answer_prompt_chars": 5056,
+          "model_calls": [
+            {
+              "seconds": 92.73,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 6,
+            "supported_claims": 1,
+            "unsupported_claims": 5,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 1,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.1667,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "F11>1",
+          "query": "is the first one comfortable for long walks?",
+          "intent": "PRODUCT_QUESTION",
+          "session_id": "536f985b-6c8c-46d5-a7e7-6157fcb9a5d2",
+          "seconds": 52.79,
+          "products_shown": 1,
+          "evidence_items": 3,
+          "answer_prompt_chars": 2987,
+          "model_calls": [
+            {
+              "seconds": 52.76,
+              "ok": true
+            }
+          ],
+          "mode": "llm",
+          "reason": null,
+          "attempts": 1,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 2,
+            "supported_claims": 0,
+            "unsupported_claims": 2,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.0,
+            "is_valid": false
+          }
+        },
+        {
+          "query_id": "F12",
+          "query": "polarized sunglasses",
+          "intent": "PRODUCT_SEARCH",
+          "session_id": "4c3866d5-3cdf-4a50-a8c8-291ffad25390",
+          "seconds": 182.51,
+          "products_shown": 10,
+          "evidence_items": 8,
+          "answer_prompt_chars": 7474,
+          "model_calls": [
+            {
+              "seconds": 130.47,
+              "ok": true
+            },
+            {
+              "seconds": 51.38,
+              "ok": false,
+              "error": "OllamaTimeoutError"
+            }
+          ],
+          "mode": "fallback",
+          "reason": "provider_error",
+          "attempts": null,
+          "relevant_retrieved": null,
+          "evidence": {
+            "total_claims": 6,
+            "supported_claims": 3,
+            "unsupported_claims": 3,
+            "fabricated_citations": 0,
+            "cross_product_mismatches": 0,
+            "numeric_mismatches": 0,
+            "unverifiable_claims": 0,
+            "support_rate": 0.5,
+            "is_valid": false
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+# Product selection rules, version 3 (2026-10-22): Fashion only, 50,000 products.
+#
+# Changes from selection-v2 (config/selection_amazon2023_v2.toml, kept unchanged; it
+# reproduces the 20,000-product catalogue):
+# - Fashion quota 20,000 -> 50,000. Electronics is still not used.
+# - dedupe_identical_titles: the same listing repeated under several ASINs (identical
+#   normalised titles) counts once; the copy with the most qualifying reviews is kept.
+#   Different ASINs with different titles (sizes, colours in the title) stay distinct.
+# - Category-wide exclusions for shoe- and bag-care items that v2 typed as shoes
+#   (cleaners, erasers, polish, deodorizers, stretchers, lace locks, heel grips ...).
+# - Seven more genuine Fashion types (skirts, shorts, sweaters, leggings, swimwear,
+#   hats and caps, belts), appended after the v2 types so every v2 type keeps priority.
+# Review rules are unchanged: >= 3 qualifying reviews of >= 20 characters; at most 8
+# kept per product (verified first, then helpful votes, then newest).
+
+version = "selection-v3"
+dedupe_identical_titles = true
+min_qualifying_reviews = 3
+min_review_chars = 20
+max_reviews_per_product = 8
+
+[fashion]
+quota = 50000
+exclude_title_keywords = [
+  # socks typed as shoes ("Fits Shoe Size 6-12", "Boot Socks")
+  "socks", "shoe size", "sock size",
+  # jewellery and watches typed as dresses, jackets ("ear jacket"), sandals, handbags
+  "earring", "earrings", "ear jacket", "ear jackets", "necklace", "necklaces", "bracelet", "bracelets",
+  "pendant", "anklet", "anklets", "watch", "watches", "wristwatch",
+  # bag and shoe accessories
+  "keychain", "keychains", "key chain", "key ring", "keyring",
+  "shoe charms", "clog charms", "bag charm", "purse charm", "handbag charm", "charms for",
+  "shoelaces", "shoe laces", "laces", "shoe covers", "insoles", "packing cubes", "organizer",
+  "hanger", "hangers", "sticker", "stickers", "face mask", "sunglasses",
+  # wallets typed as handbags (not the word "wallet" itself: many real handbags say "Handbag Wallet")
+  "billfold", "bifold", "trifold", "card holder", "credit card", "coin purse", "money clip",
+  # dress accessories typed as dresses
+  "dress gloves", "dress hat",
+  # v3: shoe and bag care / repair items whose titles mention shoes, sneakers or bags
+  "cleaner", "cleaners", "cleaning", "eraser", "erasers", "shoe polish", "deodorizer", "deodorizers",
+  "deodorant", "shoe stretcher", "shoe stretchers", "shoe tree", "shoe trees", "shoe brush",
+  "protector spray", "waterproofing spray", "repair kit", "lace lock", "lace locks", "clouser",
+  "heel grips", "heel grip", "heel pads", "heel protectors", "shoe clips", "shoe horn",
+]
+
+[[fashion.type]]
+key = "sneakers"
+title_keywords = ["sneaker", "sneakers"]
+
+[[fashion.type]]
+key = "running_shoes"
+title_keywords = ["running shoe", "running shoes", "trainers"]
+
+[[fashion.type]]
+key = "sandals"
+title_keywords = ["sandal", "sandals", "flip flop", "flip flops", "flip-flop", "flip-flops", "slides"]
+
+[[fashion.type]]
+key = "boots"
+title_keywords = ["boot", "boots"]
+exclude_title_keywords = ["boot cut", "bootcut", "boot socks", "boot cuffs"]
+
+[[fashion.type]]
+key = "other_shoes"
+title_keywords = ["shoe", "shoes", "loafer", "loafers", "oxford", "oxfords", "heels", "pumps", "flats", "slipper", "slippers", "clogs"]
+exclude_title_keywords = ["shoe horn", "shoe laces", "shoelaces", "shoe insoles", "insoles", "shoe rack", "shoe bag", "shoe charms", "shoe clips"]
+
+[[fashion.type]]
+key = "backpacks"
+title_keywords = ["backpack", "backpacks", "rucksack"]
+exclude_title_keywords = ["backpack charm", "backpack keychain", "backpack pin", "backpack straps", "backpack cover"]
+
+[[fashion.type]]
+key = "handbags"
+title_keywords = ["handbag", "handbags", "tote", "purse", "shoulder bag", "crossbody", "sling bag"]
+exclude_title_keywords = ["purse organizer", "purse insert", "purse strap", "handbag strap", "bag strap"]
+
+[[fashion.type]]
+key = "tshirts"
+title_keywords = ["t-shirt", "t-shirts", "tshirt", "tee", "tees"]
+exclude_title_keywords = ["t-shirt dress", "t-shirt dresses", "t shirt dress", "t shirt dresses", "tshirt dress", "tshirt dresses", "tee dress", "tee dresses"]
+
+[[fashion.type]]
+key = "shirts"
+title_keywords = ["shirt", "shirts", "blouse"]
+exclude_title_keywords = ["shirt dress", "shirt dresses", "t shirt dress", "t shirt dresses"]
+
+[[fashion.type]]
+key = "jeans_trousers"
+title_keywords = ["jeans", "trousers", "chinos", "joggers", "pants"]
+
+[[fashion.type]]
+key = "dresses_kurtas"
+title_keywords = ["dress", "dresses", "kurta", "kurti", "saree", "sari", "salwar"]
+exclude_title_keywords = ["dress socks", "dress shoes", "dress shirt"]
+
+[[fashion.type]]
+key = "jackets"
+title_keywords = ["jacket", "jackets", "hoodie", "hoodies", "sweatshirt", "coat"]
+
+# ---- v3 additions (after every v2 type, so v2 types keep priority) ----
+
+[[fashion.type]]
+key = "skirts"
+title_keywords = ["skirt", "skirts"]
+exclude_title_keywords = ["skirt hanger", "bed skirt", "tree skirt"]
+
+[[fashion.type]]
+key = "shorts"
+title_keywords = ["shorts"]
+
+[[fashion.type]]
+key = "sweaters"
+title_keywords = ["sweater", "sweaters", "cardigan", "cardigans", "pullover", "jumper"]
+
+[[fashion.type]]
+key = "leggings"
+title_keywords = ["leggings", "tights"]
+
+[[fashion.type]]
+key = "swimwear"
+title_keywords = ["swimsuit", "swimsuits", "bikini", "bikinis", "swim trunks", "swimwear", "bathing suit", "tankini"]
+
+[[fashion.type]]
+key = "hats_caps"
+title_keywords = ["hat", "hats", "cap", "caps", "beanie", "beanies", "fedora", "bucket hat"]
+exclude_title_keywords = ["shower cap", "toe cap", "hat box", "hat rack", "cap toe", "knee cap"]
+
+[[fashion.type]]
+key = "belts"
+title_keywords = ["belt", "belts"]
+exclude_title_keywords = ["belt bag", "belt clip", "belt buckle only", "seat belt", "waist trainer"]

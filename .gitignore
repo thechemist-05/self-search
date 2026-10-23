@@ -1,0 +1,60 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# === Virtual environment ===
+venv/
+.venv/
+env/
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === Environment and secrets ===
+.env
+*.key
+*.pem
+
+# === Data (raw is large and git-ignored; processed may be regenerated) ===
+data/raw/
+data/experiments/
+data/backups/
+data/vector_store/*.pkl
+*.db
+*.sqlite
+*.sqlite3
+
+# === Models (downloaded, large, git-ignored) ===
+models/
+
+# === Vector store indexes (regenerated from data) ===
+*.faiss
+*.index
+
+# === Testing and coverage ===
+.coverage
+htmlcov/
+.pytest_cache/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Logs ===
+*.log
+logs/
+
+# === Misc ===
+*.bak
+*.tmp
